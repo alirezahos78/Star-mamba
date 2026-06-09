@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Datasets and generated artifacts
+data/
+datasets/
+tiny-imagenet-200/
+*.zip
+*.tar
+*.tar.gz
+
+# Model artifacts
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Keep logs as experiment evidence, but ignore transient run outputs
+runs/
+wandb/
+tensorboard/
+
+# Keep lightweight baseline evidence for paper/release reproducibility.
+!baselines/
+!baselines/**
+
+# Generated plots can be large and are not necessary for code development.
+*.png
+!docs/**/*.png
+!assets/**/*.png

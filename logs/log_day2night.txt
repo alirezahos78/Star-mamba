@@ -1,0 +1,617 @@
+Experiment: day2night
+Device: cuda
+Model config: ModelConfig(img_size=64, patch_size=4, in_channels=3, dim=112, depth=6, num_classes=2, block_type=<class 'starmamba.models.StarMambaBlock'>)
+Train config: TrainConfig(epochs=300, lr_max=0.001, weight_decay=0.05, mixup_alpha=0.0, label_smoothing=0.1, warmup_epochs=5, grad_clip_norm=1.0, checkpoint_prefix='best_starmamba_day2night', checkpoint_dir='checkpoints', empty_cache_each_epoch=False)
+Loader kwargs: {'batch_size': 32, 'num_workers': 4, 'img_size': 64}
+Model Parameters: 3.37M
+Ep 001 | Train Acc=79.74% | Test Acc=82.50% | Loss=0.469 | LR=0.000200 | Time=1.8s
+      Weights (Mean): N=0.1269 | S=0.1270 | W=0.1269 | E=0.1269
+   New Best! (0.00% -> 82.50%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_day2night_acc82.50_ep1.pth
+Ep 002 | Train Acc=92.56% | Test Acc=92.50% | Loss=0.333 | LR=0.000400 | Time=1.1s
+      Weights (Mean): N=0.1270 | S=0.1270 | W=0.1270 | E=0.1270
+   New Best! (82.50% -> 92.50%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_day2night_acc92.50_ep2.pth
+Ep 003 | Train Acc=93.08% | Test Acc=82.50% | Loss=0.312 | LR=0.000600 | Time=1.1s
+      Weights (Mean): N=0.1271 | S=0.1271 | W=0.1270 | E=0.1270
+Ep 004 | Train Acc=90.00% | Test Acc=90.00% | Loss=0.340 | LR=0.000800 | Time=1.1s
+      Weights (Mean): N=0.1272 | S=0.1272 | W=0.1271 | E=0.1271
+Ep 005 | Train Acc=94.36% | Test Acc=90.00% | Loss=0.305 | LR=0.001000 | Time=1.1s
+      Weights (Mean): N=0.1274 | S=0.1273 | W=0.1273 | E=0.1273
+Ep 006 | Train Acc=96.15% | Test Acc=95.00% | Loss=0.292 | LR=0.001000 | Time=1.1s
+      Weights (Mean): N=0.1275 | S=0.1275 | W=0.1275 | E=0.1274
+   New Best! (92.50% -> 95.00%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_day2night_acc95.00_ep6.pth
+Ep 007 | Train Acc=94.10% | Test Acc=87.50% | Loss=0.292 | LR=0.001000 | Time=1.1s
+      Weights (Mean): N=0.1277 | S=0.1276 | W=0.1276 | E=0.1276
+Ep 008 | Train Acc=96.15% | Test Acc=95.00% | Loss=0.272 | LR=0.001000 | Time=1.1s
+      Weights (Mean): N=0.1279 | S=0.1278 | W=0.1278 | E=0.1277
+Ep 009 | Train Acc=94.87% | Test Acc=95.00% | Loss=0.282 | LR=0.001000 | Time=1.1s
+      Weights (Mean): N=0.1280 | S=0.1280 | W=0.1280 | E=0.1278
+Ep 010 | Train Acc=97.69% | Test Acc=90.00% | Loss=0.259 | LR=0.000999 | Time=1.1s
+      Weights (Mean): N=0.1281 | S=0.1281 | W=0.1281 | E=0.1280
+Ep 011 | Train Acc=96.67% | Test Acc=90.00% | Loss=0.258 | LR=0.000999 | Time=1.1s
+      Weights (Mean): N=0.1283 | S=0.1283 | W=0.1282 | E=0.1281
+Ep 012 | Train Acc=98.72% | Test Acc=95.00% | Loss=0.242 | LR=0.000999 | Time=1.1s
+      Weights (Mean): N=0.1285 | S=0.1285 | W=0.1284 | E=0.1283
+Ep 013 | Train Acc=97.44% | Test Acc=95.00% | Loss=0.256 | LR=0.000998 | Time=1.1s
+      Weights (Mean): N=0.1286 | S=0.1287 | W=0.1286 | E=0.1284
+Ep 014 | Train Acc=98.97% | Test Acc=97.50% | Loss=0.220 | LR=0.000998 | Time=1.1s
+      Weights (Mean): N=0.1287 | S=0.1289 | W=0.1287 | E=0.1285
+   New Best! (95.00% -> 97.50%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_day2night_acc97.50_ep14.pth
+Ep 015 | Train Acc=99.74% | Test Acc=95.00% | Loss=0.208 | LR=0.000997 | Time=1.1s
+      Weights (Mean): N=0.1289 | S=0.1290 | W=0.1288 | E=0.1287
+Ep 016 | Train Acc=99.74% | Test Acc=97.50% | Loss=0.208 | LR=0.000997 | Time=1.1s
+      Weights (Mean): N=0.1291 | S=0.1292 | W=0.1290 | E=0.1289
+Ep 017 | Train Acc=99.74% | Test Acc=97.50% | Loss=0.206 | LR=0.000996 | Time=1.1s
+      Weights (Mean): N=0.1292 | S=0.1293 | W=0.1292 | E=0.1290
+Ep 018 | Train Acc=100.00% | Test Acc=92.50% | Loss=0.201 | LR=0.000995 | Time=1.1s
+      Weights (Mean): N=0.1294 | S=0.1295 | W=0.1293 | E=0.1292
+Ep 019 | Train Acc=100.00% | Test Acc=92.50% | Loss=0.200 | LR=0.000994 | Time=1.1s
+      Weights (Mean): N=0.1295 | S=0.1296 | W=0.1295 | E=0.1293
+Ep 020 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.200 | LR=0.000994 | Time=1.1s
+      Weights (Mean): N=0.1297 | S=0.1298 | W=0.1296 | E=0.1295
+Ep 021 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000993 | Time=1.1s
+      Weights (Mean): N=0.1298 | S=0.1299 | W=0.1298 | E=0.1296
+Ep 022 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000992 | Time=1.1s
+      Weights (Mean): N=0.1300 | S=0.1301 | W=0.1300 | E=0.1298
+Ep 023 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000991 | Time=1.1s
+      Weights (Mean): N=0.1302 | S=0.1302 | W=0.1301 | E=0.1299
+Ep 024 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000990 | Time=1.1s
+      Weights (Mean): N=0.1303 | S=0.1304 | W=0.1303 | E=0.1301
+Ep 025 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000989 | Time=1.1s
+      Weights (Mean): N=0.1305 | S=0.1306 | W=0.1304 | E=0.1302
+Ep 026 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000988 | Time=1.1s
+      Weights (Mean): N=0.1306 | S=0.1307 | W=0.1306 | E=0.1304
+Ep 027 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000986 | Time=1.1s
+      Weights (Mean): N=0.1308 | S=0.1309 | W=0.1307 | E=0.1306
+Ep 028 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000985 | Time=1.1s
+      Weights (Mean): N=0.1309 | S=0.1310 | W=0.1309 | E=0.1307
+Ep 029 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000984 | Time=1.1s
+      Weights (Mean): N=0.1311 | S=0.1312 | W=0.1310 | E=0.1309
+Ep 030 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000982 | Time=1.1s
+      Weights (Mean): N=0.1312 | S=0.1313 | W=0.1312 | E=0.1310
+Ep 031 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000981 | Time=1.1s
+      Weights (Mean): N=0.1314 | S=0.1315 | W=0.1313 | E=0.1312
+Ep 032 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000979 | Time=1.1s
+      Weights (Mean): N=0.1315 | S=0.1316 | W=0.1315 | E=0.1313
+Ep 033 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000978 | Time=1.1s
+      Weights (Mean): N=0.1317 | S=0.1318 | W=0.1317 | E=0.1315
+Ep 034 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000976 | Time=1.1s
+      Weights (Mean): N=0.1319 | S=0.1319 | W=0.1318 | E=0.1316
+Ep 035 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000975 | Time=1.1s
+      Weights (Mean): N=0.1320 | S=0.1321 | W=0.1320 | E=0.1318
+Ep 036 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000973 | Time=1.1s
+      Weights (Mean): N=0.1322 | S=0.1323 | W=0.1321 | E=0.1319
+Ep 037 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000971 | Time=1.1s
+      Weights (Mean): N=0.1323 | S=0.1324 | W=0.1323 | E=0.1321
+Ep 038 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000969 | Time=1.1s
+      Weights (Mean): N=0.1325 | S=0.1326 | W=0.1324 | E=0.1322
+Ep 039 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000968 | Time=1.1s
+      Weights (Mean): N=0.1326 | S=0.1327 | W=0.1326 | E=0.1324
+Ep 040 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000966 | Time=1.1s
+      Weights (Mean): N=0.1328 | S=0.1329 | W=0.1327 | E=0.1326
+Ep 041 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000964 | Time=1.1s
+      Weights (Mean): N=0.1329 | S=0.1330 | W=0.1329 | E=0.1327
+Ep 042 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000962 | Time=1.1s
+      Weights (Mean): N=0.1331 | S=0.1332 | W=0.1330 | E=0.1329
+Ep 043 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000960 | Time=1.1s
+      Weights (Mean): N=0.1332 | S=0.1333 | W=0.1332 | E=0.1330
+Ep 044 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000957 | Time=1.1s
+      Weights (Mean): N=0.1334 | S=0.1335 | W=0.1333 | E=0.1332
+Ep 045 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000955 | Time=1.1s
+      Weights (Mean): N=0.1335 | S=0.1336 | W=0.1335 | E=0.1333
+Ep 046 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000953 | Time=1.1s
+      Weights (Mean): N=0.1337 | S=0.1338 | W=0.1336 | E=0.1335
+Ep 047 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000951 | Time=1.1s
+      Weights (Mean): N=0.1338 | S=0.1339 | W=0.1338 | E=0.1336
+Ep 048 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000948 | Time=1.1s
+      Weights (Mean): N=0.1340 | S=0.1341 | W=0.1339 | E=0.1338
+Ep 049 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000946 | Time=1.1s
+      Weights (Mean): N=0.1341 | S=0.1342 | W=0.1341 | E=0.1339
+Ep 050 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000944 | Time=1.1s
+      Weights (Mean): N=0.1343 | S=0.1344 | W=0.1342 | E=0.1341
+Ep 051 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000941 | Time=1.1s
+      Weights (Mean): N=0.1344 | S=0.1345 | W=0.1344 | E=0.1342
+Ep 052 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000939 | Time=1.1s
+      Weights (Mean): N=0.1346 | S=0.1347 | W=0.1345 | E=0.1344
+Ep 053 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000936 | Time=1.1s
+      Weights (Mean): N=0.1347 | S=0.1348 | W=0.1347 | E=0.1345
+Ep 054 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000933 | Time=1.1s
+      Weights (Mean): N=0.1349 | S=0.1350 | W=0.1348 | E=0.1347
+Ep 055 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000931 | Time=1.1s
+      Weights (Mean): N=0.1350 | S=0.1351 | W=0.1350 | E=0.1348
+Ep 056 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000928 | Time=1.1s
+      Weights (Mean): N=0.1352 | S=0.1353 | W=0.1351 | E=0.1350
+Ep 057 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000925 | Time=1.1s
+      Weights (Mean): N=0.1353 | S=0.1354 | W=0.1353 | E=0.1351
+Ep 058 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000922 | Time=1.1s
+      Weights (Mean): N=0.1355 | S=0.1356 | W=0.1354 | E=0.1352
+Ep 059 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000920 | Time=1.1s
+      Weights (Mean): N=0.1356 | S=0.1357 | W=0.1356 | E=0.1354
+Ep 060 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000917 | Time=1.1s
+      Weights (Mean): N=0.1358 | S=0.1359 | W=0.1357 | E=0.1355
+Ep 061 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000914 | Time=1.1s
+      Weights (Mean): N=0.1359 | S=0.1360 | W=0.1359 | E=0.1357
+Ep 062 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000911 | Time=1.1s
+      Weights (Mean): N=0.1360 | S=0.1361 | W=0.1360 | E=0.1358
+Ep 063 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000908 | Time=1.1s
+      Weights (Mean): N=0.1362 | S=0.1363 | W=0.1361 | E=0.1360
+Ep 064 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000905 | Time=1.1s
+      Weights (Mean): N=0.1363 | S=0.1364 | W=0.1363 | E=0.1361
+Ep 065 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000901 | Time=1.1s
+      Weights (Mean): N=0.1365 | S=0.1366 | W=0.1364 | E=0.1363
+Ep 066 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000898 | Time=1.1s
+      Weights (Mean): N=0.1366 | S=0.1367 | W=0.1366 | E=0.1364
+Ep 067 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000895 | Time=1.1s
+      Weights (Mean): N=0.1368 | S=0.1369 | W=0.1367 | E=0.1365
+Ep 068 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000892 | Time=1.1s
+      Weights (Mean): N=0.1369 | S=0.1370 | W=0.1369 | E=0.1367
+Ep 069 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000888 | Time=1.1s
+      Weights (Mean): N=0.1371 | S=0.1371 | W=0.1370 | E=0.1368
+Ep 070 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000885 | Time=1.1s
+      Weights (Mean): N=0.1372 | S=0.1373 | W=0.1371 | E=0.1370
+Ep 071 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000881 | Time=1.1s
+      Weights (Mean): N=0.1373 | S=0.1374 | W=0.1373 | E=0.1371
+Ep 072 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000878 | Time=1.1s
+      Weights (Mean): N=0.1375 | S=0.1376 | W=0.1374 | E=0.1373
+Ep 073 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000875 | Time=1.1s
+      Weights (Mean): N=0.1376 | S=0.1377 | W=0.1376 | E=0.1374
+Ep 074 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000871 | Time=1.1s
+      Weights (Mean): N=0.1378 | S=0.1378 | W=0.1377 | E=0.1375
+Ep 075 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000867 | Time=1.1s
+      Weights (Mean): N=0.1379 | S=0.1380 | W=0.1378 | E=0.1377
+Ep 076 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000864 | Time=1.1s
+      Weights (Mean): N=0.1380 | S=0.1381 | W=0.1380 | E=0.1378
+Ep 077 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000860 | Time=1.1s
+      Weights (Mean): N=0.1382 | S=0.1383 | W=0.1381 | E=0.1380
+Ep 078 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000856 | Time=1.1s
+      Weights (Mean): N=0.1383 | S=0.1384 | W=0.1383 | E=0.1381
+Ep 079 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000853 | Time=1.1s
+      Weights (Mean): N=0.1384 | S=0.1385 | W=0.1384 | E=0.1382
+Ep 080 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000849 | Time=1.1s
+      Weights (Mean): N=0.1386 | S=0.1387 | W=0.1385 | E=0.1384
+Ep 081 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000845 | Time=1.1s
+      Weights (Mean): N=0.1387 | S=0.1388 | W=0.1387 | E=0.1385
+Ep 082 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000841 | Time=1.1s
+      Weights (Mean): N=0.1389 | S=0.1389 | W=0.1388 | E=0.1386
+Ep 083 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000837 | Time=1.1s
+      Weights (Mean): N=0.1390 | S=0.1391 | W=0.1389 | E=0.1388
+Ep 084 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000833 | Time=1.1s
+      Weights (Mean): N=0.1391 | S=0.1392 | W=0.1391 | E=0.1389
+Ep 085 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000829 | Time=1.1s
+      Weights (Mean): N=0.1393 | S=0.1393 | W=0.1392 | E=0.1390
+Ep 086 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000825 | Time=1.1s
+      Weights (Mean): N=0.1394 | S=0.1395 | W=0.1393 | E=0.1392
+Ep 087 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000821 | Time=1.1s
+      Weights (Mean): N=0.1395 | S=0.1396 | W=0.1395 | E=0.1393
+Ep 088 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000817 | Time=1.1s
+      Weights (Mean): N=0.1397 | S=0.1397 | W=0.1396 | E=0.1394
+Ep 089 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000813 | Time=1.1s
+      Weights (Mean): N=0.1398 | S=0.1399 | W=0.1397 | E=0.1396
+Ep 090 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000809 | Time=1.1s
+      Weights (Mean): N=0.1399 | S=0.1400 | W=0.1399 | E=0.1397
+Ep 091 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000805 | Time=1.1s
+      Weights (Mean): N=0.1400 | S=0.1401 | W=0.1400 | E=0.1398
+Ep 092 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000800 | Time=1.1s
+      Weights (Mean): N=0.1402 | S=0.1403 | W=0.1401 | E=0.1400
+Ep 093 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000796 | Time=1.1s
+      Weights (Mean): N=0.1403 | S=0.1404 | W=0.1403 | E=0.1401
+Ep 094 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000792 | Time=1.1s
+      Weights (Mean): N=0.1404 | S=0.1405 | W=0.1404 | E=0.1402
+Ep 095 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000787 | Time=1.1s
+      Weights (Mean): N=0.1406 | S=0.1407 | W=0.1405 | E=0.1403
+Ep 096 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000783 | Time=1.1s
+      Weights (Mean): N=0.1407 | S=0.1408 | W=0.1406 | E=0.1405
+Ep 097 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000779 | Time=1.1s
+      Weights (Mean): N=0.1408 | S=0.1409 | W=0.1408 | E=0.1406
+Ep 098 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000774 | Time=1.1s
+      Weights (Mean): N=0.1409 | S=0.1410 | W=0.1409 | E=0.1407
+Ep 099 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000770 | Time=1.1s
+      Weights (Mean): N=0.1411 | S=0.1412 | W=0.1410 | E=0.1408
+Ep 100 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000765 | Time=1.1s
+      Weights (Mean): N=0.1412 | S=0.1413 | W=0.1411 | E=0.1410
+Ep 101 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000761 | Time=1.1s
+      Weights (Mean): N=0.1413 | S=0.1414 | W=0.1413 | E=0.1411
+Ep 102 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000756 | Time=1.1s
+      Weights (Mean): N=0.1414 | S=0.1415 | W=0.1414 | E=0.1412
+Ep 103 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000752 | Time=1.1s
+      Weights (Mean): N=0.1415 | S=0.1416 | W=0.1415 | E=0.1413
+Ep 104 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000747 | Time=1.1s
+      Weights (Mean): N=0.1417 | S=0.1418 | W=0.1416 | E=0.1415
+Ep 105 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000742 | Time=1.1s
+      Weights (Mean): N=0.1418 | S=0.1419 | W=0.1417 | E=0.1416
+Ep 106 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000738 | Time=1.1s
+      Weights (Mean): N=0.1419 | S=0.1420 | W=0.1419 | E=0.1417
+Ep 107 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000733 | Time=1.1s
+      Weights (Mean): N=0.1420 | S=0.1421 | W=0.1420 | E=0.1418
+Ep 108 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000728 | Time=1.1s
+      Weights (Mean): N=0.1421 | S=0.1422 | W=0.1421 | E=0.1419
+Ep 109 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000723 | Time=1.1s
+      Weights (Mean): N=0.1423 | S=0.1424 | W=0.1422 | E=0.1420
+Ep 110 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000719 | Time=1.1s
+      Weights (Mean): N=0.1424 | S=0.1425 | W=0.1423 | E=0.1422
+Ep 111 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000714 | Time=1.1s
+      Weights (Mean): N=0.1425 | S=0.1426 | W=0.1425 | E=0.1423
+Ep 112 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000709 | Time=1.1s
+      Weights (Mean): N=0.1426 | S=0.1427 | W=0.1426 | E=0.1424
+Ep 113 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000704 | Time=1.1s
+      Weights (Mean): N=0.1427 | S=0.1428 | W=0.1427 | E=0.1425
+Ep 114 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000699 | Time=1.1s
+      Weights (Mean): N=0.1428 | S=0.1429 | W=0.1428 | E=0.1426
+Ep 115 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000694 | Time=1.1s
+      Weights (Mean): N=0.1430 | S=0.1431 | W=0.1429 | E=0.1427
+Ep 116 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000689 | Time=1.1s
+      Weights (Mean): N=0.1431 | S=0.1432 | W=0.1430 | E=0.1429
+Ep 117 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000685 | Time=1.1s
+      Weights (Mean): N=0.1432 | S=0.1433 | W=0.1431 | E=0.1430
+Ep 118 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000680 | Time=1.1s
+      Weights (Mean): N=0.1433 | S=0.1434 | W=0.1432 | E=0.1431
+Ep 119 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000675 | Time=1.1s
+      Weights (Mean): N=0.1434 | S=0.1435 | W=0.1434 | E=0.1432
+Ep 120 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000670 | Time=1.1s
+      Weights (Mean): N=0.1435 | S=0.1436 | W=0.1435 | E=0.1433
+Ep 121 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000665 | Time=1.1s
+      Weights (Mean): N=0.1436 | S=0.1437 | W=0.1436 | E=0.1434
+Ep 122 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000660 | Time=1.1s
+      Weights (Mean): N=0.1437 | S=0.1438 | W=0.1437 | E=0.1435
+Ep 123 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000655 | Time=1.1s
+      Weights (Mean): N=0.1438 | S=0.1439 | W=0.1438 | E=0.1436
+Ep 124 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000649 | Time=1.1s
+      Weights (Mean): N=0.1439 | S=0.1440 | W=0.1439 | E=0.1437
+Ep 125 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000644 | Time=1.1s
+      Weights (Mean): N=0.1440 | S=0.1441 | W=0.1440 | E=0.1438
+Ep 126 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000639 | Time=1.1s
+      Weights (Mean): N=0.1441 | S=0.1442 | W=0.1441 | E=0.1439
+Ep 127 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000634 | Time=1.1s
+      Weights (Mean): N=0.1443 | S=0.1443 | W=0.1442 | E=0.1440
+Ep 128 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000629 | Time=1.1s
+      Weights (Mean): N=0.1444 | S=0.1444 | W=0.1443 | E=0.1441
+Ep 129 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000624 | Time=1.1s
+      Weights (Mean): N=0.1445 | S=0.1446 | W=0.1444 | E=0.1442
+Ep 130 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000619 | Time=1.1s
+      Weights (Mean): N=0.1446 | S=0.1447 | W=0.1445 | E=0.1443
+Ep 131 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000613 | Time=1.1s
+      Weights (Mean): N=0.1447 | S=0.1448 | W=0.1446 | E=0.1444
+Ep 132 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000608 | Time=1.1s
+      Weights (Mean): N=0.1448 | S=0.1449 | W=0.1447 | E=0.1445
+Ep 133 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000603 | Time=1.1s
+      Weights (Mean): N=0.1449 | S=0.1450 | W=0.1448 | E=0.1446
+Ep 134 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000598 | Time=1.1s
+      Weights (Mean): N=0.1450 | S=0.1450 | W=0.1449 | E=0.1447
+Ep 135 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000593 | Time=1.1s
+      Weights (Mean): N=0.1450 | S=0.1451 | W=0.1450 | E=0.1448
+Ep 136 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000587 | Time=1.1s
+      Weights (Mean): N=0.1451 | S=0.1452 | W=0.1451 | E=0.1449
+Ep 137 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000582 | Time=1.1s
+      Weights (Mean): N=0.1452 | S=0.1453 | W=0.1452 | E=0.1450
+Ep 138 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000577 | Time=1.1s
+      Weights (Mean): N=0.1453 | S=0.1454 | W=0.1453 | E=0.1451
+Ep 139 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000572 | Time=1.1s
+      Weights (Mean): N=0.1454 | S=0.1455 | W=0.1454 | E=0.1452
+Ep 140 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000566 | Time=1.1s
+      Weights (Mean): N=0.1455 | S=0.1456 | W=0.1455 | E=0.1453
+Ep 141 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000561 | Time=1.1s
+      Weights (Mean): N=0.1456 | S=0.1457 | W=0.1456 | E=0.1454
+Ep 142 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000556 | Time=1.1s
+      Weights (Mean): N=0.1457 | S=0.1458 | W=0.1457 | E=0.1455
+Ep 143 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000550 | Time=1.1s
+      Weights (Mean): N=0.1458 | S=0.1459 | W=0.1457 | E=0.1456
+Ep 144 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000545 | Time=1.1s
+      Weights (Mean): N=0.1459 | S=0.1460 | W=0.1458 | E=0.1457
+Ep 145 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000540 | Time=1.1s
+      Weights (Mean): N=0.1460 | S=0.1461 | W=0.1459 | E=0.1458
+Ep 146 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000535 | Time=1.1s
+      Weights (Mean): N=0.1461 | S=0.1462 | W=0.1460 | E=0.1458
+Ep 147 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000529 | Time=1.1s
+      Weights (Mean): N=0.1461 | S=0.1462 | W=0.1461 | E=0.1459
+Ep 148 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000524 | Time=1.1s
+      Weights (Mean): N=0.1462 | S=0.1463 | W=0.1462 | E=0.1460
+Ep 149 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000519 | Time=1.1s
+      Weights (Mean): N=0.1463 | S=0.1464 | W=0.1463 | E=0.1461
+Ep 150 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000513 | Time=1.1s
+      Weights (Mean): N=0.1464 | S=0.1465 | W=0.1464 | E=0.1462
+Ep 151 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000508 | Time=1.1s
+      Weights (Mean): N=0.1465 | S=0.1466 | W=0.1464 | E=0.1463
+Ep 152 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000503 | Time=1.1s
+      Weights (Mean): N=0.1466 | S=0.1467 | W=0.1465 | E=0.1464
+Ep 153 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000497 | Time=1.1s
+      Weights (Mean): N=0.1467 | S=0.1467 | W=0.1466 | E=0.1464
+Ep 154 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000492 | Time=1.1s
+      Weights (Mean): N=0.1467 | S=0.1468 | W=0.1467 | E=0.1465
+Ep 155 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000487 | Time=1.1s
+      Weights (Mean): N=0.1468 | S=0.1469 | W=0.1468 | E=0.1466
+Ep 156 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000481 | Time=1.1s
+      Weights (Mean): N=0.1469 | S=0.1470 | W=0.1468 | E=0.1467
+Ep 157 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000476 | Time=1.1s
+      Weights (Mean): N=0.1470 | S=0.1471 | W=0.1469 | E=0.1468
+Ep 158 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000471 | Time=1.1s
+      Weights (Mean): N=0.1470 | S=0.1471 | W=0.1470 | E=0.1468
+Ep 159 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000465 | Time=1.1s
+      Weights (Mean): N=0.1471 | S=0.1472 | W=0.1471 | E=0.1469
+Ep 160 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000460 | Time=1.1s
+      Weights (Mean): N=0.1472 | S=0.1473 | W=0.1472 | E=0.1470
+Ep 161 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000455 | Time=1.1s
+      Weights (Mean): N=0.1473 | S=0.1474 | W=0.1472 | E=0.1471
+Ep 162 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000450 | Time=1.1s
+      Weights (Mean): N=0.1473 | S=0.1474 | W=0.1473 | E=0.1471
+Ep 163 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000444 | Time=1.1s
+      Weights (Mean): N=0.1474 | S=0.1475 | W=0.1474 | E=0.1472
+Ep 164 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000439 | Time=1.1s
+      Weights (Mean): N=0.1475 | S=0.1476 | W=0.1474 | E=0.1473
+Ep 165 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000434 | Time=1.1s
+      Weights (Mean): N=0.1476 | S=0.1477 | W=0.1475 | E=0.1474
+Ep 166 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000428 | Time=1.1s
+      Weights (Mean): N=0.1476 | S=0.1477 | W=0.1476 | E=0.1474
+Ep 167 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000423 | Time=1.1s
+      Weights (Mean): N=0.1477 | S=0.1478 | W=0.1477 | E=0.1475
+Ep 168 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000418 | Time=1.1s
+      Weights (Mean): N=0.1478 | S=0.1479 | W=0.1477 | E=0.1476
+Ep 169 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000413 | Time=1.1s
+      Weights (Mean): N=0.1478 | S=0.1479 | W=0.1478 | E=0.1476
+Ep 170 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000407 | Time=1.1s
+      Weights (Mean): N=0.1479 | S=0.1480 | W=0.1479 | E=0.1477
+Ep 171 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000402 | Time=1.1s
+      Weights (Mean): N=0.1480 | S=0.1481 | W=0.1479 | E=0.1478
+Ep 172 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000397 | Time=1.1s
+      Weights (Mean): N=0.1480 | S=0.1481 | W=0.1480 | E=0.1478
+Ep 173 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000392 | Time=1.1s
+      Weights (Mean): N=0.1481 | S=0.1482 | W=0.1481 | E=0.1479
+Ep 174 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000387 | Time=1.1s
+      Weights (Mean): N=0.1482 | S=0.1483 | W=0.1481 | E=0.1480
+Ep 175 | Train Acc=100.00% | Test Acc=95.00% | Loss=0.199 | LR=0.000381 | Time=1.1s
+      Weights (Mean): N=0.1482 | S=0.1483 | W=0.1482 | E=0.1480
+Ep 176 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000376 | Time=1.1s
+      Weights (Mean): N=0.1483 | S=0.1484 | W=0.1483 | E=0.1481
+Ep 177 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000371 | Time=1.1s
+      Weights (Mean): N=0.1484 | S=0.1485 | W=0.1483 | E=0.1481
+Ep 178 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000366 | Time=1.1s
+      Weights (Mean): N=0.1484 | S=0.1485 | W=0.1484 | E=0.1482
+Ep 179 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000361 | Time=1.1s
+      Weights (Mean): N=0.1485 | S=0.1486 | W=0.1484 | E=0.1483
+Ep 180 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000356 | Time=1.1s
+      Weights (Mean): N=0.1485 | S=0.1486 | W=0.1485 | E=0.1483
+Ep 181 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000351 | Time=1.1s
+      Weights (Mean): N=0.1486 | S=0.1487 | W=0.1485 | E=0.1484
+Ep 182 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000345 | Time=1.1s
+      Weights (Mean): N=0.1487 | S=0.1488 | W=0.1486 | E=0.1484
+Ep 183 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000340 | Time=1.1s
+      Weights (Mean): N=0.1487 | S=0.1488 | W=0.1487 | E=0.1485
+Ep 184 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000335 | Time=1.1s
+      Weights (Mean): N=0.1488 | S=0.1489 | W=0.1487 | E=0.1486
+Ep 185 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000330 | Time=1.1s
+      Weights (Mean): N=0.1488 | S=0.1489 | W=0.1488 | E=0.1486
+Ep 186 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000325 | Time=1.1s
+      Weights (Mean): N=0.1489 | S=0.1490 | W=0.1488 | E=0.1487
+Ep 187 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000320 | Time=1.1s
+      Weights (Mean): N=0.1489 | S=0.1490 | W=0.1489 | E=0.1487
+Ep 188 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000315 | Time=1.1s
+      Weights (Mean): N=0.1490 | S=0.1491 | W=0.1489 | E=0.1488
+Ep 189 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000311 | Time=1.1s
+      Weights (Mean): N=0.1490 | S=0.1491 | W=0.1490 | E=0.1488
+Ep 190 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000306 | Time=1.1s
+      Weights (Mean): N=0.1491 | S=0.1492 | W=0.1490 | E=0.1489
+Ep 191 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000301 | Time=1.1s
+      Weights (Mean): N=0.1491 | S=0.1492 | W=0.1491 | E=0.1489
+Ep 192 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000296 | Time=1.1s
+      Weights (Mean): N=0.1492 | S=0.1493 | W=0.1491 | E=0.1490
+Ep 193 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000291 | Time=1.1s
+      Weights (Mean): N=0.1492 | S=0.1493 | W=0.1492 | E=0.1490
+Ep 194 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000286 | Time=1.1s
+      Weights (Mean): N=0.1493 | S=0.1494 | W=0.1492 | E=0.1491
+Ep 195 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000281 | Time=1.1s
+      Weights (Mean): N=0.1493 | S=0.1494 | W=0.1493 | E=0.1491
+Ep 196 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000277 | Time=1.1s
+      Weights (Mean): N=0.1494 | S=0.1495 | W=0.1493 | E=0.1492
+Ep 197 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000272 | Time=1.1s
+      Weights (Mean): N=0.1494 | S=0.1495 | W=0.1494 | E=0.1492
+Ep 198 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000267 | Time=1.1s
+      Weights (Mean): N=0.1495 | S=0.1496 | W=0.1494 | E=0.1492
+Ep 199 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000262 | Time=1.1s
+      Weights (Mean): N=0.1495 | S=0.1496 | W=0.1495 | E=0.1493
+Ep 200 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000258 | Time=1.1s
+      Weights (Mean): N=0.1495 | S=0.1496 | W=0.1495 | E=0.1493
+Ep 201 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000253 | Time=1.1s
+      Weights (Mean): N=0.1496 | S=0.1497 | W=0.1495 | E=0.1494
+Ep 202 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000248 | Time=1.1s
+      Weights (Mean): N=0.1496 | S=0.1497 | W=0.1496 | E=0.1494
+Ep 203 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000244 | Time=1.1s
+      Weights (Mean): N=0.1497 | S=0.1498 | W=0.1496 | E=0.1495
+Ep 204 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000239 | Time=1.1s
+      Weights (Mean): N=0.1497 | S=0.1498 | W=0.1497 | E=0.1495
+Ep 205 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000235 | Time=1.1s
+      Weights (Mean): N=0.1497 | S=0.1498 | W=0.1497 | E=0.1495
+Ep 206 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000230 | Time=1.1s
+      Weights (Mean): N=0.1498 | S=0.1499 | W=0.1497 | E=0.1496
+Ep 207 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000226 | Time=1.1s
+      Weights (Mean): N=0.1498 | S=0.1499 | W=0.1498 | E=0.1496
+Ep 208 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000221 | Time=1.1s
+      Weights (Mean): N=0.1499 | S=0.1500 | W=0.1498 | E=0.1496
+Ep 209 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000217 | Time=1.1s
+      Weights (Mean): N=0.1499 | S=0.1500 | W=0.1498 | E=0.1497
+Ep 210 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000213 | Time=1.1s
+      Weights (Mean): N=0.1499 | S=0.1500 | W=0.1499 | E=0.1497
+Ep 211 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000208 | Time=1.1s
+      Weights (Mean): N=0.1500 | S=0.1501 | W=0.1499 | E=0.1498
+Ep 212 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000204 | Time=1.1s
+      Weights (Mean): N=0.1500 | S=0.1501 | W=0.1500 | E=0.1498
+Ep 213 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000200 | Time=1.1s
+      Weights (Mean): N=0.1500 | S=0.1501 | W=0.1500 | E=0.1498
+Ep 214 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000195 | Time=1.1s
+      Weights (Mean): N=0.1501 | S=0.1502 | W=0.1500 | E=0.1499
+Ep 215 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000191 | Time=1.1s
+      Weights (Mean): N=0.1501 | S=0.1502 | W=0.1501 | E=0.1499
+Ep 216 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000187 | Time=1.1s
+      Weights (Mean): N=0.1501 | S=0.1502 | W=0.1501 | E=0.1499
+Ep 217 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000183 | Time=1.1s
+      Weights (Mean): N=0.1502 | S=0.1503 | W=0.1501 | E=0.1499
+Ep 218 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000179 | Time=1.1s
+      Weights (Mean): N=0.1502 | S=0.1503 | W=0.1501 | E=0.1500
+Ep 219 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000175 | Time=1.1s
+      Weights (Mean): N=0.1502 | S=0.1503 | W=0.1502 | E=0.1500
+Ep 220 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000171 | Time=1.1s
+      Weights (Mean): N=0.1502 | S=0.1503 | W=0.1502 | E=0.1500
+Ep 221 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000167 | Time=1.1s
+      Weights (Mean): N=0.1503 | S=0.1504 | W=0.1502 | E=0.1501
+Ep 222 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000163 | Time=1.1s
+      Weights (Mean): N=0.1503 | S=0.1504 | W=0.1503 | E=0.1501
+Ep 223 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000159 | Time=1.1s
+      Weights (Mean): N=0.1503 | S=0.1504 | W=0.1503 | E=0.1501
+Ep 224 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000155 | Time=1.1s
+      Weights (Mean): N=0.1504 | S=0.1505 | W=0.1503 | E=0.1501
+Ep 225 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000151 | Time=1.1s
+      Weights (Mean): N=0.1504 | S=0.1505 | W=0.1503 | E=0.1502
+Ep 226 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000147 | Time=1.1s
+      Weights (Mean): N=0.1504 | S=0.1505 | W=0.1504 | E=0.1502
+Ep 227 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000144 | Time=1.1s
+      Weights (Mean): N=0.1504 | S=0.1505 | W=0.1504 | E=0.1502
+Ep 228 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000140 | Time=1.1s
+      Weights (Mean): N=0.1505 | S=0.1506 | W=0.1504 | E=0.1502
+Ep 229 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000136 | Time=1.1s
+      Weights (Mean): N=0.1505 | S=0.1506 | W=0.1504 | E=0.1503
+Ep 230 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000133 | Time=1.1s
+      Weights (Mean): N=0.1505 | S=0.1506 | W=0.1505 | E=0.1503
+Ep 231 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000129 | Time=1.1s
+      Weights (Mean): N=0.1505 | S=0.1506 | W=0.1505 | E=0.1503
+Ep 232 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000125 | Time=1.1s
+      Weights (Mean): N=0.1505 | S=0.1506 | W=0.1505 | E=0.1503
+Ep 233 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000122 | Time=1.1s
+      Weights (Mean): N=0.1506 | S=0.1507 | W=0.1505 | E=0.1503
+Ep 234 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000119 | Time=1.1s
+      Weights (Mean): N=0.1506 | S=0.1507 | W=0.1505 | E=0.1504
+Ep 235 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000115 | Time=1.1s
+      Weights (Mean): N=0.1506 | S=0.1507 | W=0.1506 | E=0.1504
+Ep 236 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000112 | Time=1.1s
+      Weights (Mean): N=0.1506 | S=0.1507 | W=0.1506 | E=0.1504
+Ep 237 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000108 | Time=1.1s
+      Weights (Mean): N=0.1506 | S=0.1507 | W=0.1506 | E=0.1504
+Ep 238 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000105 | Time=1.1s
+      Weights (Mean): N=0.1507 | S=0.1508 | W=0.1506 | E=0.1504
+Ep 239 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000102 | Time=1.1s
+      Weights (Mean): N=0.1507 | S=0.1508 | W=0.1506 | E=0.1505
+Ep 240 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000099 | Time=1.1s
+      Weights (Mean): N=0.1507 | S=0.1508 | W=0.1506 | E=0.1505
+Ep 241 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000095 | Time=1.1s
+      Weights (Mean): N=0.1507 | S=0.1508 | W=0.1507 | E=0.1505
+Ep 242 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000092 | Time=1.1s
+      Weights (Mean): N=0.1507 | S=0.1508 | W=0.1507 | E=0.1505
+Ep 243 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000089 | Time=1.1s
+      Weights (Mean): N=0.1507 | S=0.1508 | W=0.1507 | E=0.1505
+Ep 244 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000086 | Time=1.1s
+      Weights (Mean): N=0.1508 | S=0.1509 | W=0.1507 | E=0.1505
+Ep 245 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000083 | Time=1.1s
+      Weights (Mean): N=0.1508 | S=0.1509 | W=0.1507 | E=0.1505
+Ep 246 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000080 | Time=1.1s
+      Weights (Mean): N=0.1508 | S=0.1509 | W=0.1507 | E=0.1506
+Ep 247 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000078 | Time=1.2s
+      Weights (Mean): N=0.1508 | S=0.1509 | W=0.1507 | E=0.1506
+Ep 248 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000075 | Time=1.1s
+      Weights (Mean): N=0.1508 | S=0.1509 | W=0.1508 | E=0.1506
+Ep 249 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000072 | Time=1.1s
+      Weights (Mean): N=0.1508 | S=0.1509 | W=0.1508 | E=0.1506
+Ep 250 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000069 | Time=1.1s
+      Weights (Mean): N=0.1508 | S=0.1509 | W=0.1508 | E=0.1506
+Ep 251 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000067 | Time=1.1s
+      Weights (Mean): N=0.1508 | S=0.1509 | W=0.1508 | E=0.1506
+Ep 252 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000064 | Time=1.1s
+      Weights (Mean): N=0.1508 | S=0.1509 | W=0.1508 | E=0.1506
+Ep 253 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000061 | Time=1.1s
+      Weights (Mean): N=0.1509 | S=0.1510 | W=0.1508 | E=0.1506
+Ep 254 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000059 | Time=1.1s
+      Weights (Mean): N=0.1509 | S=0.1510 | W=0.1508 | E=0.1507
+Ep 255 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000056 | Time=1.1s
+      Weights (Mean): N=0.1509 | S=0.1510 | W=0.1508 | E=0.1507
+Ep 256 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000054 | Time=1.1s
+      Weights (Mean): N=0.1509 | S=0.1510 | W=0.1508 | E=0.1507
+Ep 257 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000052 | Time=1.1s
+      Weights (Mean): N=0.1509 | S=0.1510 | W=0.1508 | E=0.1507
+Ep 258 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000049 | Time=1.1s
+      Weights (Mean): N=0.1509 | S=0.1510 | W=0.1509 | E=0.1507
+Ep 259 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000047 | Time=1.1s
+      Weights (Mean): N=0.1509 | S=0.1510 | W=0.1509 | E=0.1507
+Ep 260 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000045 | Time=1.1s
+      Weights (Mean): N=0.1509 | S=0.1510 | W=0.1509 | E=0.1507
+Ep 261 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000043 | Time=1.1s
+      Weights (Mean): N=0.1509 | S=0.1510 | W=0.1509 | E=0.1507
+Ep 262 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000040 | Time=1.1s
+      Weights (Mean): N=0.1509 | S=0.1510 | W=0.1509 | E=0.1507
+Ep 263 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000038 | Time=1.1s
+      Weights (Mean): N=0.1509 | S=0.1510 | W=0.1509 | E=0.1507
+Ep 264 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000036 | Time=1.1s
+      Weights (Mean): N=0.1509 | S=0.1510 | W=0.1509 | E=0.1507
+Ep 265 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000034 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1509 | E=0.1507
+Ep 266 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000032 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1509 | E=0.1507
+Ep 267 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000031 | Time=1.2s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1509 | E=0.1507
+Ep 268 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000029 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1509 | E=0.1508
+Ep 269 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000027 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1509 | E=0.1508
+Ep 270 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000025 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1509 | E=0.1508
+Ep 271 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000024 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1509 | E=0.1508
+Ep 272 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000022 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1509 | E=0.1508
+Ep 273 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000021 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1509 | E=0.1508
+Ep 274 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000019 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1509 | E=0.1508
+Ep 275 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000018 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1509 | E=0.1508
+Ep 276 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000016 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 277 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000015 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 278 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000014 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 279 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000012 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 280 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000011 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 281 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000010 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 282 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000009 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 283 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000008 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 284 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000007 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 285 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000006 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 286 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000006 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 287 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000005 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 288 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000004 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 289 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000003 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 290 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000003 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 291 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000002 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 292 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000002 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 293 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000001 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 294 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000001 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 295 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000001 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 296 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000000 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 297 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000000 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 298 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000000 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 299 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000000 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Ep 300 | Train Acc=100.00% | Test Acc=97.50% | Loss=0.199 | LR=0.000000 | Time=1.1s
+      Weights (Mean): N=0.1510 | S=0.1511 | W=0.1510 | E=0.1508
+Training finished.
+Best accuracy: 97.50%
+Best checkpoint: checkpoints/best_starmamba_day2night_acc97.50_ep14.pth

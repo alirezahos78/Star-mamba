@@ -1,0 +1,7 @@
+Experiment: fashionmnist-patch4
+Device: cuda
+Model config: ModelConfig(img_size=28, patch_size=4, in_channels=1, dim=112, depth=6, num_classes=10, block_type=<class 'starmamba.models.StarMambaBlock'>)
+Train config: TrainConfig(epochs=300, lr_max=0.001, weight_decay=0.05, optimizer='adamw-safe', sgd_momentum=0.9, mixup_alpha=1.0, label_smoothing=0.1, warmup_epochs=10, grad_clip_norm=1.0, checkpoint_prefix='best_starmamba_fashionmnist_patch4', checkpoint_dir='checkpoints', empty_cache_each_epoch=False)
+Loader kwargs: {'batch_size': 128, 'num_workers': 2, 'repeated_aug': True}
+Model Parameters: 3.34M
+Model FLOPs: 103.87M (103872496)

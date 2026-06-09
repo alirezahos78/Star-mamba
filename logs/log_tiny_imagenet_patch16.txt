@@ -1,0 +1,804 @@
+Experiment: tiny-imagenet-patch16
+Device: cuda
+Model config: ModelConfig(img_size=64, patch_size=16, in_channels=3, dim=112, depth=6, num_classes=200, block_type=<class 'starmamba.models.StarMambaBlock'>)
+Train config: TrainConfig(epochs=300, lr_max=0.001, weight_decay=0.05, optimizer='adamw-safe', sgd_momentum=0.9, mixup_alpha=1.0, label_smoothing=0.1, warmup_epochs=5, grad_clip_norm=1.0, checkpoint_prefix='best_starmamba_tiny_imagenet_patch16', checkpoint_dir='checkpoints', empty_cache_each_epoch=False)
+Loader kwargs: {'batch_size': 64, 'num_workers': 2, 'img_size': 64}
+Model Parameters: 3.44M
+Model FLOPs: 35.29M (35287168)
+Ep 001 | Train Acc=1.45% | Val Acc=3.41% | Loss=5.230 | LR=0.000200 | Time=65.2s
+      Weights (Mean): N=0.1288 | S=0.1288 | W=0.1288 | E=0.1288
+   New Best! (0.00% -> 3.41%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc3.41_ep1.pth
+Ep 002 | Train Acc=3.18% | Val Acc=6.20% | Loss=5.068 | LR=0.000400 | Time=64.1s
+      Weights (Mean): N=0.1341 | S=0.1345 | W=0.1347 | E=0.1345
+   New Best! (3.41% -> 6.20%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc6.20_ep2.pth
+Ep 003 | Train Acc=4.46% | Val Acc=8.35% | Loss=4.975 | LR=0.000600 | Time=64.2s
+      Weights (Mean): N=0.1432 | S=0.1440 | W=0.1447 | E=0.1446
+   New Best! (6.20% -> 8.35%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc8.35_ep3.pth
+Ep 004 | Train Acc=5.63% | Val Acc=10.53% | Loss=4.901 | LR=0.000800 | Time=64.3s
+      Weights (Mean): N=0.1563 | S=0.1576 | W=0.1591 | E=0.1582
+   New Best! (8.35% -> 10.53%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc10.53_ep4.pth
+Ep 005 | Train Acc=6.60% | Val Acc=12.38% | Loss=4.842 | LR=0.001000 | Time=64.3s
+      Weights (Mean): N=0.1737 | S=0.1749 | W=0.1782 | E=0.1763
+   New Best! (10.53% -> 12.38%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc12.38_ep5.pth
+Ep 006 | Train Acc=7.25% | Val Acc=13.77% | Loss=4.798 | LR=0.001000 | Time=64.4s
+      Weights (Mean): N=0.1926 | S=0.1946 | W=0.1998 | E=0.1976
+   New Best! (12.38% -> 13.77%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc13.77_ep6.pth
+Ep 007 | Train Acc=8.29% | Val Acc=15.80% | Loss=4.744 | LR=0.001000 | Time=64.4s
+      Weights (Mean): N=0.2128 | S=0.2146 | W=0.2206 | E=0.2186
+   New Best! (13.77% -> 15.80%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc15.80_ep7.pth
+Ep 008 | Train Acc=8.87% | Val Acc=17.50% | Loss=4.710 | LR=0.001000 | Time=64.3s
+      Weights (Mean): N=0.2324 | S=0.2346 | W=0.2417 | E=0.2396
+   New Best! (15.80% -> 17.50%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc17.50_ep8.pth
+Ep 009 | Train Acc=9.47% | Val Acc=18.20% | Loss=4.686 | LR=0.001000 | Time=64.3s
+      Weights (Mean): N=0.2524 | S=0.2546 | W=0.2625 | E=0.2615
+   New Best! (17.50% -> 18.20%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc18.20_ep9.pth
+Ep 010 | Train Acc=10.10% | Val Acc=18.21% | Loss=4.652 | LR=0.000999 | Time=64.3s
+      Weights (Mean): N=0.2714 | S=0.2749 | W=0.2834 | E=0.2824
+   New Best! (18.20% -> 18.21%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc18.21_ep10.pth
+Ep 011 | Train Acc=10.49% | Val Acc=19.27% | Loss=4.631 | LR=0.000999 | Time=64.3s
+      Weights (Mean): N=0.2902 | S=0.2948 | W=0.3029 | E=0.3035
+   New Best! (18.21% -> 19.27%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc19.27_ep11.pth
+Ep 012 | Train Acc=10.77% | Val Acc=20.28% | Loss=4.615 | LR=0.000999 | Time=64.2s
+      Weights (Mean): N=0.3092 | S=0.3133 | W=0.3220 | E=0.3243
+   New Best! (19.27% -> 20.28%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc20.28_ep12.pth
+Ep 013 | Train Acc=11.31% | Val Acc=21.68% | Loss=4.584 | LR=0.000998 | Time=64.3s
+      Weights (Mean): N=0.3291 | S=0.3320 | W=0.3417 | E=0.3435
+   New Best! (20.28% -> 21.68%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc21.68_ep13.pth
+Ep 014 | Train Acc=11.71% | Val Acc=21.62% | Loss=4.560 | LR=0.000998 | Time=64.3s
+      Weights (Mean): N=0.3479 | S=0.3499 | W=0.3600 | E=0.3618
+Ep 015 | Train Acc=11.98% | Val Acc=24.04% | Loss=4.547 | LR=0.000997 | Time=64.5s
+      Weights (Mean): N=0.3658 | S=0.3677 | W=0.3769 | E=0.3803
+   New Best! (21.68% -> 24.04%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc24.04_ep15.pth
+Ep 016 | Train Acc=12.40% | Val Acc=23.50% | Loss=4.524 | LR=0.000997 | Time=64.3s
+      Weights (Mean): N=0.3837 | S=0.3840 | W=0.3933 | E=0.3974
+Ep 017 | Train Acc=12.54% | Val Acc=24.81% | Loss=4.510 | LR=0.000996 | Time=64.3s
+      Weights (Mean): N=0.4003 | S=0.4004 | W=0.4102 | E=0.4131
+   New Best! (24.04% -> 24.81%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc24.81_ep17.pth
+Ep 018 | Train Acc=12.62% | Val Acc=23.92% | Loss=4.514 | LR=0.000995 | Time=64.3s
+      Weights (Mean): N=0.4165 | S=0.4159 | W=0.4260 | E=0.4280
+Ep 019 | Train Acc=12.97% | Val Acc=24.86% | Loss=4.501 | LR=0.000994 | Time=64.2s
+      Weights (Mean): N=0.4312 | S=0.4310 | W=0.4406 | E=0.4430
+   New Best! (24.81% -> 24.86%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc24.86_ep19.pth
+Ep 020 | Train Acc=13.16% | Val Acc=25.71% | Loss=4.490 | LR=0.000994 | Time=64.2s
+      Weights (Mean): N=0.4462 | S=0.4450 | W=0.4547 | E=0.4568
+   New Best! (24.86% -> 25.71%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc25.71_ep20.pth
+Ep 021 | Train Acc=13.59% | Val Acc=25.44% | Loss=4.466 | LR=0.000993 | Time=64.3s
+      Weights (Mean): N=0.4599 | S=0.4585 | W=0.4682 | E=0.4701
+Ep 022 | Train Acc=13.89% | Val Acc=25.85% | Loss=4.454 | LR=0.000992 | Time=64.2s
+      Weights (Mean): N=0.4728 | S=0.4711 | W=0.4820 | E=0.4829
+   New Best! (25.71% -> 25.85%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc25.85_ep22.pth
+Ep 023 | Train Acc=13.81% | Val Acc=25.75% | Loss=4.456 | LR=0.000991 | Time=63.0s
+      Weights (Mean): N=0.4866 | S=0.4834 | W=0.4933 | E=0.4943
+Ep 024 | Train Acc=14.02% | Val Acc=26.79% | Loss=4.446 | LR=0.000990 | Time=62.6s
+      Weights (Mean): N=0.4976 | S=0.4953 | W=0.5062 | E=0.5055
+   New Best! (25.85% -> 26.79%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc26.79_ep24.pth
+Ep 025 | Train Acc=14.18% | Val Acc=25.62% | Loss=4.443 | LR=0.000989 | Time=62.5s
+      Weights (Mean): N=0.5085 | S=0.5069 | W=0.5158 | E=0.5173
+Ep 026 | Train Acc=14.20% | Val Acc=26.81% | Loss=4.440 | LR=0.000988 | Time=62.5s
+      Weights (Mean): N=0.5187 | S=0.5167 | W=0.5261 | E=0.5270
+   New Best! (26.79% -> 26.81%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc26.81_ep26.pth
+Ep 027 | Train Acc=14.14% | Val Acc=26.08% | Loss=4.449 | LR=0.000986 | Time=62.6s
+      Weights (Mean): N=0.5289 | S=0.5269 | W=0.5355 | E=0.5350
+Ep 028 | Train Acc=14.51% | Val Acc=26.64% | Loss=4.421 | LR=0.000985 | Time=62.4s
+      Weights (Mean): N=0.5382 | S=0.5352 | W=0.5445 | E=0.5430
+Ep 029 | Train Acc=14.72% | Val Acc=27.52% | Loss=4.411 | LR=0.000984 | Time=62.4s
+      Weights (Mean): N=0.5472 | S=0.5434 | W=0.5522 | E=0.5510
+   New Best! (26.81% -> 27.52%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc27.52_ep29.pth
+Ep 030 | Train Acc=14.75% | Val Acc=28.61% | Loss=4.419 | LR=0.000982 | Time=62.5s
+      Weights (Mean): N=0.5544 | S=0.5526 | W=0.5590 | E=0.5599
+   New Best! (27.52% -> 28.61%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc28.61_ep30.pth
+Ep 031 | Train Acc=15.02% | Val Acc=28.04% | Loss=4.403 | LR=0.000981 | Time=62.4s
+      Weights (Mean): N=0.5627 | S=0.5603 | W=0.5664 | E=0.5657
+Ep 032 | Train Acc=14.76% | Val Acc=29.03% | Loss=4.408 | LR=0.000979 | Time=62.6s
+      Weights (Mean): N=0.5718 | S=0.5671 | W=0.5728 | E=0.5726
+   New Best! (28.61% -> 29.03%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc29.03_ep32.pth
+Ep 033 | Train Acc=14.98% | Val Acc=27.83% | Loss=4.405 | LR=0.000978 | Time=63.0s
+      Weights (Mean): N=0.5769 | S=0.5726 | W=0.5805 | E=0.5774
+Ep 034 | Train Acc=15.56% | Val Acc=29.42% | Loss=4.374 | LR=0.000976 | Time=62.5s
+      Weights (Mean): N=0.5840 | S=0.5787 | W=0.5859 | E=0.5829
+   New Best! (29.03% -> 29.42%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc29.42_ep34.pth
+Ep 035 | Train Acc=15.20% | Val Acc=28.52% | Loss=4.393 | LR=0.000975 | Time=62.6s
+      Weights (Mean): N=0.5906 | S=0.5847 | W=0.5901 | E=0.5868
+Ep 036 | Train Acc=15.14% | Val Acc=29.15% | Loss=4.392 | LR=0.000973 | Time=62.4s
+      Weights (Mean): N=0.5945 | S=0.5879 | W=0.5953 | E=0.5922
+Ep 037 | Train Acc=15.54% | Val Acc=29.95% | Loss=4.382 | LR=0.000971 | Time=62.6s
+      Weights (Mean): N=0.6003 | S=0.5919 | W=0.6009 | E=0.5970
+   New Best! (29.42% -> 29.95%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc29.95_ep37.pth
+Ep 038 | Train Acc=15.70% | Val Acc=27.99% | Loss=4.368 | LR=0.000969 | Time=62.7s
+      Weights (Mean): N=0.6024 | S=0.5980 | W=0.6063 | E=0.6007
+Ep 039 | Train Acc=15.65% | Val Acc=29.20% | Loss=4.372 | LR=0.000968 | Time=62.3s
+      Weights (Mean): N=0.6076 | S=0.6041 | W=0.6098 | E=0.6052
+Ep 040 | Train Acc=15.88% | Val Acc=30.30% | Loss=4.364 | LR=0.000966 | Time=62.5s
+      Weights (Mean): N=0.6126 | S=0.6076 | W=0.6124 | E=0.6101
+   New Best! (29.95% -> 30.30%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc30.30_ep40.pth
+Ep 041 | Train Acc=15.86% | Val Acc=29.29% | Loss=4.363 | LR=0.000964 | Time=62.4s
+      Weights (Mean): N=0.6168 | S=0.6121 | W=0.6172 | E=0.6125
+Ep 042 | Train Acc=15.90% | Val Acc=30.38% | Loss=4.365 | LR=0.000962 | Time=62.4s
+      Weights (Mean): N=0.6197 | S=0.6153 | W=0.6205 | E=0.6157
+   New Best! (30.30% -> 30.38%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc30.38_ep42.pth
+Ep 043 | Train Acc=16.12% | Val Acc=30.15% | Loss=4.355 | LR=0.000960 | Time=62.4s
+      Weights (Mean): N=0.6225 | S=0.6173 | W=0.6238 | E=0.6178
+Ep 044 | Train Acc=16.57% | Val Acc=30.26% | Loss=4.330 | LR=0.000957 | Time=62.7s
+      Weights (Mean): N=0.6264 | S=0.6191 | W=0.6249 | E=0.6205
+Ep 045 | Train Acc=16.35% | Val Acc=30.58% | Loss=4.343 | LR=0.000955 | Time=62.5s
+      Weights (Mean): N=0.6292 | S=0.6225 | W=0.6279 | E=0.6230
+   New Best! (30.38% -> 30.58%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc30.58_ep45.pth
+Ep 046 | Train Acc=16.28% | Val Acc=30.20% | Loss=4.339 | LR=0.000953 | Time=62.5s
+      Weights (Mean): N=0.6320 | S=0.6249 | W=0.6310 | E=0.6252
+Ep 047 | Train Acc=16.59% | Val Acc=30.17% | Loss=4.335 | LR=0.000951 | Time=62.4s
+      Weights (Mean): N=0.6342 | S=0.6258 | W=0.6339 | E=0.6266
+Ep 048 | Train Acc=16.81% | Val Acc=30.78% | Loss=4.314 | LR=0.000948 | Time=62.3s
+      Weights (Mean): N=0.6367 | S=0.6271 | W=0.6365 | E=0.6290
+   New Best! (30.58% -> 30.78%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc30.78_ep48.pth
+Ep 049 | Train Acc=16.76% | Val Acc=31.17% | Loss=4.320 | LR=0.000946 | Time=62.6s
+      Weights (Mean): N=0.6397 | S=0.6264 | W=0.6366 | E=0.6297
+   New Best! (30.78% -> 31.17%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc31.17_ep49.pth
+Ep 050 | Train Acc=17.02% | Val Acc=31.42% | Loss=4.307 | LR=0.000944 | Time=62.7s
+      Weights (Mean): N=0.6402 | S=0.6285 | W=0.6411 | E=0.6294
+   New Best! (31.17% -> 31.42%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc31.42_ep50.pth
+Ep 051 | Train Acc=17.02% | Val Acc=31.24% | Loss=4.316 | LR=0.000941 | Time=62.5s
+      Weights (Mean): N=0.6411 | S=0.6307 | W=0.6434 | E=0.6311
+Ep 052 | Train Acc=16.80% | Val Acc=31.47% | Loss=4.321 | LR=0.000939 | Time=62.8s
+      Weights (Mean): N=0.6433 | S=0.6323 | W=0.6465 | E=0.6313
+   New Best! (31.42% -> 31.47%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc31.47_ep52.pth
+Ep 053 | Train Acc=16.93% | Val Acc=31.24% | Loss=4.307 | LR=0.000936 | Time=62.4s
+      Weights (Mean): N=0.6446 | S=0.6349 | W=0.6469 | E=0.6323
+Ep 054 | Train Acc=17.44% | Val Acc=31.18% | Loss=4.287 | LR=0.000933 | Time=62.3s
+      Weights (Mean): N=0.6446 | S=0.6346 | W=0.6488 | E=0.6342
+Ep 055 | Train Acc=17.12% | Val Acc=32.07% | Loss=4.302 | LR=0.000931 | Time=62.5s
+      Weights (Mean): N=0.6474 | S=0.6380 | W=0.6501 | E=0.6333
+   New Best! (31.47% -> 32.07%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc32.07_ep55.pth
+Ep 056 | Train Acc=17.52% | Val Acc=31.97% | Loss=4.286 | LR=0.000928 | Time=62.5s
+      Weights (Mean): N=0.6479 | S=0.6387 | W=0.6512 | E=0.6338
+Ep 057 | Train Acc=17.31% | Val Acc=33.05% | Loss=4.294 | LR=0.000925 | Time=62.6s
+      Weights (Mean): N=0.6489 | S=0.6406 | W=0.6522 | E=0.6333
+   New Best! (32.07% -> 33.05%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc33.05_ep57.pth
+Ep 058 | Train Acc=17.57% | Val Acc=33.24% | Loss=4.274 | LR=0.000922 | Time=62.5s
+      Weights (Mean): N=0.6532 | S=0.6402 | W=0.6539 | E=0.6338
+   New Best! (33.05% -> 33.24%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc33.24_ep58.pth
+Ep 059 | Train Acc=17.77% | Val Acc=33.30% | Loss=4.275 | LR=0.000920 | Time=62.4s
+      Weights (Mean): N=0.6517 | S=0.6428 | W=0.6557 | E=0.6340
+   New Best! (33.24% -> 33.30%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc33.30_ep59.pth
+Ep 060 | Train Acc=17.50% | Val Acc=32.01% | Loss=4.285 | LR=0.000917 | Time=62.5s
+      Weights (Mean): N=0.6536 | S=0.6424 | W=0.6584 | E=0.6353
+Ep 061 | Train Acc=17.76% | Val Acc=32.86% | Loss=4.274 | LR=0.000914 | Time=62.6s
+      Weights (Mean): N=0.6559 | S=0.6453 | W=0.6592 | E=0.6370
+Ep 062 | Train Acc=18.32% | Val Acc=33.12% | Loss=4.252 | LR=0.000911 | Time=62.3s
+      Weights (Mean): N=0.6570 | S=0.6448 | W=0.6609 | E=0.6366
+Ep 063 | Train Acc=17.85% | Val Acc=33.41% | Loss=4.261 | LR=0.000908 | Time=62.4s
+      Weights (Mean): N=0.6566 | S=0.6463 | W=0.6623 | E=0.6382
+   New Best! (33.30% -> 33.41%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc33.41_ep63.pth
+Ep 064 | Train Acc=17.91% | Val Acc=32.70% | Loss=4.273 | LR=0.000905 | Time=62.5s
+      Weights (Mean): N=0.6571 | S=0.6476 | W=0.6625 | E=0.6377
+Ep 065 | Train Acc=18.24% | Val Acc=33.12% | Loss=4.254 | LR=0.000901 | Time=62.7s
+      Weights (Mean): N=0.6568 | S=0.6484 | W=0.6626 | E=0.6378
+Ep 066 | Train Acc=17.99% | Val Acc=32.68% | Loss=4.266 | LR=0.000898 | Time=62.6s
+      Weights (Mean): N=0.6588 | S=0.6499 | W=0.6644 | E=0.6367
+Ep 067 | Train Acc=18.21% | Val Acc=32.52% | Loss=4.252 | LR=0.000895 | Time=62.9s
+      Weights (Mean): N=0.6591 | S=0.6492 | W=0.6636 | E=0.6379
+Ep 068 | Train Acc=18.50% | Val Acc=33.15% | Loss=4.247 | LR=0.000892 | Time=63.4s
+      Weights (Mean): N=0.6583 | S=0.6517 | W=0.6646 | E=0.6359
+Ep 069 | Train Acc=18.58% | Val Acc=32.98% | Loss=4.238 | LR=0.000888 | Time=62.8s
+      Weights (Mean): N=0.6577 | S=0.6515 | W=0.6632 | E=0.6367
+Ep 070 | Train Acc=18.71% | Val Acc=32.69% | Loss=4.230 | LR=0.000885 | Time=62.5s
+      Weights (Mean): N=0.6577 | S=0.6523 | W=0.6628 | E=0.6366
+Ep 071 | Train Acc=18.60% | Val Acc=33.76% | Loss=4.233 | LR=0.000881 | Time=62.6s
+      Weights (Mean): N=0.6569 | S=0.6517 | W=0.6616 | E=0.6375
+   New Best! (33.41% -> 33.76%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc33.76_ep71.pth
+Ep 072 | Train Acc=18.54% | Val Acc=34.97% | Loss=4.238 | LR=0.000878 | Time=62.5s
+      Weights (Mean): N=0.6562 | S=0.6506 | W=0.6648 | E=0.6383
+   New Best! (33.76% -> 34.97%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc34.97_ep72.pth
+Ep 073 | Train Acc=18.54% | Val Acc=33.99% | Loss=4.243 | LR=0.000875 | Time=62.4s
+      Weights (Mean): N=0.6562 | S=0.6520 | W=0.6646 | E=0.6375
+Ep 074 | Train Acc=18.98% | Val Acc=34.04% | Loss=4.219 | LR=0.000871 | Time=62.6s
+      Weights (Mean): N=0.6570 | S=0.6512 | W=0.6644 | E=0.6361
+Ep 075 | Train Acc=19.29% | Val Acc=34.92% | Loss=4.203 | LR=0.000867 | Time=62.6s
+      Weights (Mean): N=0.6591 | S=0.6513 | W=0.6640 | E=0.6365
+Ep 076 | Train Acc=19.42% | Val Acc=34.87% | Loss=4.197 | LR=0.000864 | Time=62.7s
+      Weights (Mean): N=0.6592 | S=0.6523 | W=0.6657 | E=0.6352
+Ep 077 | Train Acc=19.14% | Val Acc=33.66% | Loss=4.216 | LR=0.000860 | Time=62.5s
+      Weights (Mean): N=0.6577 | S=0.6523 | W=0.6658 | E=0.6354
+Ep 078 | Train Acc=19.23% | Val Acc=33.90% | Loss=4.211 | LR=0.000856 | Time=62.6s
+      Weights (Mean): N=0.6596 | S=0.6517 | W=0.6652 | E=0.6358
+Ep 079 | Train Acc=19.20% | Val Acc=34.76% | Loss=4.206 | LR=0.000853 | Time=62.2s
+      Weights (Mean): N=0.6611 | S=0.6518 | W=0.6660 | E=0.6352
+Ep 080 | Train Acc=19.21% | Val Acc=35.05% | Loss=4.211 | LR=0.000849 | Time=62.5s
+      Weights (Mean): N=0.6641 | S=0.6518 | W=0.6661 | E=0.6355
+   New Best! (34.97% -> 35.05%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc35.05_ep80.pth
+Ep 081 | Train Acc=18.93% | Val Acc=35.69% | Loss=4.227 | LR=0.000845 | Time=62.4s
+      Weights (Mean): N=0.6656 | S=0.6517 | W=0.6648 | E=0.6357
+   New Best! (35.05% -> 35.69%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc35.69_ep81.pth
+Ep 082 | Train Acc=19.31% | Val Acc=35.63% | Loss=4.208 | LR=0.000841 | Time=62.4s
+      Weights (Mean): N=0.6635 | S=0.6534 | W=0.6657 | E=0.6357
+Ep 083 | Train Acc=19.53% | Val Acc=33.74% | Loss=4.190 | LR=0.000837 | Time=62.4s
+      Weights (Mean): N=0.6640 | S=0.6547 | W=0.6650 | E=0.6332
+Ep 084 | Train Acc=19.18% | Val Acc=34.21% | Loss=4.223 | LR=0.000833 | Time=62.5s
+      Weights (Mean): N=0.6636 | S=0.6561 | W=0.6658 | E=0.6343
+Ep 085 | Train Acc=19.18% | Val Acc=35.25% | Loss=4.218 | LR=0.000829 | Time=62.6s
+      Weights (Mean): N=0.6644 | S=0.6561 | W=0.6638 | E=0.6346
+Ep 086 | Train Acc=19.77% | Val Acc=35.40% | Loss=4.179 | LR=0.000825 | Time=62.4s
+      Weights (Mean): N=0.6648 | S=0.6557 | W=0.6631 | E=0.6349
+Ep 087 | Train Acc=20.02% | Val Acc=35.96% | Loss=4.176 | LR=0.000821 | Time=62.4s
+      Weights (Mean): N=0.6657 | S=0.6578 | W=0.6636 | E=0.6340
+   New Best! (35.69% -> 35.96%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc35.96_ep87.pth
+Ep 088 | Train Acc=19.74% | Val Acc=35.63% | Loss=4.188 | LR=0.000817 | Time=62.2s
+      Weights (Mean): N=0.6645 | S=0.6590 | W=0.6607 | E=0.6348
+Ep 089 | Train Acc=19.51% | Val Acc=34.63% | Loss=4.197 | LR=0.000813 | Time=62.4s
+      Weights (Mean): N=0.6661 | S=0.6590 | W=0.6613 | E=0.6346
+Ep 090 | Train Acc=19.89% | Val Acc=35.13% | Loss=4.180 | LR=0.000809 | Time=62.4s
+      Weights (Mean): N=0.6643 | S=0.6600 | W=0.6615 | E=0.6336
+Ep 091 | Train Acc=19.98% | Val Acc=35.50% | Loss=4.171 | LR=0.000805 | Time=62.6s
+      Weights (Mean): N=0.6646 | S=0.6587 | W=0.6620 | E=0.6340
+Ep 092 | Train Acc=20.27% | Val Acc=35.56% | Loss=4.163 | LR=0.000800 | Time=62.6s
+      Weights (Mean): N=0.6657 | S=0.6588 | W=0.6635 | E=0.6348
+Ep 093 | Train Acc=20.40% | Val Acc=35.51% | Loss=4.167 | LR=0.000796 | Time=62.6s
+      Weights (Mean): N=0.6641 | S=0.6596 | W=0.6621 | E=0.6336
+Ep 094 | Train Acc=20.26% | Val Acc=35.89% | Loss=4.162 | LR=0.000792 | Time=62.2s
+      Weights (Mean): N=0.6635 | S=0.6600 | W=0.6620 | E=0.6338
+Ep 095 | Train Acc=20.12% | Val Acc=36.34% | Loss=4.172 | LR=0.000787 | Time=62.6s
+      Weights (Mean): N=0.6630 | S=0.6593 | W=0.6620 | E=0.6344
+   New Best! (35.96% -> 36.34%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc36.34_ep95.pth
+Ep 096 | Train Acc=20.49% | Val Acc=34.85% | Loss=4.163 | LR=0.000783 | Time=62.5s
+      Weights (Mean): N=0.6642 | S=0.6602 | W=0.6611 | E=0.6349
+Ep 097 | Train Acc=20.58% | Val Acc=36.50% | Loss=4.155 | LR=0.000779 | Time=62.7s
+      Weights (Mean): N=0.6655 | S=0.6603 | W=0.6624 | E=0.6356
+   New Best! (36.34% -> 36.50%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc36.50_ep97.pth
+Ep 098 | Train Acc=20.65% | Val Acc=36.79% | Loss=4.141 | LR=0.000774 | Time=62.7s
+      Weights (Mean): N=0.6655 | S=0.6605 | W=0.6618 | E=0.6362
+   New Best! (36.50% -> 36.79%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc36.79_ep98.pth
+Ep 099 | Train Acc=20.76% | Val Acc=35.53% | Loss=4.145 | LR=0.000770 | Time=62.7s
+      Weights (Mean): N=0.6653 | S=0.6602 | W=0.6624 | E=0.6364
+Ep 100 | Train Acc=20.34% | Val Acc=37.00% | Loss=4.162 | LR=0.000765 | Time=62.6s
+      Weights (Mean): N=0.6640 | S=0.6608 | W=0.6639 | E=0.6364
+   New Best! (36.79% -> 37.00%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc37.00_ep100.pth
+Ep 101 | Train Acc=20.72% | Val Acc=36.41% | Loss=4.139 | LR=0.000761 | Time=62.8s
+      Weights (Mean): N=0.6663 | S=0.6595 | W=0.6648 | E=0.6355
+Ep 102 | Train Acc=20.67% | Val Acc=36.83% | Loss=4.146 | LR=0.000756 | Time=62.5s
+      Weights (Mean): N=0.6661 | S=0.6586 | W=0.6652 | E=0.6361
+Ep 103 | Train Acc=20.27% | Val Acc=36.58% | Loss=4.160 | LR=0.000752 | Time=62.4s
+      Weights (Mean): N=0.6637 | S=0.6579 | W=0.6658 | E=0.6363
+Ep 104 | Train Acc=20.88% | Val Acc=36.85% | Loss=4.133 | LR=0.000747 | Time=62.7s
+      Weights (Mean): N=0.6641 | S=0.6594 | W=0.6658 | E=0.6356
+Ep 105 | Train Acc=20.52% | Val Acc=36.91% | Loss=4.152 | LR=0.000742 | Time=62.6s
+      Weights (Mean): N=0.6647 | S=0.6589 | W=0.6666 | E=0.6367
+Ep 106 | Train Acc=21.07% | Val Acc=35.76% | Loss=4.136 | LR=0.000738 | Time=63.4s
+      Weights (Mean): N=0.6651 | S=0.6594 | W=0.6655 | E=0.6359
+Ep 107 | Train Acc=20.84% | Val Acc=36.38% | Loss=4.132 | LR=0.000733 | Time=62.3s
+      Weights (Mean): N=0.6632 | S=0.6595 | W=0.6657 | E=0.6344
+Ep 108 | Train Acc=21.00% | Val Acc=36.84% | Loss=4.129 | LR=0.000728 | Time=62.6s
+      Weights (Mean): N=0.6622 | S=0.6595 | W=0.6667 | E=0.6340
+Ep 109 | Train Acc=20.73% | Val Acc=36.53% | Loss=4.144 | LR=0.000723 | Time=62.6s
+      Weights (Mean): N=0.6636 | S=0.6593 | W=0.6670 | E=0.6342
+Ep 110 | Train Acc=21.23% | Val Acc=37.59% | Loss=4.113 | LR=0.000719 | Time=62.2s
+      Weights (Mean): N=0.6630 | S=0.6588 | W=0.6693 | E=0.6357
+   New Best! (37.00% -> 37.59%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc37.59_ep110.pth
+Ep 111 | Train Acc=21.11% | Val Acc=37.57% | Loss=4.127 | LR=0.000714 | Time=62.4s
+      Weights (Mean): N=0.6635 | S=0.6602 | W=0.6684 | E=0.6363
+Ep 112 | Train Acc=21.47% | Val Acc=37.14% | Loss=4.109 | LR=0.000709 | Time=62.4s
+      Weights (Mean): N=0.6635 | S=0.6610 | W=0.6704 | E=0.6365
+Ep 113 | Train Acc=21.45% | Val Acc=38.13% | Loss=4.108 | LR=0.000704 | Time=62.8s
+      Weights (Mean): N=0.6651 | S=0.6600 | W=0.6704 | E=0.6361
+   New Best! (37.59% -> 38.13%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc38.13_ep113.pth
+Ep 114 | Train Acc=21.78% | Val Acc=37.15% | Loss=4.099 | LR=0.000699 | Time=62.4s
+      Weights (Mean): N=0.6657 | S=0.6599 | W=0.6698 | E=0.6369
+Ep 115 | Train Acc=21.52% | Val Acc=37.74% | Loss=4.109 | LR=0.000694 | Time=62.5s
+      Weights (Mean): N=0.6660 | S=0.6611 | W=0.6697 | E=0.6369
+Ep 116 | Train Acc=21.54% | Val Acc=37.31% | Loss=4.104 | LR=0.000689 | Time=62.6s
+      Weights (Mean): N=0.6662 | S=0.6623 | W=0.6683 | E=0.6372
+Ep 117 | Train Acc=21.53% | Val Acc=38.25% | Loss=4.113 | LR=0.000685 | Time=62.6s
+      Weights (Mean): N=0.6659 | S=0.6611 | W=0.6680 | E=0.6377
+   New Best! (38.13% -> 38.25%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc38.25_ep117.pth
+Ep 118 | Train Acc=21.78% | Val Acc=37.47% | Loss=4.100 | LR=0.000680 | Time=62.5s
+      Weights (Mean): N=0.6660 | S=0.6614 | W=0.6690 | E=0.6391
+Ep 119 | Train Acc=21.67% | Val Acc=38.14% | Loss=4.103 | LR=0.000675 | Time=62.3s
+      Weights (Mean): N=0.6682 | S=0.6604 | W=0.6692 | E=0.6380
+Ep 120 | Train Acc=21.95% | Val Acc=38.48% | Loss=4.094 | LR=0.000670 | Time=62.5s
+      Weights (Mean): N=0.6670 | S=0.6612 | W=0.6696 | E=0.6379
+   New Best! (38.25% -> 38.48%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc38.48_ep120.pth
+Ep 121 | Train Acc=21.84% | Val Acc=37.75% | Loss=4.105 | LR=0.000665 | Time=62.6s
+      Weights (Mean): N=0.6672 | S=0.6610 | W=0.6690 | E=0.6373
+Ep 122 | Train Acc=21.62% | Val Acc=37.73% | Loss=4.106 | LR=0.000660 | Time=62.4s
+      Weights (Mean): N=0.6681 | S=0.6604 | W=0.6702 | E=0.6375
+Ep 123 | Train Acc=21.99% | Val Acc=38.01% | Loss=4.090 | LR=0.000655 | Time=62.6s
+      Weights (Mean): N=0.6681 | S=0.6612 | W=0.6701 | E=0.6377
+Ep 124 | Train Acc=22.33% | Val Acc=39.14% | Loss=4.077 | LR=0.000649 | Time=62.2s
+      Weights (Mean): N=0.6667 | S=0.6619 | W=0.6707 | E=0.6384
+   New Best! (38.48% -> 39.14%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc39.14_ep124.pth
+Ep 125 | Train Acc=22.50% | Val Acc=37.94% | Loss=4.069 | LR=0.000644 | Time=62.2s
+      Weights (Mean): N=0.6689 | S=0.6607 | W=0.6694 | E=0.6370
+Ep 126 | Train Acc=22.41% | Val Acc=40.30% | Loss=4.068 | LR=0.000639 | Time=62.4s
+      Weights (Mean): N=0.6686 | S=0.6613 | W=0.6699 | E=0.6378
+   New Best! (39.14% -> 40.30%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc40.30_ep126.pth
+Ep 127 | Train Acc=23.00% | Val Acc=37.79% | Loss=4.045 | LR=0.000634 | Time=62.6s
+      Weights (Mean): N=0.6693 | S=0.6612 | W=0.6707 | E=0.6384
+Ep 128 | Train Acc=22.37% | Val Acc=38.27% | Loss=4.075 | LR=0.000629 | Time=62.8s
+      Weights (Mean): N=0.6690 | S=0.6618 | W=0.6714 | E=0.6385
+Ep 129 | Train Acc=22.75% | Val Acc=38.89% | Loss=4.059 | LR=0.000624 | Time=62.3s
+      Weights (Mean): N=0.6691 | S=0.6628 | W=0.6734 | E=0.6394
+Ep 130 | Train Acc=22.81% | Val Acc=40.08% | Loss=4.061 | LR=0.000619 | Time=62.6s
+      Weights (Mean): N=0.6689 | S=0.6629 | W=0.6710 | E=0.6389
+Ep 131 | Train Acc=23.16% | Val Acc=39.29% | Loss=4.042 | LR=0.000613 | Time=62.6s
+      Weights (Mean): N=0.6683 | S=0.6630 | W=0.6717 | E=0.6403
+Ep 132 | Train Acc=22.74% | Val Acc=39.57% | Loss=4.054 | LR=0.000608 | Time=62.5s
+      Weights (Mean): N=0.6695 | S=0.6623 | W=0.6727 | E=0.6394
+Ep 133 | Train Acc=22.68% | Val Acc=39.79% | Loss=4.063 | LR=0.000603 | Time=62.7s
+      Weights (Mean): N=0.6685 | S=0.6624 | W=0.6745 | E=0.6399
+Ep 134 | Train Acc=23.02% | Val Acc=39.03% | Loss=4.049 | LR=0.000598 | Time=62.5s
+      Weights (Mean): N=0.6698 | S=0.6623 | W=0.6750 | E=0.6406
+Ep 135 | Train Acc=23.35% | Val Acc=40.27% | Loss=4.036 | LR=0.000593 | Time=62.6s
+      Weights (Mean): N=0.6701 | S=0.6627 | W=0.6761 | E=0.6403
+Ep 136 | Train Acc=23.67% | Val Acc=39.07% | Loss=4.015 | LR=0.000587 | Time=62.6s
+      Weights (Mean): N=0.6694 | S=0.6625 | W=0.6756 | E=0.6402
+Ep 137 | Train Acc=22.95% | Val Acc=39.41% | Loss=4.053 | LR=0.000582 | Time=62.6s
+      Weights (Mean): N=0.6699 | S=0.6620 | W=0.6767 | E=0.6412
+Ep 138 | Train Acc=23.10% | Val Acc=38.77% | Loss=4.048 | LR=0.000577 | Time=62.6s
+      Weights (Mean): N=0.6712 | S=0.6619 | W=0.6762 | E=0.6419
+Ep 139 | Train Acc=23.67% | Val Acc=39.78% | Loss=4.014 | LR=0.000572 | Time=62.5s
+      Weights (Mean): N=0.6696 | S=0.6613 | W=0.6755 | E=0.6417
+Ep 140 | Train Acc=23.59% | Val Acc=39.73% | Loss=4.029 | LR=0.000566 | Time=62.6s
+      Weights (Mean): N=0.6712 | S=0.6612 | W=0.6755 | E=0.6409
+Ep 141 | Train Acc=23.63% | Val Acc=40.24% | Loss=4.014 | LR=0.000561 | Time=62.5s
+      Weights (Mean): N=0.6711 | S=0.6614 | W=0.6756 | E=0.6406
+Ep 142 | Train Acc=23.79% | Val Acc=40.44% | Loss=4.016 | LR=0.000556 | Time=62.5s
+      Weights (Mean): N=0.6712 | S=0.6619 | W=0.6769 | E=0.6401
+   New Best! (40.30% -> 40.44%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc40.44_ep142.pth
+Ep 143 | Train Acc=23.85% | Val Acc=40.54% | Loss=4.006 | LR=0.000550 | Time=62.6s
+      Weights (Mean): N=0.6716 | S=0.6608 | W=0.6764 | E=0.6396
+   New Best! (40.44% -> 40.54%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc40.54_ep143.pth
+Ep 144 | Train Acc=23.52% | Val Acc=40.50% | Loss=4.030 | LR=0.000545 | Time=62.5s
+      Weights (Mean): N=0.6717 | S=0.6606 | W=0.6763 | E=0.6403
+Ep 145 | Train Acc=23.51% | Val Acc=40.43% | Loss=4.027 | LR=0.000540 | Time=62.4s
+      Weights (Mean): N=0.6722 | S=0.6607 | W=0.6773 | E=0.6405
+Ep 146 | Train Acc=23.76% | Val Acc=41.14% | Loss=4.020 | LR=0.000535 | Time=62.4s
+      Weights (Mean): N=0.6720 | S=0.6608 | W=0.6771 | E=0.6400
+   New Best! (40.54% -> 41.14%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc41.14_ep146.pth
+Ep 147 | Train Acc=24.19% | Val Acc=39.60% | Loss=3.989 | LR=0.000529 | Time=62.4s
+      Weights (Mean): N=0.6717 | S=0.6602 | W=0.6775 | E=0.6422
+Ep 148 | Train Acc=23.92% | Val Acc=40.71% | Loss=4.013 | LR=0.000524 | Time=62.3s
+      Weights (Mean): N=0.6720 | S=0.6605 | W=0.6780 | E=0.6419
+Ep 149 | Train Acc=24.34% | Val Acc=40.91% | Loss=3.993 | LR=0.000519 | Time=62.6s
+      Weights (Mean): N=0.6727 | S=0.6600 | W=0.6779 | E=0.6413
+Ep 150 | Train Acc=24.09% | Val Acc=40.93% | Loss=4.003 | LR=0.000513 | Time=62.5s
+      Weights (Mean): N=0.6718 | S=0.6596 | W=0.6781 | E=0.6409
+Ep 151 | Train Acc=24.33% | Val Acc=40.97% | Loss=3.996 | LR=0.000508 | Time=62.5s
+      Weights (Mean): N=0.6726 | S=0.6604 | W=0.6790 | E=0.6415
+Ep 152 | Train Acc=24.40% | Val Acc=41.40% | Loss=3.993 | LR=0.000503 | Time=62.6s
+      Weights (Mean): N=0.6714 | S=0.6600 | W=0.6776 | E=0.6418
+   New Best! (41.14% -> 41.40%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc41.40_ep152.pth
+Ep 153 | Train Acc=24.68% | Val Acc=41.01% | Loss=3.979 | LR=0.000497 | Time=62.7s
+      Weights (Mean): N=0.6715 | S=0.6604 | W=0.6780 | E=0.6423
+Ep 154 | Train Acc=24.84% | Val Acc=41.51% | Loss=3.964 | LR=0.000492 | Time=62.4s
+      Weights (Mean): N=0.6718 | S=0.6598 | W=0.6783 | E=0.6439
+   New Best! (41.40% -> 41.51%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc41.51_ep154.pth
+Ep 155 | Train Acc=24.55% | Val Acc=41.15% | Loss=3.986 | LR=0.000487 | Time=62.6s
+      Weights (Mean): N=0.6728 | S=0.6610 | W=0.6777 | E=0.6437
+Ep 156 | Train Acc=25.30% | Val Acc=41.79% | Loss=3.955 | LR=0.000481 | Time=62.4s
+      Weights (Mean): N=0.6716 | S=0.6607 | W=0.6778 | E=0.6442
+   New Best! (41.51% -> 41.79%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc41.79_ep156.pth
+Ep 157 | Train Acc=24.90% | Val Acc=40.68% | Loss=3.972 | LR=0.000476 | Time=62.4s
+      Weights (Mean): N=0.6734 | S=0.6596 | W=0.6785 | E=0.6459
+Ep 158 | Train Acc=25.11% | Val Acc=41.89% | Loss=3.965 | LR=0.000471 | Time=62.6s
+      Weights (Mean): N=0.6733 | S=0.6598 | W=0.6775 | E=0.6453
+   New Best! (41.79% -> 41.89%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc41.89_ep158.pth
+Ep 159 | Train Acc=25.15% | Val Acc=41.04% | Loss=3.958 | LR=0.000465 | Time=62.4s
+      Weights (Mean): N=0.6728 | S=0.6601 | W=0.6769 | E=0.6458
+Ep 160 | Train Acc=25.16% | Val Acc=41.35% | Loss=3.963 | LR=0.000460 | Time=62.5s
+      Weights (Mean): N=0.6726 | S=0.6607 | W=0.6771 | E=0.6460
+Ep 161 | Train Acc=25.44% | Val Acc=42.13% | Loss=3.943 | LR=0.000455 | Time=62.5s
+      Weights (Mean): N=0.6716 | S=0.6617 | W=0.6770 | E=0.6465
+   New Best! (41.89% -> 42.13%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc42.13_ep161.pth
+Ep 162 | Train Acc=25.25% | Val Acc=41.73% | Loss=3.955 | LR=0.000450 | Time=62.4s
+      Weights (Mean): N=0.6717 | S=0.6615 | W=0.6766 | E=0.6475
+Ep 163 | Train Acc=25.28% | Val Acc=42.07% | Loss=3.951 | LR=0.000444 | Time=62.4s
+      Weights (Mean): N=0.6716 | S=0.6612 | W=0.6773 | E=0.6481
+Ep 164 | Train Acc=25.37% | Val Acc=42.10% | Loss=3.945 | LR=0.000439 | Time=62.5s
+      Weights (Mean): N=0.6718 | S=0.6610 | W=0.6766 | E=0.6493
+Ep 165 | Train Acc=25.76% | Val Acc=42.52% | Loss=3.936 | LR=0.000434 | Time=62.5s
+      Weights (Mean): N=0.6711 | S=0.6609 | W=0.6768 | E=0.6490
+   New Best! (42.13% -> 42.52%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc42.52_ep165.pth
+Ep 166 | Train Acc=25.65% | Val Acc=42.46% | Loss=3.933 | LR=0.000428 | Time=62.7s
+      Weights (Mean): N=0.6704 | S=0.6616 | W=0.6769 | E=0.6495
+Ep 167 | Train Acc=25.77% | Val Acc=42.37% | Loss=3.934 | LR=0.000423 | Time=62.5s
+      Weights (Mean): N=0.6714 | S=0.6618 | W=0.6759 | E=0.6498
+Ep 168 | Train Acc=26.01% | Val Acc=42.97% | Loss=3.930 | LR=0.000418 | Time=62.6s
+      Weights (Mean): N=0.6707 | S=0.6616 | W=0.6760 | E=0.6503
+   New Best! (42.52% -> 42.97%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc42.97_ep168.pth
+Ep 169 | Train Acc=25.57% | Val Acc=42.00% | Loss=3.944 | LR=0.000413 | Time=62.5s
+      Weights (Mean): N=0.6705 | S=0.6618 | W=0.6760 | E=0.6509
+Ep 170 | Train Acc=26.17% | Val Acc=43.21% | Loss=3.910 | LR=0.000407 | Time=62.4s
+      Weights (Mean): N=0.6706 | S=0.6621 | W=0.6755 | E=0.6511
+   New Best! (42.97% -> 43.21%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc43.21_ep170.pth
+Ep 171 | Train Acc=25.82% | Val Acc=42.91% | Loss=3.922 | LR=0.000402 | Time=62.4s
+      Weights (Mean): N=0.6713 | S=0.6627 | W=0.6745 | E=0.6512
+Ep 172 | Train Acc=26.20% | Val Acc=42.96% | Loss=3.911 | LR=0.000397 | Time=62.4s
+      Weights (Mean): N=0.6712 | S=0.6629 | W=0.6746 | E=0.6515
+Ep 173 | Train Acc=26.75% | Val Acc=43.07% | Loss=3.893 | LR=0.000392 | Time=62.5s
+      Weights (Mean): N=0.6709 | S=0.6630 | W=0.6748 | E=0.6519
+Ep 174 | Train Acc=27.01% | Val Acc=42.26% | Loss=3.881 | LR=0.000387 | Time=62.3s
+      Weights (Mean): N=0.6710 | S=0.6639 | W=0.6750 | E=0.6525
+Ep 175 | Train Acc=26.73% | Val Acc=43.20% | Loss=3.894 | LR=0.000381 | Time=62.5s
+      Weights (Mean): N=0.6715 | S=0.6637 | W=0.6745 | E=0.6532
+Ep 176 | Train Acc=27.17% | Val Acc=43.14% | Loss=3.874 | LR=0.000376 | Time=62.9s
+      Weights (Mean): N=0.6712 | S=0.6642 | W=0.6747 | E=0.6534
+Ep 177 | Train Acc=26.23% | Val Acc=42.63% | Loss=3.914 | LR=0.000371 | Time=62.5s
+      Weights (Mean): N=0.6715 | S=0.6640 | W=0.6749 | E=0.6536
+Ep 178 | Train Acc=26.76% | Val Acc=43.30% | Loss=3.896 | LR=0.000366 | Time=62.6s
+      Weights (Mean): N=0.6720 | S=0.6638 | W=0.6745 | E=0.6551
+   New Best! (43.21% -> 43.30%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc43.30_ep178.pth
+Ep 179 | Train Acc=26.68% | Val Acc=42.98% | Loss=3.902 | LR=0.000361 | Time=62.5s
+      Weights (Mean): N=0.6717 | S=0.6644 | W=0.6744 | E=0.6550
+Ep 180 | Train Acc=27.06% | Val Acc=43.51% | Loss=3.873 | LR=0.000356 | Time=62.5s
+      Weights (Mean): N=0.6719 | S=0.6650 | W=0.6746 | E=0.6553
+   New Best! (43.30% -> 43.51%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc43.51_ep180.pth
+Ep 181 | Train Acc=27.11% | Val Acc=43.79% | Loss=3.881 | LR=0.000351 | Time=62.5s
+      Weights (Mean): N=0.6719 | S=0.6648 | W=0.6750 | E=0.6553
+   New Best! (43.51% -> 43.79%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc43.79_ep181.pth
+Ep 182 | Train Acc=27.12% | Val Acc=43.89% | Loss=3.882 | LR=0.000345 | Time=62.7s
+      Weights (Mean): N=0.6713 | S=0.6652 | W=0.6746 | E=0.6562
+   New Best! (43.79% -> 43.89%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc43.89_ep182.pth
+Ep 183 | Train Acc=27.58% | Val Acc=43.55% | Loss=3.858 | LR=0.000340 | Time=62.5s
+      Weights (Mean): N=0.6714 | S=0.6651 | W=0.6753 | E=0.6573
+Ep 184 | Train Acc=27.36% | Val Acc=43.63% | Loss=3.868 | LR=0.000335 | Time=62.4s
+      Weights (Mean): N=0.6715 | S=0.6658 | W=0.6751 | E=0.6578
+Ep 185 | Train Acc=28.22% | Val Acc=43.40% | Loss=3.834 | LR=0.000330 | Time=62.7s
+      Weights (Mean): N=0.6713 | S=0.6667 | W=0.6748 | E=0.6582
+Ep 186 | Train Acc=27.62% | Val Acc=43.57% | Loss=3.861 | LR=0.000325 | Time=62.3s
+      Weights (Mean): N=0.6713 | S=0.6668 | W=0.6751 | E=0.6579
+Ep 187 | Train Acc=28.34% | Val Acc=44.30% | Loss=3.831 | LR=0.000320 | Time=62.4s
+      Weights (Mean): N=0.6716 | S=0.6677 | W=0.6747 | E=0.6589
+   New Best! (43.89% -> 44.30%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc44.30_ep187.pth
+Ep 188 | Train Acc=27.94% | Val Acc=44.40% | Loss=3.857 | LR=0.000315 | Time=62.4s
+      Weights (Mean): N=0.6718 | S=0.6676 | W=0.6747 | E=0.6592
+   New Best! (44.30% -> 44.40%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc44.40_ep188.pth
+Ep 189 | Train Acc=28.28% | Val Acc=43.81% | Loss=3.835 | LR=0.000311 | Time=62.7s
+      Weights (Mean): N=0.6715 | S=0.6681 | W=0.6751 | E=0.6589
+Ep 190 | Train Acc=28.76% | Val Acc=44.53% | Loss=3.808 | LR=0.000306 | Time=62.5s
+      Weights (Mean): N=0.6720 | S=0.6686 | W=0.6755 | E=0.6593
+   New Best! (44.40% -> 44.53%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc44.53_ep190.pth
+Ep 191 | Train Acc=28.45% | Val Acc=44.71% | Loss=3.824 | LR=0.000301 | Time=62.5s
+      Weights (Mean): N=0.6721 | S=0.6682 | W=0.6754 | E=0.6594
+   New Best! (44.53% -> 44.71%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc44.71_ep191.pth
+Ep 192 | Train Acc=28.18% | Val Acc=44.57% | Loss=3.834 | LR=0.000296 | Time=62.5s
+      Weights (Mean): N=0.6726 | S=0.6688 | W=0.6751 | E=0.6598
+Ep 193 | Train Acc=28.37% | Val Acc=43.99% | Loss=3.838 | LR=0.000291 | Time=62.6s
+      Weights (Mean): N=0.6726 | S=0.6694 | W=0.6749 | E=0.6599
+Ep 194 | Train Acc=28.70% | Val Acc=44.75% | Loss=3.818 | LR=0.000286 | Time=62.7s
+      Weights (Mean): N=0.6729 | S=0.6696 | W=0.6755 | E=0.6606
+   New Best! (44.71% -> 44.75%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc44.75_ep194.pth
+Ep 195 | Train Acc=28.58% | Val Acc=44.31% | Loss=3.823 | LR=0.000281 | Time=62.3s
+      Weights (Mean): N=0.6731 | S=0.6700 | W=0.6761 | E=0.6616
+Ep 196 | Train Acc=29.38% | Val Acc=44.13% | Loss=3.789 | LR=0.000277 | Time=62.6s
+      Weights (Mean): N=0.6730 | S=0.6702 | W=0.6763 | E=0.6612
+Ep 197 | Train Acc=29.29% | Val Acc=44.74% | Loss=3.795 | LR=0.000272 | Time=62.5s
+      Weights (Mean): N=0.6737 | S=0.6707 | W=0.6766 | E=0.6617
+Ep 198 | Train Acc=29.46% | Val Acc=44.90% | Loss=3.783 | LR=0.000267 | Time=62.7s
+      Weights (Mean): N=0.6737 | S=0.6709 | W=0.6765 | E=0.6617
+   New Best! (44.75% -> 44.90%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc44.90_ep198.pth
+Ep 199 | Train Acc=29.96% | Val Acc=44.76% | Loss=3.764 | LR=0.000262 | Time=63.0s
+      Weights (Mean): N=0.6737 | S=0.6710 | W=0.6764 | E=0.6621
+Ep 200 | Train Acc=29.66% | Val Acc=44.75% | Loss=3.778 | LR=0.000258 | Time=62.5s
+      Weights (Mean): N=0.6744 | S=0.6713 | W=0.6768 | E=0.6626
+Ep 201 | Train Acc=29.71% | Val Acc=44.57% | Loss=3.781 | LR=0.000253 | Time=62.5s
+      Weights (Mean): N=0.6743 | S=0.6719 | W=0.6766 | E=0.6630
+Ep 202 | Train Acc=29.98% | Val Acc=44.69% | Loss=3.767 | LR=0.000248 | Time=62.6s
+      Weights (Mean): N=0.6746 | S=0.6728 | W=0.6765 | E=0.6632
+Ep 203 | Train Acc=29.90% | Val Acc=45.67% | Loss=3.775 | LR=0.000244 | Time=62.5s
+      Weights (Mean): N=0.6749 | S=0.6732 | W=0.6764 | E=0.6641
+   New Best! (44.90% -> 45.67%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc45.67_ep203.pth
+Ep 204 | Train Acc=29.86% | Val Acc=45.53% | Loss=3.777 | LR=0.000239 | Time=62.3s
+      Weights (Mean): N=0.6753 | S=0.6732 | W=0.6768 | E=0.6640
+Ep 205 | Train Acc=30.19% | Val Acc=45.76% | Loss=3.760 | LR=0.000235 | Time=62.6s
+      Weights (Mean): N=0.6754 | S=0.6737 | W=0.6769 | E=0.6650
+   New Best! (45.67% -> 45.76%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc45.76_ep205.pth
+Ep 206 | Train Acc=30.60% | Val Acc=45.25% | Loss=3.739 | LR=0.000230 | Time=62.4s
+      Weights (Mean): N=0.6760 | S=0.6742 | W=0.6774 | E=0.6655
+Ep 207 | Train Acc=31.02% | Val Acc=44.97% | Loss=3.724 | LR=0.000226 | Time=62.6s
+      Weights (Mean): N=0.6760 | S=0.6741 | W=0.6781 | E=0.6656
+Ep 208 | Train Acc=30.50% | Val Acc=44.84% | Loss=3.746 | LR=0.000221 | Time=62.5s
+      Weights (Mean): N=0.6765 | S=0.6745 | W=0.6779 | E=0.6660
+Ep 209 | Train Acc=30.70% | Val Acc=45.48% | Loss=3.739 | LR=0.000217 | Time=62.4s
+      Weights (Mean): N=0.6768 | S=0.6748 | W=0.6780 | E=0.6662
+Ep 210 | Train Acc=30.74% | Val Acc=46.41% | Loss=3.742 | LR=0.000213 | Time=62.6s
+      Weights (Mean): N=0.6771 | S=0.6756 | W=0.6783 | E=0.6667
+   New Best! (45.76% -> 46.41%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc46.41_ep210.pth
+Ep 211 | Train Acc=31.35% | Val Acc=45.65% | Loss=3.718 | LR=0.000208 | Time=62.5s
+      Weights (Mean): N=0.6771 | S=0.6760 | W=0.6787 | E=0.6670
+Ep 212 | Train Acc=31.24% | Val Acc=45.68% | Loss=3.719 | LR=0.000204 | Time=62.7s
+      Weights (Mean): N=0.6771 | S=0.6761 | W=0.6789 | E=0.6680
+Ep 213 | Train Acc=31.30% | Val Acc=45.80% | Loss=3.724 | LR=0.000200 | Time=62.5s
+      Weights (Mean): N=0.6774 | S=0.6765 | W=0.6794 | E=0.6684
+Ep 214 | Train Acc=31.92% | Val Acc=46.34% | Loss=3.695 | LR=0.000195 | Time=62.6s
+      Weights (Mean): N=0.6775 | S=0.6764 | W=0.6797 | E=0.6685
+Ep 215 | Train Acc=31.20% | Val Acc=45.45% | Loss=3.727 | LR=0.000191 | Time=62.4s
+      Weights (Mean): N=0.6779 | S=0.6768 | W=0.6802 | E=0.6688
+Ep 216 | Train Acc=31.91% | Val Acc=46.77% | Loss=3.688 | LR=0.000187 | Time=62.4s
+      Weights (Mean): N=0.6778 | S=0.6773 | W=0.6802 | E=0.6689
+   New Best! (46.41% -> 46.77%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc46.77_ep216.pth
+Ep 217 | Train Acc=31.88% | Val Acc=45.86% | Loss=3.701 | LR=0.000183 | Time=62.5s
+      Weights (Mean): N=0.6781 | S=0.6773 | W=0.6802 | E=0.6694
+Ep 218 | Train Acc=31.74% | Val Acc=46.65% | Loss=3.705 | LR=0.000179 | Time=62.6s
+      Weights (Mean): N=0.6783 | S=0.6774 | W=0.6804 | E=0.6696
+Ep 219 | Train Acc=32.50% | Val Acc=46.55% | Loss=3.671 | LR=0.000175 | Time=62.4s
+      Weights (Mean): N=0.6784 | S=0.6777 | W=0.6805 | E=0.6697
+Ep 220 | Train Acc=32.03% | Val Acc=46.88% | Loss=3.694 | LR=0.000171 | Time=62.6s
+      Weights (Mean): N=0.6787 | S=0.6782 | W=0.6808 | E=0.6703
+   New Best! (46.77% -> 46.88%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc46.88_ep220.pth
+Ep 221 | Train Acc=32.43% | Val Acc=46.50% | Loss=3.683 | LR=0.000167 | Time=62.4s
+      Weights (Mean): N=0.6791 | S=0.6783 | W=0.6808 | E=0.6707
+Ep 222 | Train Acc=32.16% | Val Acc=46.80% | Loss=3.687 | LR=0.000163 | Time=62.5s
+      Weights (Mean): N=0.6795 | S=0.6789 | W=0.6807 | E=0.6709
+Ep 223 | Train Acc=32.67% | Val Acc=46.90% | Loss=3.667 | LR=0.000159 | Time=62.7s
+      Weights (Mean): N=0.6796 | S=0.6792 | W=0.6812 | E=0.6712
+   New Best! (46.88% -> 46.90%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc46.90_ep223.pth
+Ep 224 | Train Acc=33.24% | Val Acc=47.24% | Loss=3.647 | LR=0.000155 | Time=62.8s
+      Weights (Mean): N=0.6801 | S=0.6795 | W=0.6815 | E=0.6716
+   New Best! (46.90% -> 47.24%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc47.24_ep224.pth
+Ep 225 | Train Acc=33.17% | Val Acc=47.21% | Loss=3.647 | LR=0.000151 | Time=62.7s
+      Weights (Mean): N=0.6802 | S=0.6798 | W=0.6819 | E=0.6719
+Ep 226 | Train Acc=33.13% | Val Acc=47.01% | Loss=3.656 | LR=0.000147 | Time=62.6s
+      Weights (Mean): N=0.6804 | S=0.6799 | W=0.6821 | E=0.6724
+Ep 227 | Train Acc=32.89% | Val Acc=46.93% | Loss=3.663 | LR=0.000144 | Time=62.6s
+      Weights (Mean): N=0.6807 | S=0.6803 | W=0.6820 | E=0.6728
+Ep 228 | Train Acc=32.80% | Val Acc=47.13% | Loss=3.671 | LR=0.000140 | Time=62.5s
+      Weights (Mean): N=0.6810 | S=0.6803 | W=0.6826 | E=0.6728
+Ep 229 | Train Acc=33.56% | Val Acc=47.39% | Loss=3.642 | LR=0.000136 | Time=62.6s
+      Weights (Mean): N=0.6810 | S=0.6805 | W=0.6827 | E=0.6732
+   New Best! (47.24% -> 47.39%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc47.39_ep229.pth
+Ep 230 | Train Acc=34.16% | Val Acc=47.68% | Loss=3.616 | LR=0.000133 | Time=62.6s
+      Weights (Mean): N=0.6814 | S=0.6809 | W=0.6829 | E=0.6736
+   New Best! (47.39% -> 47.68%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc47.68_ep230.pth
+Ep 231 | Train Acc=33.74% | Val Acc=47.16% | Loss=3.632 | LR=0.000129 | Time=62.5s
+      Weights (Mean): N=0.6815 | S=0.6812 | W=0.6829 | E=0.6739
+Ep 232 | Train Acc=34.44% | Val Acc=47.78% | Loss=3.612 | LR=0.000125 | Time=62.3s
+      Weights (Mean): N=0.6819 | S=0.6812 | W=0.6832 | E=0.6741
+   New Best! (47.68% -> 47.78%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc47.78_ep232.pth
+Ep 233 | Train Acc=34.31% | Val Acc=47.39% | Loss=3.608 | LR=0.000122 | Time=62.4s
+      Weights (Mean): N=0.6819 | S=0.6814 | W=0.6834 | E=0.6746
+Ep 234 | Train Acc=34.86% | Val Acc=47.61% | Loss=3.582 | LR=0.000119 | Time=62.6s
+      Weights (Mean): N=0.6822 | S=0.6817 | W=0.6837 | E=0.6746
+Ep 235 | Train Acc=34.72% | Val Acc=47.36% | Loss=3.593 | LR=0.000115 | Time=62.4s
+      Weights (Mean): N=0.6825 | S=0.6821 | W=0.6840 | E=0.6749
+Ep 236 | Train Acc=34.40% | Val Acc=47.72% | Loss=3.609 | LR=0.000112 | Time=62.5s
+      Weights (Mean): N=0.6826 | S=0.6823 | W=0.6843 | E=0.6754
+Ep 237 | Train Acc=35.34% | Val Acc=47.83% | Loss=3.571 | LR=0.000108 | Time=62.5s
+      Weights (Mean): N=0.6829 | S=0.6825 | W=0.6844 | E=0.6756
+   New Best! (47.78% -> 47.83%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc47.83_ep237.pth
+Ep 238 | Train Acc=34.65% | Val Acc=47.96% | Loss=3.601 | LR=0.000105 | Time=62.7s
+      Weights (Mean): N=0.6831 | S=0.6829 | W=0.6846 | E=0.6758
+   New Best! (47.83% -> 47.96%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc47.96_ep238.pth
+Ep 239 | Train Acc=35.52% | Val Acc=48.08% | Loss=3.561 | LR=0.000102 | Time=62.4s
+      Weights (Mean): N=0.6834 | S=0.6831 | W=0.6848 | E=0.6761
+   New Best! (47.96% -> 48.08%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc48.08_ep239.pth
+Ep 240 | Train Acc=35.43% | Val Acc=47.97% | Loss=3.570 | LR=0.000099 | Time=62.6s
+      Weights (Mean): N=0.6836 | S=0.6832 | W=0.6850 | E=0.6763
+Ep 241 | Train Acc=35.61% | Val Acc=48.10% | Loss=3.564 | LR=0.000095 | Time=62.6s
+      Weights (Mean): N=0.6836 | S=0.6835 | W=0.6851 | E=0.6765
+   New Best! (48.08% -> 48.10%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc48.10_ep241.pth
+Ep 242 | Train Acc=35.39% | Val Acc=48.05% | Loss=3.577 | LR=0.000092 | Time=62.4s
+      Weights (Mean): N=0.6841 | S=0.6838 | W=0.6852 | E=0.6767
+Ep 243 | Train Acc=35.77% | Val Acc=47.60% | Loss=3.560 | LR=0.000089 | Time=62.4s
+      Weights (Mean): N=0.6841 | S=0.6842 | W=0.6856 | E=0.6770
+Ep 244 | Train Acc=35.93% | Val Acc=48.14% | Loss=3.556 | LR=0.000086 | Time=62.2s
+      Weights (Mean): N=0.6843 | S=0.6842 | W=0.6859 | E=0.6772
+   New Best! (48.10% -> 48.14%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc48.14_ep244.pth
+Ep 245 | Train Acc=36.53% | Val Acc=48.28% | Loss=3.535 | LR=0.000083 | Time=62.3s
+      Weights (Mean): N=0.6846 | S=0.6842 | W=0.6860 | E=0.6774
+   New Best! (48.14% -> 48.28%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc48.28_ep245.pth
+Ep 246 | Train Acc=35.82% | Val Acc=48.23% | Loss=3.566 | LR=0.000080 | Time=62.5s
+      Weights (Mean): N=0.6848 | S=0.6844 | W=0.6863 | E=0.6777
+Ep 247 | Train Acc=35.84% | Val Acc=48.59% | Loss=3.562 | LR=0.000078 | Time=62.4s
+      Weights (Mean): N=0.6849 | S=0.6846 | W=0.6865 | E=0.6779
+   New Best! (48.28% -> 48.59%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc48.59_ep247.pth
+Ep 248 | Train Acc=36.31% | Val Acc=47.98% | Loss=3.549 | LR=0.000075 | Time=62.5s
+      Weights (Mean): N=0.6851 | S=0.6847 | W=0.6866 | E=0.6781
+Ep 249 | Train Acc=36.40% | Val Acc=48.45% | Loss=3.534 | LR=0.000072 | Time=62.4s
+      Weights (Mean): N=0.6854 | S=0.6850 | W=0.6868 | E=0.6783
+Ep 250 | Train Acc=36.60% | Val Acc=48.21% | Loss=3.533 | LR=0.000069 | Time=62.5s
+      Weights (Mean): N=0.6854 | S=0.6850 | W=0.6868 | E=0.6784
+Ep 251 | Train Acc=36.05% | Val Acc=48.05% | Loss=3.560 | LR=0.000067 | Time=62.3s
+      Weights (Mean): N=0.6856 | S=0.6852 | W=0.6871 | E=0.6786
+Ep 252 | Train Acc=37.00% | Val Acc=48.28% | Loss=3.519 | LR=0.000064 | Time=62.5s
+      Weights (Mean): N=0.6857 | S=0.6853 | W=0.6872 | E=0.6788
+Ep 253 | Train Acc=37.10% | Val Acc=48.21% | Loss=3.515 | LR=0.000061 | Time=62.7s
+      Weights (Mean): N=0.6857 | S=0.6854 | W=0.6873 | E=0.6788
+Ep 254 | Train Acc=37.33% | Val Acc=47.97% | Loss=3.513 | LR=0.000059 | Time=62.5s
+      Weights (Mean): N=0.6860 | S=0.6856 | W=0.6875 | E=0.6791
+Ep 255 | Train Acc=37.48% | Val Acc=48.56% | Loss=3.502 | LR=0.000056 | Time=62.5s
+      Weights (Mean): N=0.6861 | S=0.6858 | W=0.6876 | E=0.6793
+Ep 256 | Train Acc=37.87% | Val Acc=48.50% | Loss=3.483 | LR=0.000054 | Time=62.6s
+      Weights (Mean): N=0.6862 | S=0.6859 | W=0.6876 | E=0.6794
+Ep 257 | Train Acc=37.67% | Val Acc=48.56% | Loss=3.493 | LR=0.000052 | Time=62.6s
+      Weights (Mean): N=0.6863 | S=0.6859 | W=0.6879 | E=0.6796
+Ep 258 | Train Acc=38.26% | Val Acc=48.94% | Loss=3.479 | LR=0.000049 | Time=62.5s
+      Weights (Mean): N=0.6864 | S=0.6860 | W=0.6880 | E=0.6797
+   New Best! (48.59% -> 48.94%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc48.94_ep258.pth
+Ep 259 | Train Acc=38.23% | Val Acc=49.24% | Loss=3.472 | LR=0.000047 | Time=62.8s
+      Weights (Mean): N=0.6865 | S=0.6861 | W=0.6881 | E=0.6798
+   New Best! (48.94% -> 49.24%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc49.24_ep259.pth
+Ep 260 | Train Acc=38.79% | Val Acc=49.00% | Loss=3.459 | LR=0.000045 | Time=62.3s
+      Weights (Mean): N=0.6866 | S=0.6862 | W=0.6882 | E=0.6799
+Ep 261 | Train Acc=38.38% | Val Acc=48.96% | Loss=3.474 | LR=0.000043 | Time=62.7s
+      Weights (Mean): N=0.6867 | S=0.6864 | W=0.6884 | E=0.6799
+Ep 262 | Train Acc=38.48% | Val Acc=48.95% | Loss=3.468 | LR=0.000040 | Time=62.5s
+      Weights (Mean): N=0.6869 | S=0.6865 | W=0.6885 | E=0.6801
+Ep 263 | Train Acc=38.86% | Val Acc=49.14% | Loss=3.460 | LR=0.000038 | Time=62.5s
+      Weights (Mean): N=0.6869 | S=0.6866 | W=0.6886 | E=0.6802
+Ep 264 | Train Acc=38.63% | Val Acc=49.25% | Loss=3.463 | LR=0.000036 | Time=62.6s
+      Weights (Mean): N=0.6871 | S=0.6867 | W=0.6888 | E=0.6803
+   New Best! (49.24% -> 49.25%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc49.25_ep264.pth
+Ep 265 | Train Acc=38.97% | Val Acc=49.21% | Loss=3.455 | LR=0.000034 | Time=62.5s
+      Weights (Mean): N=0.6871 | S=0.6868 | W=0.6888 | E=0.6804
+Ep 266 | Train Acc=38.88% | Val Acc=48.90% | Loss=3.456 | LR=0.000032 | Time=62.3s
+      Weights (Mean): N=0.6872 | S=0.6869 | W=0.6889 | E=0.6804
+Ep 267 | Train Acc=39.37% | Val Acc=49.14% | Loss=3.439 | LR=0.000031 | Time=62.8s
+      Weights (Mean): N=0.6872 | S=0.6869 | W=0.6889 | E=0.6805
+Ep 268 | Train Acc=38.91% | Val Acc=49.25% | Loss=3.453 | LR=0.000029 | Time=62.7s
+      Weights (Mean): N=0.6874 | S=0.6871 | W=0.6890 | E=0.6805
+Ep 269 | Train Acc=38.89% | Val Acc=48.67% | Loss=3.457 | LR=0.000027 | Time=62.5s
+      Weights (Mean): N=0.6874 | S=0.6871 | W=0.6890 | E=0.6807
+Ep 270 | Train Acc=39.69% | Val Acc=49.16% | Loss=3.428 | LR=0.000025 | Time=62.6s
+      Weights (Mean): N=0.6875 | S=0.6872 | W=0.6891 | E=0.6808
+Ep 271 | Train Acc=39.34% | Val Acc=49.58% | Loss=3.441 | LR=0.000024 | Time=62.7s
+      Weights (Mean): N=0.6876 | S=0.6872 | W=0.6891 | E=0.6809
+   New Best! (49.25% -> 49.58%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc49.58_ep271.pth
+Ep 272 | Train Acc=39.51% | Val Acc=49.59% | Loss=3.436 | LR=0.000022 | Time=62.4s
+      Weights (Mean): N=0.6876 | S=0.6873 | W=0.6892 | E=0.6810
+   New Best! (49.58% -> 49.59%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc49.59_ep272.pth
+Ep 273 | Train Acc=39.75% | Val Acc=49.55% | Loss=3.423 | LR=0.000021 | Time=62.3s
+      Weights (Mean): N=0.6877 | S=0.6874 | W=0.6893 | E=0.6810
+Ep 274 | Train Acc=40.46% | Val Acc=49.36% | Loss=3.394 | LR=0.000019 | Time=62.4s
+      Weights (Mean): N=0.6877 | S=0.6874 | W=0.6893 | E=0.6810
+Ep 275 | Train Acc=39.62% | Val Acc=49.48% | Loss=3.434 | LR=0.000018 | Time=62.3s
+      Weights (Mean): N=0.6878 | S=0.6875 | W=0.6893 | E=0.6811
+Ep 276 | Train Acc=39.74% | Val Acc=49.35% | Loss=3.422 | LR=0.000016 | Time=62.4s
+      Weights (Mean): N=0.6878 | S=0.6875 | W=0.6894 | E=0.6811
+Ep 277 | Train Acc=40.25% | Val Acc=49.50% | Loss=3.403 | LR=0.000015 | Time=62.2s
+      Weights (Mean): N=0.6878 | S=0.6875 | W=0.6894 | E=0.6812
+Ep 278 | Train Acc=40.97% | Val Acc=49.47% | Loss=3.376 | LR=0.000014 | Time=62.5s
+      Weights (Mean): N=0.6879 | S=0.6876 | W=0.6895 | E=0.6812
+Ep 279 | Train Acc=39.99% | Val Acc=49.76% | Loss=3.425 | LR=0.000012 | Time=62.5s
+      Weights (Mean): N=0.6879 | S=0.6876 | W=0.6895 | E=0.6813
+   New Best! (49.59% -> 49.76%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc49.76_ep279.pth
+Ep 280 | Train Acc=39.66% | Val Acc=49.62% | Loss=3.440 | LR=0.000011 | Time=62.7s
+      Weights (Mean): N=0.6879 | S=0.6876 | W=0.6895 | E=0.6813
+Ep 281 | Train Acc=40.95% | Val Acc=49.44% | Loss=3.381 | LR=0.000010 | Time=62.6s
+      Weights (Mean): N=0.6880 | S=0.6876 | W=0.6896 | E=0.6813
+Ep 282 | Train Acc=40.53% | Val Acc=49.37% | Loss=3.398 | LR=0.000009 | Time=62.5s
+      Weights (Mean): N=0.6880 | S=0.6876 | W=0.6896 | E=0.6814
+Ep 283 | Train Acc=39.71% | Val Acc=49.76% | Loss=3.438 | LR=0.000008 | Time=62.4s
+      Weights (Mean): N=0.6880 | S=0.6877 | W=0.6897 | E=0.6814
+Ep 284 | Train Acc=40.32% | Val Acc=49.50% | Loss=3.420 | LR=0.000007 | Time=62.5s
+      Weights (Mean): N=0.6880 | S=0.6877 | W=0.6897 | E=0.6814
+Ep 285 | Train Acc=41.62% | Val Acc=49.65% | Loss=3.353 | LR=0.000006 | Time=62.4s
+      Weights (Mean): N=0.6880 | S=0.6877 | W=0.6897 | E=0.6814
+Ep 286 | Train Acc=40.99% | Val Acc=49.58% | Loss=3.385 | LR=0.000006 | Time=62.4s
+      Weights (Mean): N=0.6881 | S=0.6877 | W=0.6897 | E=0.6815
+Ep 287 | Train Acc=39.80% | Val Acc=49.70% | Loss=3.430 | LR=0.000005 | Time=62.5s
+      Weights (Mean): N=0.6881 | S=0.6877 | W=0.6897 | E=0.6815
+Ep 288 | Train Acc=40.74% | Val Acc=49.87% | Loss=3.388 | LR=0.000004 | Time=62.3s
+      Weights (Mean): N=0.6881 | S=0.6877 | W=0.6898 | E=0.6815
+   New Best! (49.76% -> 49.87%) Saving checkpoint...
+Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_patch16_acc49.87_ep288.pth
+Ep 289 | Train Acc=40.07% | Val Acc=49.63% | Loss=3.424 | LR=0.000003 | Time=63.4s
+      Weights (Mean): N=0.6881 | S=0.6878 | W=0.6898 | E=0.6815
+Ep 290 | Train Acc=40.98% | Val Acc=49.56% | Loss=3.386 | LR=0.000003 | Time=62.6s
+      Weights (Mean): N=0.6881 | S=0.6878 | W=0.6898 | E=0.6815
+Ep 291 | Train Acc=40.92% | Val Acc=49.81% | Loss=3.388 | LR=0.000002 | Time=62.7s
+      Weights (Mean): N=0.6881 | S=0.6878 | W=0.6898 | E=0.6815
+Ep 292 | Train Acc=41.67% | Val Acc=49.69% | Loss=3.361 | LR=0.000002 | Time=62.5s
+      Weights (Mean): N=0.6881 | S=0.6878 | W=0.6898 | E=0.6815
+Ep 293 | Train Acc=41.13% | Val Acc=49.69% | Loss=3.376 | LR=0.000001 | Time=62.6s
+      Weights (Mean): N=0.6881 | S=0.6878 | W=0.6898 | E=0.6815
+Ep 294 | Train Acc=40.62% | Val Acc=49.81% | Loss=3.406 | LR=0.000001 | Time=62.6s
+      Weights (Mean): N=0.6881 | S=0.6878 | W=0.6898 | E=0.6815
+Ep 295 | Train Acc=40.72% | Val Acc=49.75% | Loss=3.395 | LR=0.000001 | Time=62.5s
+      Weights (Mean): N=0.6881 | S=0.6878 | W=0.6898 | E=0.6815
+Ep 296 | Train Acc=40.93% | Val Acc=49.71% | Loss=3.388 | LR=0.000000 | Time=62.5s
+      Weights (Mean): N=0.6881 | S=0.6878 | W=0.6898 | E=0.6816
+Ep 297 | Train Acc=40.29% | Val Acc=49.73% | Loss=3.410 | LR=0.000000 | Time=62.6s
+      Weights (Mean): N=0.6881 | S=0.6878 | W=0.6898 | E=0.6816
+Ep 298 | Train Acc=40.58% | Val Acc=49.67% | Loss=3.402 | LR=0.000000 | Time=62.5s
+      Weights (Mean): N=0.6881 | S=0.6878 | W=0.6898 | E=0.6816
+Ep 299 | Train Acc=40.52% | Val Acc=49.69% | Loss=3.405 | LR=0.000000 | Time=62.6s
+      Weights (Mean): N=0.6881 | S=0.6878 | W=0.6898 | E=0.6816
+Ep 300 | Train Acc=40.66% | Val Acc=49.68% | Loss=3.395 | LR=0.000000 | Time=62.4s
+      Weights (Mean): N=0.6881 | S=0.6878 | W=0.6898 | E=0.6816
+Training finished.
+Best accuracy: 49.87%
+Best checkpoint: checkpoints/best_starmamba_tiny_imagenet_patch16_acc49.87_ep288.pth

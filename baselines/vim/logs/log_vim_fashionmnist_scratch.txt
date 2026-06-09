@@ -1,0 +1,1334 @@
+Configuration: {'seed': 42, 'batch_size': 128, 'epochs': 300, 'lr': 0.001, 'weight_decay': 0.05, 'num_classes': 10, 'label_smoothing': 0.1, 'mixup_alpha': 1.0, 'warmup_epochs': 10, 'repeated_aug': True, 'img_size': 224, 'workers': 8, 'device': 'cuda'}
+⚙️ Global Seed set to 42
+✅ Successfully imported Vision Mamba model definition
+Initializing Vim-tiny model from scratch...
+📊 Total Parameters: 6.96M
+
+🔄 Preparing Fashion MNIST dataset...
+✅ Train samples: 60000, Test samples: 10000
+
+============================================================
+🚀 Starting Training of Vision Mamba on Fashion MNIST
+============================================================
+
+Epoch 001 | Time: 91.4s | LR: 0.000100
+Train Loss: 2.1003 | Train Acc: 24.50%
+Test Loss:  1.3033 | Test Acc:  54.34%
+🎉 New Best Accuracy! 0.00% → 54.34%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc54.34.pth
+------------------------------------------------------------
+Epoch 002 | Time: 88.4s | LR: 0.000200
+Train Loss: 1.8645 | Train Acc: 38.01%
+Test Loss:  0.9630 | Test Acc:  71.09%
+🎉 New Best Accuracy! 54.34% → 71.09%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc71.09.pth
+------------------------------------------------------------
+Epoch 003 | Time: 88.5s | LR: 0.000300
+Train Loss: 1.7272 | Train Acc: 45.65%
+Test Loss:  0.7957 | Test Acc:  75.64%
+🎉 New Best Accuracy! 71.09% → 75.64%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc75.64.pth
+------------------------------------------------------------
+Epoch 004 | Time: 88.6s | LR: 0.000400
+Train Loss: 1.6248 | Train Acc: 51.08%
+Test Loss:  0.6866 | Test Acc:  78.55%
+🎉 New Best Accuracy! 75.64% → 78.55%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc78.55.pth
+------------------------------------------------------------
+Epoch 005 | Time: 88.4s | LR: 0.000500
+Train Loss: 1.5357 | Train Acc: 55.02%
+Test Loss:  0.5749 | Test Acc:  84.71%
+🎉 New Best Accuracy! 78.55% → 84.71%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc84.71.pth
+------------------------------------------------------------
+Epoch 006 | Time: 88.4s | LR: 0.000600
+Train Loss: 1.4497 | Train Acc: 59.03%
+Test Loss:  0.5311 | Test Acc:  85.34%
+🎉 New Best Accuracy! 84.71% → 85.34%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc85.34.pth
+------------------------------------------------------------
+Epoch 007 | Time: 88.6s | LR: 0.000700
+Train Loss: 1.4162 | Train Acc: 60.12%
+Test Loss:  0.5179 | Test Acc:  86.85%
+🎉 New Best Accuracy! 85.34% → 86.85%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc86.85.pth
+------------------------------------------------------------
+Epoch 008 | Time: 88.6s | LR: 0.000800
+Train Loss: 1.3923 | Train Acc: 60.93%
+Test Loss:  0.4902 | Test Acc:  87.25%
+🎉 New Best Accuracy! 86.85% → 87.25%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc87.25.pth
+------------------------------------------------------------
+Epoch 009 | Time: 88.4s | LR: 0.000900
+Train Loss: 1.3658 | Train Acc: 61.95%
+Test Loss:  0.4654 | Test Acc:  87.85%
+🎉 New Best Accuracy! 87.25% → 87.85%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc87.85.pth
+------------------------------------------------------------
+Epoch 010 | Time: 88.4s | LR: 0.001000
+Train Loss: 1.3479 | Train Acc: 62.51%
+Test Loss:  0.4692 | Test Acc:  88.89%
+🎉 New Best Accuracy! 87.85% → 88.89%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc88.89.pth
+------------------------------------------------------------
+Epoch 011 | Time: 88.4s | LR: 0.001000
+Train Loss: 1.3307 | Train Acc: 63.14%
+Test Loss:  0.4316 | Test Acc:  89.19%
+🎉 New Best Accuracy! 88.89% → 89.19%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc89.19.pth
+------------------------------------------------------------
+Epoch 012 | Time: 88.6s | LR: 0.001000
+Train Loss: 1.3155 | Train Acc: 63.31%
+Test Loss:  0.4236 | Test Acc:  89.97%
+🎉 New Best Accuracy! 89.19% → 89.97%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc89.97.pth
+------------------------------------------------------------
+Epoch 013 | Time: 88.4s | LR: 0.001000
+Train Loss: 1.2890 | Train Acc: 64.79%
+Test Loss:  0.4166 | Test Acc:  89.92%
+------------------------------------------------------------
+Epoch 014 | Time: 88.6s | LR: 0.001000
+Train Loss: 1.2768 | Train Acc: 64.99%
+Test Loss:  0.3961 | Test Acc:  90.45%
+🎉 New Best Accuracy! 89.97% → 90.45%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc90.45.pth
+------------------------------------------------------------
+Epoch 015 | Time: 88.5s | LR: 0.000999
+Train Loss: 1.2633 | Train Acc: 65.28%
+Test Loss:  0.3967 | Test Acc:  89.95%
+------------------------------------------------------------
+Epoch 016 | Time: 88.5s | LR: 0.000999
+Train Loss: 1.2565 | Train Acc: 65.62%
+Test Loss:  0.3835 | Test Acc:  90.57%
+🎉 New Best Accuracy! 90.45% → 90.57%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc90.57.pth
+------------------------------------------------------------
+Epoch 017 | Time: 88.5s | LR: 0.000999
+Train Loss: 1.2326 | Train Acc: 66.69%
+Test Loss:  0.3823 | Test Acc:  90.99%
+🎉 New Best Accuracy! 90.57% → 90.99%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc90.99.pth
+------------------------------------------------------------
+Epoch 018 | Time: 88.4s | LR: 0.000998
+Train Loss: 1.2436 | Train Acc: 65.52%
+Test Loss:  0.3762 | Test Acc:  91.11%
+🎉 New Best Accuracy! 90.99% → 91.11%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc91.11.pth
+------------------------------------------------------------
+Epoch 019 | Time: 88.4s | LR: 0.000998
+Train Loss: 1.2287 | Train Acc: 66.39%
+Test Loss:  0.3916 | Test Acc:  90.36%
+------------------------------------------------------------
+Epoch 020 | Time: 88.4s | LR: 0.000997
+Train Loss: 1.2247 | Train Acc: 66.37%
+Test Loss:  0.3766 | Test Acc:  91.62%
+🎉 New Best Accuracy! 91.11% → 91.62%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc91.62.pth
+------------------------------------------------------------
+Epoch 021 | Time: 88.5s | LR: 0.000996
+Train Loss: 1.2097 | Train Acc: 66.93%
+Test Loss:  0.3604 | Test Acc:  91.22%
+------------------------------------------------------------
+Epoch 022 | Time: 88.5s | LR: 0.000996
+Train Loss: 1.2097 | Train Acc: 66.93%
+Test Loss:  0.3890 | Test Acc:  90.99%
+------------------------------------------------------------
+Epoch 023 | Time: 88.6s | LR: 0.000995
+Train Loss: 1.1834 | Train Acc: 68.28%
+Test Loss:  0.3584 | Test Acc:  91.98%
+🎉 New Best Accuracy! 91.62% → 91.98%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc91.98.pth
+------------------------------------------------------------
+Epoch 024 | Time: 88.6s | LR: 0.000994
+Train Loss: 1.2042 | Train Acc: 66.84%
+Test Loss:  0.3621 | Test Acc:  91.91%
+------------------------------------------------------------
+Epoch 025 | Time: 88.7s | LR: 0.000993
+Train Loss: 1.1940 | Train Acc: 67.45%
+Test Loss:  0.3615 | Test Acc:  92.28%
+🎉 New Best Accuracy! 91.98% → 92.28%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc92.28.pth
+------------------------------------------------------------
+Epoch 026 | Time: 88.5s | LR: 0.000993
+Train Loss: 1.1947 | Train Acc: 67.20%
+Test Loss:  0.3689 | Test Acc:  91.70%
+------------------------------------------------------------
+Epoch 027 | Time: 88.5s | LR: 0.000992
+Train Loss: 1.1865 | Train Acc: 67.24%
+Test Loss:  0.3501 | Test Acc:  92.27%
+------------------------------------------------------------
+Epoch 028 | Time: 88.5s | LR: 0.000991
+Train Loss: 1.2154 | Train Acc: 66.03%
+Test Loss:  0.3722 | Test Acc:  91.96%
+------------------------------------------------------------
+Epoch 029 | Time: 88.5s | LR: 0.000989
+Train Loss: 1.1870 | Train Acc: 67.43%
+Test Loss:  0.3479 | Test Acc:  92.27%
+------------------------------------------------------------
+Epoch 030 | Time: 88.5s | LR: 0.000988
+Train Loss: 1.1728 | Train Acc: 68.31%
+Test Loss:  0.3441 | Test Acc:  92.43%
+🎉 New Best Accuracy! 92.28% → 92.43%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc92.43.pth
+------------------------------------------------------------
+Epoch 031 | Time: 88.5s | LR: 0.000987
+Train Loss: 1.1796 | Train Acc: 67.68%
+Test Loss:  0.3697 | Test Acc:  92.31%
+------------------------------------------------------------
+Epoch 032 | Time: 88.5s | LR: 0.000986
+Train Loss: 1.1669 | Train Acc: 68.04%
+Test Loss:  0.3633 | Test Acc:  92.15%
+------------------------------------------------------------
+Epoch 033 | Time: 88.5s | LR: 0.000985
+Train Loss: 1.1810 | Train Acc: 67.43%
+Test Loss:  0.3464 | Test Acc:  92.15%
+------------------------------------------------------------
+Epoch 034 | Time: 88.4s | LR: 0.000983
+Train Loss: 1.1869 | Train Acc: 66.90%
+Test Loss:  0.3778 | Test Acc:  92.47%
+🎉 New Best Accuracy! 92.43% → 92.47%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc92.47.pth
+------------------------------------------------------------
+Epoch 035 | Time: 88.6s | LR: 0.000982
+Train Loss: 1.1548 | Train Acc: 68.93%
+Test Loss:  0.3466 | Test Acc:  92.30%
+------------------------------------------------------------
+Epoch 036 | Time: 88.6s | LR: 0.000980
+Train Loss: 1.1695 | Train Acc: 67.79%
+Test Loss:  0.3515 | Test Acc:  92.65%
+🎉 New Best Accuracy! 92.47% → 92.65%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc92.65.pth
+------------------------------------------------------------
+Epoch 037 | Time: 88.5s | LR: 0.000979
+Train Loss: 1.1697 | Train Acc: 67.73%
+Test Loss:  0.3617 | Test Acc:  92.54%
+------------------------------------------------------------
+Epoch 038 | Time: 88.5s | LR: 0.000977
+Train Loss: 1.1599 | Train Acc: 68.22%
+Test Loss:  0.3628 | Test Acc:  92.79%
+🎉 New Best Accuracy! 92.65% → 92.79%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc92.79.pth
+------------------------------------------------------------
+Epoch 039 | Time: 88.6s | LR: 0.000976
+Train Loss: 1.1729 | Train Acc: 67.13%
+Test Loss:  0.3337 | Test Acc:  92.84%
+🎉 New Best Accuracy! 92.79% → 92.84%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc92.84.pth
+------------------------------------------------------------
+Epoch 040 | Time: 88.5s | LR: 0.000974
+Train Loss: 1.1615 | Train Acc: 68.11%
+Test Loss:  0.3525 | Test Acc:  92.53%
+------------------------------------------------------------
+Epoch 041 | Time: 88.6s | LR: 0.000972
+Train Loss: 1.1543 | Train Acc: 68.33%
+Test Loss:  0.3478 | Test Acc:  92.40%
+------------------------------------------------------------
+Epoch 042 | Time: 88.4s | LR: 0.000970
+Train Loss: 1.1436 | Train Acc: 69.13%
+Test Loss:  0.3472 | Test Acc:  93.01%
+🎉 New Best Accuracy! 92.84% → 93.01%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc93.01.pth
+------------------------------------------------------------
+Epoch 043 | Time: 88.6s | LR: 0.000968
+Train Loss: 1.1554 | Train Acc: 68.00%
+Test Loss:  0.3327 | Test Acc:  92.95%
+------------------------------------------------------------
+Epoch 044 | Time: 88.6s | LR: 0.000966
+Train Loss: 1.1227 | Train Acc: 69.91%
+Test Loss:  0.3405 | Test Acc:  93.26%
+🎉 New Best Accuracy! 93.01% → 93.26%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc93.26.pth
+------------------------------------------------------------
+Epoch 045 | Time: 88.5s | LR: 0.000964
+Train Loss: 1.1448 | Train Acc: 68.65%
+Test Loss:  0.3364 | Test Acc:  93.22%
+------------------------------------------------------------
+Epoch 046 | Time: 88.5s | LR: 0.000962
+Train Loss: 1.1382 | Train Acc: 69.06%
+Test Loss:  0.3359 | Test Acc:  92.89%
+------------------------------------------------------------
+Epoch 047 | Time: 88.5s | LR: 0.000960
+Train Loss: 1.1389 | Train Acc: 68.79%
+Test Loss:  0.3430 | Test Acc:  93.12%
+------------------------------------------------------------
+Epoch 048 | Time: 88.5s | LR: 0.000958
+Train Loss: 1.1412 | Train Acc: 68.72%
+Test Loss:  0.3751 | Test Acc:  93.12%
+------------------------------------------------------------
+Epoch 049 | Time: 88.6s | LR: 0.000956
+Train Loss: 1.1312 | Train Acc: 69.51%
+Test Loss:  0.3257 | Test Acc:  93.31%
+🎉 New Best Accuracy! 93.26% → 93.31%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc93.31.pth
+------------------------------------------------------------
+Epoch 050 | Time: 88.5s | LR: 0.000954
+Train Loss: 1.1247 | Train Acc: 70.02%
+Test Loss:  0.3313 | Test Acc:  93.29%
+------------------------------------------------------------
+Epoch 051 | Time: 88.6s | LR: 0.000951
+Train Loss: 1.1220 | Train Acc: 70.01%
+Test Loss:  0.3554 | Test Acc:  93.09%
+------------------------------------------------------------
+Epoch 052 | Time: 88.6s | LR: 0.000949
+Train Loss: 1.1357 | Train Acc: 69.11%
+Test Loss:  0.3320 | Test Acc:  93.33%
+🎉 New Best Accuracy! 93.31% → 93.33%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc93.33.pth
+------------------------------------------------------------
+Epoch 053 | Time: 88.4s | LR: 0.000947
+Train Loss: 1.1296 | Train Acc: 69.53%
+Test Loss:  0.3258 | Test Acc:  93.23%
+------------------------------------------------------------
+Epoch 054 | Time: 88.6s | LR: 0.000944
+Train Loss: 1.1182 | Train Acc: 69.74%
+Test Loss:  0.3374 | Test Acc:  93.30%
+------------------------------------------------------------
+Epoch 055 | Time: 88.5s | LR: 0.000942
+Train Loss: 1.1205 | Train Acc: 69.93%
+Test Loss:  0.3374 | Test Acc:  93.41%
+🎉 New Best Accuracy! 93.33% → 93.41%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc93.41.pth
+------------------------------------------------------------
+Epoch 056 | Time: 88.6s | LR: 0.000939
+Train Loss: 1.1149 | Train Acc: 70.39%
+Test Loss:  0.3138 | Test Acc:  93.39%
+------------------------------------------------------------
+Epoch 057 | Time: 88.5s | LR: 0.000937
+Train Loss: 1.1150 | Train Acc: 70.20%
+Test Loss:  0.3128 | Test Acc:  93.52%
+🎉 New Best Accuracy! 93.41% → 93.52%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc93.52.pth
+------------------------------------------------------------
+Epoch 058 | Time: 88.6s | LR: 0.000934
+Train Loss: 1.1360 | Train Acc: 68.66%
+Test Loss:  0.3296 | Test Acc:  93.64%
+🎉 New Best Accuracy! 93.52% → 93.64%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc93.64.pth
+------------------------------------------------------------
+Epoch 059 | Time: 88.5s | LR: 0.000931
+Train Loss: 1.1322 | Train Acc: 68.74%
+Test Loss:  0.3264 | Test Acc:  93.04%
+------------------------------------------------------------
+Epoch 060 | Time: 88.4s | LR: 0.000928
+Train Loss: 1.1210 | Train Acc: 69.84%
+Test Loss:  0.3148 | Test Acc:  93.53%
+------------------------------------------------------------
+Epoch 061 | Time: 88.6s | LR: 0.000926
+Train Loss: 1.1321 | Train Acc: 68.59%
+Test Loss:  0.3151 | Test Acc:  93.52%
+------------------------------------------------------------
+Epoch 062 | Time: 88.5s | LR: 0.000923
+Train Loss: 1.1084 | Train Acc: 70.29%
+Test Loss:  0.3123 | Test Acc:  93.84%
+🎉 New Best Accuracy! 93.64% → 93.84%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc93.84.pth
+------------------------------------------------------------
+Epoch 063 | Time: 88.6s | LR: 0.000920
+Train Loss: 1.1230 | Train Acc: 69.46%
+Test Loss:  0.3010 | Test Acc:  93.78%
+------------------------------------------------------------
+Epoch 064 | Time: 88.5s | LR: 0.000917
+Train Loss: 1.1207 | Train Acc: 69.49%
+Test Loss:  0.3138 | Test Acc:  93.43%
+------------------------------------------------------------
+Epoch 065 | Time: 88.4s | LR: 0.000914
+Train Loss: 1.1175 | Train Acc: 69.23%
+Test Loss:  0.3066 | Test Acc:  93.96%
+🎉 New Best Accuracy! 93.84% → 93.96%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc93.96.pth
+------------------------------------------------------------
+Epoch 066 | Time: 88.6s | LR: 0.000911
+Train Loss: 1.1089 | Train Acc: 70.29%
+Test Loss:  0.3218 | Test Acc:  93.35%
+------------------------------------------------------------
+Epoch 067 | Time: 88.5s | LR: 0.000908
+Train Loss: 1.1145 | Train Acc: 69.74%
+Test Loss:  0.3308 | Test Acc:  93.32%
+------------------------------------------------------------
+Epoch 068 | Time: 88.6s | LR: 0.000905
+Train Loss: 1.1027 | Train Acc: 70.62%
+Test Loss:  0.3052 | Test Acc:  93.60%
+------------------------------------------------------------
+Epoch 069 | Time: 88.6s | LR: 0.000901
+Train Loss: 1.1131 | Train Acc: 69.83%
+Test Loss:  0.3398 | Test Acc:  92.86%
+------------------------------------------------------------
+Epoch 070 | Time: 88.7s | LR: 0.000898
+Train Loss: 1.0986 | Train Acc: 70.79%
+Test Loss:  0.3224 | Test Acc:  93.22%
+------------------------------------------------------------
+Epoch 071 | Time: 88.5s | LR: 0.000895
+Train Loss: 1.1049 | Train Acc: 70.15%
+Test Loss:  0.3384 | Test Acc:  93.87%
+------------------------------------------------------------
+Epoch 072 | Time: 88.5s | LR: 0.000891
+Train Loss: 1.0922 | Train Acc: 71.21%
+Test Loss:  0.3274 | Test Acc:  93.84%
+------------------------------------------------------------
+Epoch 073 | Time: 88.7s | LR: 0.000888
+Train Loss: 1.1002 | Train Acc: 70.36%
+Test Loss:  0.3047 | Test Acc:  93.96%
+------------------------------------------------------------
+Epoch 074 | Time: 88.5s | LR: 0.000885
+Train Loss: 1.1058 | Train Acc: 70.44%
+Test Loss:  0.3209 | Test Acc:  93.77%
+------------------------------------------------------------
+Epoch 075 | Time: 88.5s | LR: 0.000881
+Train Loss: 1.1000 | Train Acc: 70.59%
+Test Loss:  0.3053 | Test Acc:  94.12%
+🎉 New Best Accuracy! 93.96% → 94.12%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc94.12.pth
+------------------------------------------------------------
+Epoch 076 | Time: 88.5s | LR: 0.000878
+Train Loss: 1.1028 | Train Acc: 70.12%
+Test Loss:  0.3102 | Test Acc:  93.81%
+------------------------------------------------------------
+Epoch 077 | Time: 88.5s | LR: 0.000874
+Train Loss: 1.0959 | Train Acc: 70.55%
+Test Loss:  0.3185 | Test Acc:  93.51%
+------------------------------------------------------------
+Epoch 078 | Time: 88.5s | LR: 0.000870
+Train Loss: 1.0849 | Train Acc: 71.40%
+Test Loss:  0.3075 | Test Acc:  93.83%
+------------------------------------------------------------
+Epoch 079 | Time: 88.4s | LR: 0.000867
+Train Loss: 1.1136 | Train Acc: 69.49%
+Test Loss:  0.3090 | Test Acc:  93.95%
+------------------------------------------------------------
+Epoch 080 | Time: 88.4s | LR: 0.000863
+Train Loss: 1.0991 | Train Acc: 70.29%
+Test Loss:  0.2928 | Test Acc:  94.08%
+------------------------------------------------------------
+Epoch 081 | Time: 88.5s | LR: 0.000859
+Train Loss: 1.1009 | Train Acc: 70.53%
+Test Loss:  0.3250 | Test Acc:  93.81%
+------------------------------------------------------------
+Epoch 082 | Time: 88.4s | LR: 0.000855
+Train Loss: 1.1038 | Train Acc: 69.90%
+Test Loss:  0.3410 | Test Acc:  93.95%
+------------------------------------------------------------
+Epoch 083 | Time: 88.6s | LR: 0.000852
+Train Loss: 1.0946 | Train Acc: 70.35%
+Test Loss:  0.3015 | Test Acc:  93.66%
+------------------------------------------------------------
+Epoch 084 | Time: 88.6s | LR: 0.000848
+Train Loss: 1.1044 | Train Acc: 70.01%
+Test Loss:  0.2822 | Test Acc:  94.23%
+🎉 New Best Accuracy! 94.12% → 94.23%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc94.23.pth
+------------------------------------------------------------
+Epoch 085 | Time: 88.5s | LR: 0.000844
+Train Loss: 1.0919 | Train Acc: 70.55%
+Test Loss:  0.3045 | Test Acc:  94.09%
+------------------------------------------------------------
+Epoch 086 | Time: 88.5s | LR: 0.000840
+Train Loss: 1.0948 | Train Acc: 70.56%
+Test Loss:  0.3003 | Test Acc:  94.22%
+------------------------------------------------------------
+Epoch 087 | Time: 88.5s | LR: 0.000836
+Train Loss: 1.0930 | Train Acc: 70.64%
+Test Loss:  0.2985 | Test Acc:  94.04%
+------------------------------------------------------------
+Epoch 088 | Time: 88.5s | LR: 0.000832
+Train Loss: 1.0988 | Train Acc: 70.06%
+Test Loss:  0.2984 | Test Acc:  94.24%
+🎉 New Best Accuracy! 94.23% → 94.24%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc94.24.pth
+------------------------------------------------------------
+Epoch 089 | Time: 88.6s | LR: 0.000828
+Train Loss: 1.1061 | Train Acc: 69.76%
+Test Loss:  0.3082 | Test Acc:  93.75%
+------------------------------------------------------------
+Epoch 090 | Time: 88.4s | LR: 0.000824
+Train Loss: 1.0968 | Train Acc: 70.12%
+Test Loss:  0.3034 | Test Acc:  94.31%
+🎉 New Best Accuracy! 94.24% → 94.31%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc94.31.pth
+------------------------------------------------------------
+Epoch 091 | Time: 88.5s | LR: 0.000820
+Train Loss: 1.0883 | Train Acc: 70.82%
+Test Loss:  0.2924 | Test Acc:  94.51%
+🎉 New Best Accuracy! 94.31% → 94.51%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc94.51.pth
+------------------------------------------------------------
+Epoch 092 | Time: 88.5s | LR: 0.000815
+Train Loss: 1.0906 | Train Acc: 70.73%
+Test Loss:  0.2925 | Test Acc:  94.47%
+------------------------------------------------------------
+Epoch 093 | Time: 88.5s | LR: 0.000811
+Train Loss: 1.0817 | Train Acc: 71.15%
+Test Loss:  0.2938 | Test Acc:  94.03%
+------------------------------------------------------------
+Epoch 094 | Time: 88.6s | LR: 0.000807
+Train Loss: 1.0990 | Train Acc: 70.05%
+Test Loss:  0.3098 | Test Acc:  94.01%
+------------------------------------------------------------
+Epoch 095 | Time: 88.6s | LR: 0.000803
+Train Loss: 1.0968 | Train Acc: 70.24%
+Test Loss:  0.3216 | Test Acc:  94.40%
+------------------------------------------------------------
+Epoch 096 | Time: 88.6s | LR: 0.000798
+Train Loss: 1.0632 | Train Acc: 72.25%
+Test Loss:  0.2934 | Test Acc:  93.70%
+------------------------------------------------------------
+Epoch 097 | Time: 88.5s | LR: 0.000794
+Train Loss: 1.0876 | Train Acc: 70.69%
+Test Loss:  0.2879 | Test Acc:  94.47%
+------------------------------------------------------------
+Epoch 098 | Time: 88.6s | LR: 0.000789
+Train Loss: 1.0944 | Train Acc: 69.84%
+Test Loss:  0.2977 | Test Acc:  94.13%
+------------------------------------------------------------
+Epoch 099 | Time: 88.4s | LR: 0.000785
+Train Loss: 1.0858 | Train Acc: 70.80%
+Test Loss:  0.2918 | Test Acc:  94.40%
+------------------------------------------------------------
+Epoch 100 | Time: 88.5s | LR: 0.000781
+Train Loss: 1.0873 | Train Acc: 70.72%
+Test Loss:  0.2853 | Test Acc:  94.61%
+🎉 New Best Accuracy! 94.51% → 94.61%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc94.61.pth
+------------------------------------------------------------
+Epoch 101 | Time: 88.5s | LR: 0.000776
+Train Loss: 1.0808 | Train Acc: 70.97%
+Test Loss:  0.3038 | Test Acc:  94.27%
+------------------------------------------------------------
+Epoch 102 | Time: 88.4s | LR: 0.000772
+Train Loss: 1.0866 | Train Acc: 70.69%
+Test Loss:  0.3072 | Test Acc:  94.36%
+------------------------------------------------------------
+Epoch 103 | Time: 88.6s | LR: 0.000767
+Train Loss: 1.0771 | Train Acc: 71.35%
+Test Loss:  0.2805 | Test Acc:  94.41%
+------------------------------------------------------------
+Epoch 104 | Time: 88.5s | LR: 0.000762
+Train Loss: 1.0892 | Train Acc: 70.32%
+Test Loss:  0.2871 | Test Acc:  94.31%
+------------------------------------------------------------
+Epoch 105 | Time: 88.6s | LR: 0.000758
+Train Loss: 1.0823 | Train Acc: 70.60%
+Test Loss:  0.2932 | Test Acc:  94.39%
+------------------------------------------------------------
+Epoch 106 | Time: 88.6s | LR: 0.000753
+Train Loss: 1.0813 | Train Acc: 71.04%
+Test Loss:  0.2822 | Test Acc:  94.59%
+------------------------------------------------------------
+Epoch 107 | Time: 88.4s | LR: 0.000748
+Train Loss: 1.0789 | Train Acc: 71.35%
+Test Loss:  0.3053 | Test Acc:  94.48%
+------------------------------------------------------------
+Epoch 108 | Time: 88.7s | LR: 0.000744
+Train Loss: 1.0827 | Train Acc: 70.82%
+Test Loss:  0.2921 | Test Acc:  94.24%
+------------------------------------------------------------
+Epoch 109 | Time: 88.6s | LR: 0.000739
+Train Loss: 1.0774 | Train Acc: 70.85%
+Test Loss:  0.2811 | Test Acc:  94.40%
+------------------------------------------------------------
+Epoch 110 | Time: 88.5s | LR: 0.000734
+Train Loss: 1.0797 | Train Acc: 70.83%
+Test Loss:  0.2942 | Test Acc:  94.15%
+------------------------------------------------------------
+Epoch 111 | Time: 88.5s | LR: 0.000729
+Train Loss: 1.0738 | Train Acc: 71.76%
+Test Loss:  0.2817 | Test Acc:  94.60%
+------------------------------------------------------------
+Epoch 112 | Time: 88.4s | LR: 0.000725
+Train Loss: 1.0632 | Train Acc: 72.01%
+Test Loss:  0.2896 | Test Acc:  94.38%
+------------------------------------------------------------
+Epoch 113 | Time: 88.5s | LR: 0.000720
+Train Loss: 1.0644 | Train Acc: 71.84%
+Test Loss:  0.2818 | Test Acc:  94.55%
+------------------------------------------------------------
+Epoch 114 | Time: 88.6s | LR: 0.000715
+Train Loss: 1.0708 | Train Acc: 71.38%
+Test Loss:  0.3000 | Test Acc:  94.29%
+------------------------------------------------------------
+Epoch 115 | Time: 88.6s | LR: 0.000710
+Train Loss: 1.0692 | Train Acc: 71.64%
+Test Loss:  0.2813 | Test Acc:  94.17%
+------------------------------------------------------------
+Epoch 116 | Time: 88.4s | LR: 0.000705
+Train Loss: 1.0759 | Train Acc: 71.25%
+Test Loss:  0.2897 | Test Acc:  94.73%
+🎉 New Best Accuracy! 94.61% → 94.73%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc94.73.pth
+------------------------------------------------------------
+Epoch 117 | Time: 88.4s | LR: 0.000700
+Train Loss: 1.0765 | Train Acc: 71.13%
+Test Loss:  0.2819 | Test Acc:  94.53%
+------------------------------------------------------------
+Epoch 118 | Time: 88.5s | LR: 0.000695
+Train Loss: 1.0758 | Train Acc: 70.74%
+Test Loss:  0.2766 | Test Acc:  94.55%
+------------------------------------------------------------
+Epoch 119 | Time: 88.5s | LR: 0.000690
+Train Loss: 1.0727 | Train Acc: 71.16%
+Test Loss:  0.2714 | Test Acc:  94.54%
+------------------------------------------------------------
+Epoch 120 | Time: 88.5s | LR: 0.000685
+Train Loss: 1.0728 | Train Acc: 71.10%
+Test Loss:  0.2825 | Test Acc:  94.58%
+------------------------------------------------------------
+Epoch 121 | Time: 88.5s | LR: 0.000680
+Train Loss: 1.0716 | Train Acc: 71.55%
+Test Loss:  0.2746 | Test Acc:  94.75%
+🎉 New Best Accuracy! 94.73% → 94.75%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc94.75.pth
+------------------------------------------------------------
+Epoch 122 | Time: 88.5s | LR: 0.000675
+Train Loss: 1.0646 | Train Acc: 71.66%
+Test Loss:  0.2795 | Test Acc:  94.74%
+------------------------------------------------------------
+Epoch 123 | Time: 88.4s | LR: 0.000670
+Train Loss: 1.0753 | Train Acc: 71.09%
+Test Loss:  0.2799 | Test Acc:  94.92%
+🎉 New Best Accuracy! 94.75% → 94.92%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc94.92.pth
+------------------------------------------------------------
+Epoch 124 | Time: 88.4s | LR: 0.000665
+Train Loss: 1.0607 | Train Acc: 71.91%
+Test Loss:  0.2821 | Test Acc:  94.80%
+------------------------------------------------------------
+Epoch 125 | Time: 88.6s | LR: 0.000660
+Train Loss: 1.0735 | Train Acc: 70.76%
+Test Loss:  0.2797 | Test Acc:  94.72%
+------------------------------------------------------------
+Epoch 126 | Time: 88.5s | LR: 0.000655
+Train Loss: 1.0503 | Train Acc: 72.72%
+Test Loss:  0.2735 | Test Acc:  94.64%
+------------------------------------------------------------
+Epoch 127 | Time: 88.5s | LR: 0.000649
+Train Loss: 1.0679 | Train Acc: 71.57%
+Test Loss:  0.2768 | Test Acc:  94.76%
+------------------------------------------------------------
+Epoch 128 | Time: 88.5s | LR: 0.000644
+Train Loss: 1.0698 | Train Acc: 71.11%
+Test Loss:  0.2911 | Test Acc:  94.52%
+------------------------------------------------------------
+Epoch 129 | Time: 88.7s | LR: 0.000639
+Train Loss: 1.0689 | Train Acc: 71.09%
+Test Loss:  0.2752 | Test Acc:  94.59%
+------------------------------------------------------------
+Epoch 130 | Time: 88.5s | LR: 0.000634
+Train Loss: 1.0618 | Train Acc: 71.49%
+Test Loss:  0.2772 | Test Acc:  94.83%
+------------------------------------------------------------
+Epoch 131 | Time: 88.5s | LR: 0.000629
+Train Loss: 1.0593 | Train Acc: 71.70%
+Test Loss:  0.2794 | Test Acc:  94.64%
+------------------------------------------------------------
+Epoch 132 | Time: 88.4s | LR: 0.000623
+Train Loss: 1.0793 | Train Acc: 70.64%
+Test Loss:  0.2701 | Test Acc:  95.04%
+🎉 New Best Accuracy! 94.92% → 95.04%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.04.pth
+------------------------------------------------------------
+Epoch 133 | Time: 88.5s | LR: 0.000618
+Train Loss: 1.0449 | Train Acc: 72.82%
+Test Loss:  0.2823 | Test Acc:  94.69%
+------------------------------------------------------------
+Epoch 134 | Time: 88.6s | LR: 0.000613
+Train Loss: 1.0676 | Train Acc: 71.03%
+Test Loss:  0.2713 | Test Acc:  94.79%
+------------------------------------------------------------
+Epoch 135 | Time: 88.5s | LR: 0.000607
+Train Loss: 1.0675 | Train Acc: 71.19%
+Test Loss:  0.2560 | Test Acc:  94.89%
+------------------------------------------------------------
+Epoch 136 | Time: 88.6s | LR: 0.000602
+Train Loss: 1.0506 | Train Acc: 72.63%
+Test Loss:  0.2680 | Test Acc:  94.85%
+------------------------------------------------------------
+Epoch 137 | Time: 88.4s | LR: 0.000597
+Train Loss: 1.0670 | Train Acc: 71.21%
+Test Loss:  0.2697 | Test Acc:  94.55%
+------------------------------------------------------------
+Epoch 138 | Time: 88.4s | LR: 0.000592
+Train Loss: 1.0576 | Train Acc: 71.70%
+Test Loss:  0.2861 | Test Acc:  94.91%
+------------------------------------------------------------
+Epoch 139 | Time: 88.5s | LR: 0.000586
+Train Loss: 1.0573 | Train Acc: 71.93%
+Test Loss:  0.2634 | Test Acc:  94.84%
+------------------------------------------------------------
+Epoch 140 | Time: 88.5s | LR: 0.000581
+Train Loss: 1.0637 | Train Acc: 71.12%
+Test Loss:  0.2782 | Test Acc:  94.53%
+------------------------------------------------------------
+Epoch 141 | Time: 88.5s | LR: 0.000576
+Train Loss: 1.0639 | Train Acc: 71.28%
+Test Loss:  0.2839 | Test Acc:  94.31%
+------------------------------------------------------------
+Epoch 142 | Time: 88.5s | LR: 0.000570
+Train Loss: 1.0461 | Train Acc: 72.86%
+Test Loss:  0.2883 | Test Acc:  94.96%
+------------------------------------------------------------
+Epoch 143 | Time: 88.6s | LR: 0.000565
+Train Loss: 1.0580 | Train Acc: 71.62%
+Test Loss:  0.2548 | Test Acc:  94.74%
+------------------------------------------------------------
+Epoch 144 | Time: 88.5s | LR: 0.000559
+Train Loss: 1.0622 | Train Acc: 71.14%
+Test Loss:  0.2716 | Test Acc:  94.94%
+------------------------------------------------------------
+Epoch 145 | Time: 88.6s | LR: 0.000554
+Train Loss: 1.0438 | Train Acc: 72.53%
+Test Loss:  0.2765 | Test Acc:  94.67%
+------------------------------------------------------------
+Epoch 146 | Time: 88.5s | LR: 0.000549
+Train Loss: 1.0467 | Train Acc: 72.60%
+Test Loss:  0.2590 | Test Acc:  94.58%
+------------------------------------------------------------
+Epoch 147 | Time: 88.5s | LR: 0.000543
+Train Loss: 1.0427 | Train Acc: 72.52%
+Test Loss:  0.2597 | Test Acc:  94.91%
+------------------------------------------------------------
+Epoch 148 | Time: 88.6s | LR: 0.000538
+Train Loss: 1.0542 | Train Acc: 71.67%
+Test Loss:  0.2668 | Test Acc:  94.89%
+------------------------------------------------------------
+Epoch 149 | Time: 88.5s | LR: 0.000532
+Train Loss: 1.0534 | Train Acc: 72.17%
+Test Loss:  0.2684 | Test Acc:  94.51%
+------------------------------------------------------------
+Epoch 150 | Time: 88.6s | LR: 0.000527
+Train Loss: 1.0472 | Train Acc: 72.22%
+Test Loss:  0.2527 | Test Acc:  94.87%
+------------------------------------------------------------
+Epoch 151 | Time: 88.6s | LR: 0.000522
+Train Loss: 1.0477 | Train Acc: 72.06%
+Test Loss:  0.2568 | Test Acc:  94.97%
+------------------------------------------------------------
+Epoch 152 | Time: 88.5s | LR: 0.000516
+Train Loss: 1.0556 | Train Acc: 71.54%
+Test Loss:  0.2764 | Test Acc:  94.96%
+------------------------------------------------------------
+Epoch 153 | Time: 88.6s | LR: 0.000511
+Train Loss: 1.0480 | Train Acc: 71.97%
+Test Loss:  0.2769 | Test Acc:  94.98%
+------------------------------------------------------------
+Epoch 154 | Time: 88.5s | LR: 0.000505
+Train Loss: 1.0426 | Train Acc: 72.31%
+Test Loss:  0.2535 | Test Acc:  95.25%
+🎉 New Best Accuracy! 95.04% → 95.25%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.25.pth
+------------------------------------------------------------
+Epoch 155 | Time: 88.6s | LR: 0.000500
+Train Loss: 1.0469 | Train Acc: 72.03%
+Test Loss:  0.2580 | Test Acc:  94.93%
+------------------------------------------------------------
+Epoch 156 | Time: 88.5s | LR: 0.000495
+Train Loss: 1.0428 | Train Acc: 72.37%
+Test Loss:  0.2520 | Test Acc:  94.99%
+------------------------------------------------------------
+Epoch 157 | Time: 88.4s | LR: 0.000489
+Train Loss: 1.0382 | Train Acc: 72.52%
+Test Loss:  0.2774 | Test Acc:  94.93%
+------------------------------------------------------------
+Epoch 158 | Time: 88.5s | LR: 0.000484
+Train Loss: 1.0438 | Train Acc: 72.16%
+Test Loss:  0.2707 | Test Acc:  94.98%
+------------------------------------------------------------
+Epoch 159 | Time: 88.5s | LR: 0.000478
+Train Loss: 1.0397 | Train Acc: 72.36%
+Test Loss:  0.2690 | Test Acc:  95.04%
+------------------------------------------------------------
+Epoch 160 | Time: 88.4s | LR: 0.000473
+Train Loss: 1.0278 | Train Acc: 73.36%
+Test Loss:  0.2769 | Test Acc:  95.07%
+------------------------------------------------------------
+Epoch 161 | Time: 88.4s | LR: 0.000468
+Train Loss: 1.0373 | Train Acc: 72.93%
+Test Loss:  0.2558 | Test Acc:  94.82%
+------------------------------------------------------------
+Epoch 162 | Time: 88.4s | LR: 0.000462
+Train Loss: 1.0379 | Train Acc: 72.61%
+Test Loss:  0.2560 | Test Acc:  95.11%
+------------------------------------------------------------
+Epoch 163 | Time: 88.5s | LR: 0.000457
+Train Loss: 1.0392 | Train Acc: 72.25%
+Test Loss:  0.2678 | Test Acc:  95.28%
+🎉 New Best Accuracy! 95.25% → 95.28%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.28.pth
+------------------------------------------------------------
+Epoch 164 | Time: 88.6s | LR: 0.000451
+Train Loss: 1.0455 | Train Acc: 71.96%
+Test Loss:  0.2827 | Test Acc:  95.05%
+------------------------------------------------------------
+Epoch 165 | Time: 88.5s | LR: 0.000446
+Train Loss: 1.0281 | Train Acc: 73.08%
+Test Loss:  0.2804 | Test Acc:  95.31%
+🎉 New Best Accuracy! 95.28% → 95.31%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.31.pth
+------------------------------------------------------------
+Epoch 166 | Time: 88.5s | LR: 0.000441
+Train Loss: 1.0261 | Train Acc: 73.25%
+Test Loss:  0.2627 | Test Acc:  95.42%
+🎉 New Best Accuracy! 95.31% → 95.42%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.42.pth
+------------------------------------------------------------
+Epoch 167 | Time: 88.5s | LR: 0.000435
+Train Loss: 1.0423 | Train Acc: 72.21%
+Test Loss:  0.2576 | Test Acc:  95.22%
+------------------------------------------------------------
+Epoch 168 | Time: 88.5s | LR: 0.000430
+Train Loss: 1.0304 | Train Acc: 72.98%
+Test Loss:  0.2473 | Test Acc:  95.43%
+🎉 New Best Accuracy! 95.42% → 95.43%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.43.pth
+------------------------------------------------------------
+Epoch 169 | Time: 88.5s | LR: 0.000424
+Train Loss: 1.0420 | Train Acc: 72.06%
+Test Loss:  0.2651 | Test Acc:  95.28%
+------------------------------------------------------------
+Epoch 170 | Time: 88.4s | LR: 0.000419
+Train Loss: 1.0298 | Train Acc: 72.80%
+Test Loss:  0.2677 | Test Acc:  95.28%
+------------------------------------------------------------
+Epoch 171 | Time: 88.5s | LR: 0.000414
+Train Loss: 1.0406 | Train Acc: 72.09%
+Test Loss:  0.2604 | Test Acc:  95.42%
+------------------------------------------------------------
+Epoch 172 | Time: 88.4s | LR: 0.000408
+Train Loss: 1.0293 | Train Acc: 72.69%
+Test Loss:  0.2545 | Test Acc:  95.30%
+------------------------------------------------------------
+Epoch 173 | Time: 88.5s | LR: 0.000403
+Train Loss: 1.0417 | Train Acc: 72.06%
+Test Loss:  0.2510 | Test Acc:  95.32%
+------------------------------------------------------------
+Epoch 174 | Time: 88.5s | LR: 0.000398
+Train Loss: 1.0363 | Train Acc: 72.27%
+Test Loss:  0.2519 | Test Acc:  95.41%
+------------------------------------------------------------
+Epoch 175 | Time: 88.4s | LR: 0.000393
+Train Loss: 1.0201 | Train Acc: 73.22%
+Test Loss:  0.2629 | Test Acc:  95.04%
+------------------------------------------------------------
+Epoch 176 | Time: 88.5s | LR: 0.000387
+Train Loss: 1.0270 | Train Acc: 72.92%
+Test Loss:  0.2489 | Test Acc:  95.38%
+------------------------------------------------------------
+Epoch 177 | Time: 88.5s | LR: 0.000382
+Train Loss: 1.0384 | Train Acc: 71.96%
+Test Loss:  0.2896 | Test Acc:  95.20%
+------------------------------------------------------------
+Epoch 178 | Time: 88.6s | LR: 0.000377
+Train Loss: 1.0143 | Train Acc: 73.85%
+Test Loss:  0.2685 | Test Acc:  95.21%
+------------------------------------------------------------
+Epoch 179 | Time: 88.5s | LR: 0.000371
+Train Loss: 1.0146 | Train Acc: 73.63%
+Test Loss:  0.2668 | Test Acc:  95.18%
+------------------------------------------------------------
+Epoch 180 | Time: 88.6s | LR: 0.000366
+Train Loss: 1.0224 | Train Acc: 73.39%
+Test Loss:  0.2625 | Test Acc:  95.42%
+------------------------------------------------------------
+Epoch 181 | Time: 88.5s | LR: 0.000361
+Train Loss: 1.0231 | Train Acc: 73.02%
+Test Loss:  0.2440 | Test Acc:  95.40%
+------------------------------------------------------------
+Epoch 182 | Time: 88.4s | LR: 0.000356
+Train Loss: 1.0267 | Train Acc: 72.56%
+Test Loss:  0.2474 | Test Acc:  95.33%
+------------------------------------------------------------
+Epoch 183 | Time: 88.5s | LR: 0.000351
+Train Loss: 1.0300 | Train Acc: 72.40%
+Test Loss:  0.2475 | Test Acc:  95.11%
+------------------------------------------------------------
+Epoch 184 | Time: 88.6s | LR: 0.000345
+Train Loss: 1.0327 | Train Acc: 72.41%
+Test Loss:  0.2552 | Test Acc:  95.40%
+------------------------------------------------------------
+Epoch 185 | Time: 88.5s | LR: 0.000340
+Train Loss: 1.0069 | Train Acc: 74.19%
+Test Loss:  0.2500 | Test Acc:  95.14%
+------------------------------------------------------------
+Epoch 186 | Time: 88.6s | LR: 0.000335
+Train Loss: 1.0170 | Train Acc: 73.28%
+Test Loss:  0.2652 | Test Acc:  95.24%
+------------------------------------------------------------
+Epoch 187 | Time: 88.6s | LR: 0.000330
+Train Loss: 1.0257 | Train Acc: 72.62%
+Test Loss:  0.2483 | Test Acc:  95.31%
+------------------------------------------------------------
+Epoch 188 | Time: 88.5s | LR: 0.000325
+Train Loss: 1.0227 | Train Acc: 73.23%
+Test Loss:  0.2540 | Test Acc:  95.41%
+------------------------------------------------------------
+Epoch 189 | Time: 88.5s | LR: 0.000320
+Train Loss: 1.0246 | Train Acc: 72.97%
+Test Loss:  0.2543 | Test Acc:  95.46%
+🎉 New Best Accuracy! 95.43% → 95.46%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.46.pth
+------------------------------------------------------------
+Epoch 190 | Time: 88.6s | LR: 0.000315
+Train Loss: 1.0157 | Train Acc: 73.62%
+Test Loss:  0.2639 | Test Acc:  95.30%
+------------------------------------------------------------
+Epoch 191 | Time: 88.6s | LR: 0.000310
+Train Loss: 1.0158 | Train Acc: 73.54%
+Test Loss:  0.2625 | Test Acc:  95.40%
+------------------------------------------------------------
+Epoch 192 | Time: 88.5s | LR: 0.000305
+Train Loss: 1.0094 | Train Acc: 73.63%
+Test Loss:  0.2438 | Test Acc:  95.36%
+------------------------------------------------------------
+Epoch 193 | Time: 88.4s | LR: 0.000300
+Train Loss: 1.0093 | Train Acc: 73.77%
+Test Loss:  0.2508 | Test Acc:  95.37%
+------------------------------------------------------------
+Epoch 194 | Time: 88.5s | LR: 0.000295
+Train Loss: 1.0184 | Train Acc: 73.25%
+Test Loss:  0.2640 | Test Acc:  95.30%
+------------------------------------------------------------
+Epoch 195 | Time: 88.4s | LR: 0.000290
+Train Loss: 1.0132 | Train Acc: 73.36%
+Test Loss:  0.2643 | Test Acc:  95.60%
+🎉 New Best Accuracy! 95.46% → 95.60%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.60.pth
+------------------------------------------------------------
+Epoch 196 | Time: 88.5s | LR: 0.000285
+Train Loss: 1.0081 | Train Acc: 73.77%
+Test Loss:  0.2462 | Test Acc:  95.73%
+🎉 New Best Accuracy! 95.60% → 95.73%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.73.pth
+------------------------------------------------------------
+Epoch 197 | Time: 88.5s | LR: 0.000280
+Train Loss: 1.0029 | Train Acc: 74.13%
+Test Loss:  0.2561 | Test Acc:  95.46%
+------------------------------------------------------------
+Epoch 198 | Time: 88.6s | LR: 0.000275
+Train Loss: 1.0162 | Train Acc: 73.09%
+Test Loss:  0.2545 | Test Acc:  95.43%
+------------------------------------------------------------
+Epoch 199 | Time: 88.5s | LR: 0.000271
+Train Loss: 1.0266 | Train Acc: 72.16%
+Test Loss:  0.2691 | Test Acc:  95.16%
+------------------------------------------------------------
+Epoch 200 | Time: 88.6s | LR: 0.000266
+Train Loss: 1.0095 | Train Acc: 73.44%
+Test Loss:  0.2477 | Test Acc:  95.54%
+------------------------------------------------------------
+Epoch 201 | Time: 88.4s | LR: 0.000261
+Train Loss: 1.0059 | Train Acc: 73.70%
+Test Loss:  0.2413 | Test Acc:  95.71%
+------------------------------------------------------------
+Epoch 202 | Time: 88.6s | LR: 0.000256
+Train Loss: 1.0029 | Train Acc: 74.06%
+Test Loss:  0.2598 | Test Acc:  95.46%
+------------------------------------------------------------
+Epoch 203 | Time: 88.5s | LR: 0.000252
+Train Loss: 1.0098 | Train Acc: 73.56%
+Test Loss:  0.2537 | Test Acc:  95.46%
+------------------------------------------------------------
+Epoch 204 | Time: 88.6s | LR: 0.000247
+Train Loss: 1.0098 | Train Acc: 73.59%
+Test Loss:  0.2539 | Test Acc:  95.55%
+------------------------------------------------------------
+Epoch 205 | Time: 88.5s | LR: 0.000242
+Train Loss: 1.0106 | Train Acc: 73.23%
+Test Loss:  0.2455 | Test Acc:  95.64%
+------------------------------------------------------------
+Epoch 206 | Time: 88.6s | LR: 0.000238
+Train Loss: 0.9840 | Train Acc: 75.30%
+Test Loss:  0.2588 | Test Acc:  95.40%
+------------------------------------------------------------
+Epoch 207 | Time: 88.6s | LR: 0.000233
+Train Loss: 1.0117 | Train Acc: 73.56%
+Test Loss:  0.2516 | Test Acc:  95.55%
+------------------------------------------------------------
+Epoch 208 | Time: 88.4s | LR: 0.000228
+Train Loss: 1.0017 | Train Acc: 73.94%
+Test Loss:  0.2550 | Test Acc:  95.55%
+------------------------------------------------------------
+Epoch 209 | Time: 88.6s | LR: 0.000224
+Train Loss: 1.0031 | Train Acc: 74.00%
+Test Loss:  0.2660 | Test Acc:  95.43%
+------------------------------------------------------------
+Epoch 210 | Time: 88.5s | LR: 0.000219
+Train Loss: 1.0070 | Train Acc: 73.16%
+Test Loss:  0.2557 | Test Acc:  95.37%
+------------------------------------------------------------
+Epoch 211 | Time: 88.6s | LR: 0.000215
+Train Loss: 1.0211 | Train Acc: 72.48%
+Test Loss:  0.2572 | Test Acc:  95.44%
+------------------------------------------------------------
+Epoch 212 | Time: 88.6s | LR: 0.000211
+Train Loss: 0.9982 | Train Acc: 74.11%
+Test Loss:  0.2457 | Test Acc:  95.43%
+------------------------------------------------------------
+Epoch 213 | Time: 88.6s | LR: 0.000206
+Train Loss: 1.0113 | Train Acc: 73.26%
+Test Loss:  0.2447 | Test Acc:  95.77%
+🎉 New Best Accuracy! 95.73% → 95.77%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.77.pth
+------------------------------------------------------------
+Epoch 214 | Time: 88.4s | LR: 0.000202
+Train Loss: 1.0004 | Train Acc: 73.96%
+Test Loss:  0.2457 | Test Acc:  95.60%
+------------------------------------------------------------
+Epoch 215 | Time: 88.4s | LR: 0.000197
+Train Loss: 0.9912 | Train Acc: 74.27%
+Test Loss:  0.2546 | Test Acc:  95.56%
+------------------------------------------------------------
+Epoch 216 | Time: 88.6s | LR: 0.000193
+Train Loss: 1.0031 | Train Acc: 73.39%
+Test Loss:  0.2390 | Test Acc:  95.42%
+------------------------------------------------------------
+Epoch 217 | Time: 88.4s | LR: 0.000189
+Train Loss: 1.0022 | Train Acc: 73.58%
+Test Loss:  0.2522 | Test Acc:  95.48%
+------------------------------------------------------------
+Epoch 218 | Time: 89.2s | LR: 0.000185
+Train Loss: 0.9988 | Train Acc: 74.02%
+Test Loss:  0.2422 | Test Acc:  95.52%
+------------------------------------------------------------
+Epoch 219 | Time: 89.5s | LR: 0.000180
+Train Loss: 0.9998 | Train Acc: 73.89%
+Test Loss:  0.2422 | Test Acc:  95.63%
+------------------------------------------------------------
+Epoch 220 | Time: 90.1s | LR: 0.000176
+Train Loss: 1.0096 | Train Acc: 73.11%
+Test Loss:  0.2590 | Test Acc:  95.66%
+------------------------------------------------------------
+Epoch 221 | Time: 89.5s | LR: 0.000172
+Train Loss: 0.9956 | Train Acc: 73.89%
+Test Loss:  0.2484 | Test Acc:  95.68%
+------------------------------------------------------------
+Epoch 222 | Time: 89.9s | LR: 0.000168
+Train Loss: 0.9907 | Train Acc: 74.80%
+Test Loss:  0.2611 | Test Acc:  95.61%
+------------------------------------------------------------
+Epoch 223 | Time: 90.0s | LR: 0.000164
+Train Loss: 1.0055 | Train Acc: 73.23%
+Test Loss:  0.2597 | Test Acc:  95.64%
+------------------------------------------------------------
+Epoch 224 | Time: 89.5s | LR: 0.000160
+Train Loss: 0.9810 | Train Acc: 75.15%
+Test Loss:  0.2626 | Test Acc:  95.44%
+------------------------------------------------------------
+Epoch 225 | Time: 89.7s | LR: 0.000156
+Train Loss: 1.0016 | Train Acc: 73.47%
+Test Loss:  0.2479 | Test Acc:  95.59%
+------------------------------------------------------------
+Epoch 226 | Time: 90.0s | LR: 0.000152
+Train Loss: 0.9941 | Train Acc: 74.20%
+Test Loss:  0.2591 | Test Acc:  95.70%
+------------------------------------------------------------
+Epoch 227 | Time: 89.5s | LR: 0.000148
+Train Loss: 0.9923 | Train Acc: 74.09%
+Test Loss:  0.2426 | Test Acc:  95.91%
+🎉 New Best Accuracy! 95.77% → 95.91%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.91.pth
+------------------------------------------------------------
+Epoch 228 | Time: 89.8s | LR: 0.000145
+Train Loss: 0.9816 | Train Acc: 74.69%
+Test Loss:  0.2480 | Test Acc:  95.76%
+------------------------------------------------------------
+Epoch 229 | Time: 89.9s | LR: 0.000141
+Train Loss: 0.9978 | Train Acc: 73.51%
+Test Loss:  0.2537 | Test Acc:  95.65%
+------------------------------------------------------------
+Epoch 230 | Time: 89.6s | LR: 0.000137
+Train Loss: 0.9944 | Train Acc: 74.03%
+Test Loss:  0.2587 | Test Acc:  95.64%
+------------------------------------------------------------
+Epoch 231 | Time: 88.5s | LR: 0.000133
+Train Loss: 0.9795 | Train Acc: 75.17%
+Test Loss:  0.2468 | Test Acc:  95.79%
+------------------------------------------------------------
+Epoch 232 | Time: 88.7s | LR: 0.000130
+Train Loss: 0.9814 | Train Acc: 74.80%
+Test Loss:  0.2405 | Test Acc:  95.80%
+------------------------------------------------------------
+Epoch 233 | Time: 88.5s | LR: 0.000126
+Train Loss: 0.9873 | Train Acc: 74.34%
+Test Loss:  0.2522 | Test Acc:  95.73%
+------------------------------------------------------------
+Epoch 234 | Time: 88.4s | LR: 0.000122
+Train Loss: 0.9905 | Train Acc: 74.08%
+Test Loss:  0.2495 | Test Acc:  95.75%
+------------------------------------------------------------
+Epoch 235 | Time: 88.6s | LR: 0.000119
+Train Loss: 0.9966 | Train Acc: 73.67%
+Test Loss:  0.2553 | Test Acc:  95.59%
+------------------------------------------------------------
+Epoch 236 | Time: 88.7s | LR: 0.000115
+Train Loss: 0.9795 | Train Acc: 74.54%
+Test Loss:  0.2491 | Test Acc:  95.74%
+------------------------------------------------------------
+Epoch 237 | Time: 88.5s | LR: 0.000112
+Train Loss: 0.9763 | Train Acc: 75.12%
+Test Loss:  0.2412 | Test Acc:  95.82%
+------------------------------------------------------------
+Epoch 238 | Time: 88.4s | LR: 0.000109
+Train Loss: 0.9863 | Train Acc: 74.18%
+Test Loss:  0.2539 | Test Acc:  95.57%
+------------------------------------------------------------
+Epoch 239 | Time: 88.6s | LR: 0.000105
+Train Loss: 0.9758 | Train Acc: 75.05%
+Test Loss:  0.2546 | Test Acc:  95.58%
+------------------------------------------------------------
+Epoch 240 | Time: 88.6s | LR: 0.000102
+Train Loss: 0.9979 | Train Acc: 73.17%
+Test Loss:  0.2420 | Test Acc:  95.82%
+------------------------------------------------------------
+Epoch 241 | Time: 88.6s | LR: 0.000099
+Train Loss: 0.9770 | Train Acc: 74.86%
+Test Loss:  0.2609 | Test Acc:  95.77%
+------------------------------------------------------------
+Epoch 242 | Time: 88.7s | LR: 0.000095
+Train Loss: 1.0023 | Train Acc: 73.16%
+Test Loss:  0.2532 | Test Acc:  95.70%
+------------------------------------------------------------
+Epoch 243 | Time: 88.7s | LR: 0.000092
+Train Loss: 0.9935 | Train Acc: 73.63%
+Test Loss:  0.2546 | Test Acc:  95.71%
+------------------------------------------------------------
+Epoch 244 | Time: 88.5s | LR: 0.000089
+Train Loss: 0.9834 | Train Acc: 74.45%
+Test Loss:  0.2556 | Test Acc:  95.86%
+------------------------------------------------------------
+Epoch 245 | Time: 88.5s | LR: 0.000086
+Train Loss: 0.9753 | Train Acc: 75.05%
+Test Loss:  0.2464 | Test Acc:  95.92%
+🎉 New Best Accuracy! 95.91% → 95.92%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.92.pth
+------------------------------------------------------------
+Epoch 246 | Time: 88.5s | LR: 0.000083
+Train Loss: 0.9761 | Train Acc: 74.94%
+Test Loss:  0.2523 | Test Acc:  95.65%
+------------------------------------------------------------
+Epoch 247 | Time: 88.5s | LR: 0.000080
+Train Loss: 0.9734 | Train Acc: 75.20%
+Test Loss:  0.2488 | Test Acc:  95.82%
+------------------------------------------------------------
+Epoch 248 | Time: 88.5s | LR: 0.000077
+Train Loss: 0.9766 | Train Acc: 75.04%
+Test Loss:  0.2460 | Test Acc:  95.82%
+------------------------------------------------------------
+Epoch 249 | Time: 88.4s | LR: 0.000074
+Train Loss: 0.9670 | Train Acc: 75.67%
+Test Loss:  0.2436 | Test Acc:  95.73%
+------------------------------------------------------------
+Epoch 250 | Time: 88.5s | LR: 0.000072
+Train Loss: 0.9749 | Train Acc: 75.05%
+Test Loss:  0.2487 | Test Acc:  95.72%
+------------------------------------------------------------
+Epoch 251 | Time: 88.6s | LR: 0.000069
+Train Loss: 0.9515 | Train Acc: 76.41%
+Test Loss:  0.2466 | Test Acc:  95.75%
+------------------------------------------------------------
+Epoch 252 | Time: 88.5s | LR: 0.000066
+Train Loss: 0.9757 | Train Acc: 74.81%
+Test Loss:  0.2538 | Test Acc:  95.67%
+------------------------------------------------------------
+Epoch 253 | Time: 88.6s | LR: 0.000063
+Train Loss: 0.9668 | Train Acc: 75.48%
+Test Loss:  0.2489 | Test Acc:  95.88%
+------------------------------------------------------------
+Epoch 254 | Time: 88.4s | LR: 0.000061
+Train Loss: 0.9858 | Train Acc: 73.96%
+Test Loss:  0.2448 | Test Acc:  95.87%
+------------------------------------------------------------
+Epoch 255 | Time: 88.5s | LR: 0.000058
+Train Loss: 0.9706 | Train Acc: 74.99%
+Test Loss:  0.2500 | Test Acc:  95.90%
+------------------------------------------------------------
+Epoch 256 | Time: 88.4s | LR: 0.000056
+Train Loss: 0.9716 | Train Acc: 75.00%
+Test Loss:  0.2530 | Test Acc:  95.85%
+------------------------------------------------------------
+Epoch 257 | Time: 88.5s | LR: 0.000053
+Train Loss: 0.9701 | Train Acc: 75.13%
+Test Loss:  0.2510 | Test Acc:  95.82%
+------------------------------------------------------------
+Epoch 258 | Time: 88.5s | LR: 0.000051
+Train Loss: 0.9676 | Train Acc: 75.61%
+Test Loss:  0.2484 | Test Acc:  95.75%
+------------------------------------------------------------
+Epoch 259 | Time: 88.6s | LR: 0.000049
+Train Loss: 0.9772 | Train Acc: 74.61%
+Test Loss:  0.2488 | Test Acc:  95.76%
+------------------------------------------------------------
+Epoch 260 | Time: 88.5s | LR: 0.000046
+Train Loss: 0.9740 | Train Acc: 74.78%
+Test Loss:  0.2509 | Test Acc:  95.80%
+------------------------------------------------------------
+Epoch 261 | Time: 88.7s | LR: 0.000044
+Train Loss: 0.9744 | Train Acc: 74.48%
+Test Loss:  0.2513 | Test Acc:  95.70%
+------------------------------------------------------------
+Epoch 262 | Time: 88.4s | LR: 0.000042
+Train Loss: 0.9728 | Train Acc: 74.55%
+Test Loss:  0.2534 | Test Acc:  95.75%
+------------------------------------------------------------
+Epoch 263 | Time: 88.5s | LR: 0.000040
+Train Loss: 0.9694 | Train Acc: 75.24%
+Test Loss:  0.2469 | Test Acc:  95.91%
+------------------------------------------------------------
+Epoch 264 | Time: 88.6s | LR: 0.000038
+Train Loss: 0.9773 | Train Acc: 74.38%
+Test Loss:  0.2495 | Test Acc:  95.83%
+------------------------------------------------------------
+Epoch 265 | Time: 88.5s | LR: 0.000036
+Train Loss: 0.9789 | Train Acc: 74.37%
+Test Loss:  0.2491 | Test Acc:  95.94%
+🎉 New Best Accuracy! 95.92% → 95.94%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.94.pth
+------------------------------------------------------------
+Epoch 266 | Time: 88.5s | LR: 0.000034
+Train Loss: 0.9609 | Train Acc: 75.61%
+Test Loss:  0.2451 | Test Acc:  95.96%
+🎉 New Best Accuracy! 95.94% → 95.96%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.96.pth
+------------------------------------------------------------
+Epoch 267 | Time: 88.5s | LR: 0.000032
+Train Loss: 0.9739 | Train Acc: 74.65%
+Test Loss:  0.2505 | Test Acc:  95.87%
+------------------------------------------------------------
+Epoch 268 | Time: 88.5s | LR: 0.000030
+Train Loss: 0.9712 | Train Acc: 74.89%
+Test Loss:  0.2500 | Test Acc:  95.83%
+------------------------------------------------------------
+Epoch 269 | Time: 88.5s | LR: 0.000028
+Train Loss: 0.9752 | Train Acc: 74.61%
+Test Loss:  0.2480 | Test Acc:  95.83%
+------------------------------------------------------------
+Epoch 270 | Time: 88.5s | LR: 0.000026
+Train Loss: 0.9915 | Train Acc: 73.44%
+Test Loss:  0.2457 | Test Acc:  95.79%
+------------------------------------------------------------
+Epoch 271 | Time: 88.5s | LR: 0.000024
+Train Loss: 0.9712 | Train Acc: 74.81%
+Test Loss:  0.2485 | Test Acc:  95.92%
+------------------------------------------------------------
+Epoch 272 | Time: 88.5s | LR: 0.000023
+Train Loss: 0.9780 | Train Acc: 74.41%
+Test Loss:  0.2500 | Test Acc:  95.87%
+------------------------------------------------------------
+Epoch 273 | Time: 88.5s | LR: 0.000021
+Train Loss: 0.9751 | Train Acc: 74.46%
+Test Loss:  0.2507 | Test Acc:  95.87%
+------------------------------------------------------------
+Epoch 274 | Time: 88.4s | LR: 0.000020
+Train Loss: 0.9733 | Train Acc: 74.59%
+Test Loss:  0.2481 | Test Acc:  95.95%
+------------------------------------------------------------
+Epoch 275 | Time: 88.5s | LR: 0.000018
+Train Loss: 0.9491 | Train Acc: 75.80%
+Test Loss:  0.2444 | Test Acc:  95.92%
+------------------------------------------------------------
+Epoch 276 | Time: 88.5s | LR: 0.000017
+Train Loss: 0.9612 | Train Acc: 75.57%
+Test Loss:  0.2456 | Test Acc:  95.97%
+🎉 New Best Accuracy! 95.96% → 95.97%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc95.97.pth
+------------------------------------------------------------
+Epoch 277 | Time: 88.5s | LR: 0.000015
+Train Loss: 0.9704 | Train Acc: 74.99%
+Test Loss:  0.2473 | Test Acc:  96.07%
+🎉 New Best Accuracy! 95.97% → 96.07%
+💾 Checkpoint saved: checkpoints_fashionmnist/vim_fashionmnist_best_acc96.07.pth
+------------------------------------------------------------
+Epoch 278 | Time: 88.4s | LR: 0.000014
+Train Loss: 0.9941 | Train Acc: 72.88%
+Test Loss:  0.2477 | Test Acc:  96.01%
+------------------------------------------------------------
+Epoch 279 | Time: 88.5s | LR: 0.000013
+Train Loss: 0.9707 | Train Acc: 74.87%
+Test Loss:  0.2494 | Test Acc:  95.94%
+------------------------------------------------------------
+Epoch 280 | Time: 88.4s | LR: 0.000012
+Train Loss: 0.9730 | Train Acc: 74.66%
+Test Loss:  0.2469 | Test Acc:  95.98%
+------------------------------------------------------------
+Epoch 281 | Time: 88.4s | LR: 0.000011
+Train Loss: 0.9794 | Train Acc: 74.00%
+Test Loss:  0.2491 | Test Acc:  95.93%
+------------------------------------------------------------
+Epoch 282 | Time: 88.6s | LR: 0.000009
+Train Loss: 0.9844 | Train Acc: 73.47%
+Test Loss:  0.2485 | Test Acc:  95.93%
+------------------------------------------------------------
+Epoch 283 | Time: 88.5s | LR: 0.000008
+Train Loss: 0.9634 | Train Acc: 75.01%
+Test Loss:  0.2447 | Test Acc:  96.01%
+------------------------------------------------------------
+Epoch 284 | Time: 88.5s | LR: 0.000007
+Train Loss: 0.9730 | Train Acc: 74.59%
+Test Loss:  0.2477 | Test Acc:  95.93%
+------------------------------------------------------------
+Epoch 285 | Time: 88.7s | LR: 0.000007
+Train Loss: 0.9458 | Train Acc: 76.55%
+Test Loss:  0.2499 | Test Acc:  95.91%
+------------------------------------------------------------
+Epoch 286 | Time: 88.6s | LR: 0.000006
+Train Loss: 0.9685 | Train Acc: 74.71%
+Test Loss:  0.2482 | Test Acc:  95.95%
+------------------------------------------------------------
+Epoch 287 | Time: 88.6s | LR: 0.000005
+Train Loss: 0.9543 | Train Acc: 75.99%
+Test Loss:  0.2464 | Test Acc:  96.00%
+------------------------------------------------------------
+Epoch 288 | Time: 88.6s | LR: 0.000004
+Train Loss: 0.9832 | Train Acc: 73.69%
+Test Loss:  0.2480 | Test Acc:  95.90%
+------------------------------------------------------------
+Epoch 289 | Time: 88.4s | LR: 0.000004
+Train Loss: 0.9602 | Train Acc: 75.86%
+Test Loss:  0.2481 | Test Acc:  95.93%
+------------------------------------------------------------
+Epoch 290 | Time: 88.4s | LR: 0.000003
+Train Loss: 0.9531 | Train Acc: 76.10%
+Test Loss:  0.2472 | Test Acc:  95.90%
+------------------------------------------------------------
+Epoch 291 | Time: 88.5s | LR: 0.000002
+Train Loss: 0.9617 | Train Acc: 75.42%
+Test Loss:  0.2471 | Test Acc:  95.93%
+------------------------------------------------------------
+Epoch 292 | Time: 88.5s | LR: 0.000002
+Train Loss: 0.9611 | Train Acc: 75.36%
+Test Loss:  0.2471 | Test Acc:  95.95%
+------------------------------------------------------------
+Epoch 293 | Time: 88.5s | LR: 0.000001
+Train Loss: 0.9725 | Train Acc: 74.66%
+Test Loss:  0.2472 | Test Acc:  95.97%
+------------------------------------------------------------
+Epoch 294 | Time: 88.5s | LR: 0.000001
+Train Loss: 0.9772 | Train Acc: 74.06%
+Test Loss:  0.2476 | Test Acc:  95.96%
+------------------------------------------------------------
+Epoch 295 | Time: 88.5s | LR: 0.000001
+Train Loss: 0.9706 | Train Acc: 74.46%
+Test Loss:  0.2473 | Test Acc:  95.96%
+------------------------------------------------------------
+Epoch 296 | Time: 88.5s | LR: 0.000000
+Train Loss: 0.9711 | Train Acc: 74.65%
+Test Loss:  0.2476 | Test Acc:  95.95%
+------------------------------------------------------------
+Epoch 297 | Time: 88.4s | LR: 0.000000
+Train Loss: 0.9608 | Train Acc: 75.30%
+Test Loss:  0.2477 | Test Acc:  95.95%
+------------------------------------------------------------
+Epoch 298 | Time: 88.6s | LR: 0.000000
+Train Loss: 0.9623 | Train Acc: 75.24%
+Test Loss:  0.2476 | Test Acc:  95.95%
+------------------------------------------------------------
+Epoch 299 | Time: 88.6s | LR: 0.000000
+Train Loss: 0.9695 | Train Acc: 74.51%
+Test Loss:  0.2476 | Test Acc:  95.94%
+------------------------------------------------------------
+Epoch 300 | Time: 88.6s | LR: 0.000000
+Train Loss: 0.9656 | Train Acc: 75.06%
+Test Loss:  0.2476 | Test Acc:  95.94%
+------------------------------------------------------------
+
+============================================================
+🏆 TRAINING COMPLETED!
+✅ Best Test Accuracy: 96.07%
+============================================================

@@ -1,0 +1,1396 @@
+Configuration: {'seed': 42, 'batch_size': 128, 'epochs': 300, 'lr': 0.001, 'weight_decay': 0.05, 'num_classes': 200, 'label_smoothing': 0.1, 'mixup_alpha': 1.0, 'warmup_epochs': 10, 'repeated_aug': True, 'img_size': 224, 'patch_size': 16, 'workers': 8, 'device': 'cuda'}
+⚙️ Global Seed set to 42
+Initializing EfficientVMamba-Tiny model from scratch...
+📊 Total Parameters: 6.22M
+💻 MACs: 0.06G, FLOPs (≈2*MACs): 0.11G
+
+🔄 Preparing Tiny ImageNet dataset...
+⬇️ Downloading Tiny ImageNet from http://cs231n.stanford.edu/tiny-imagenet-200.zip...
+✅ Download complete.
+📦 Extracting dataset...
+✅ Extraction complete.
+🔧 Restructuring validation set...
+✅ Validation set restructured.
+✅ Train samples: 100000, Test samples: 10000
+
+============================================================
+🚀 Starting Training of EfficientVMamba on Tiny ImageNet
+============================================================
+
+Epoch 001 | Time: 30.7s | LR: 0.000100
+Train Loss: 5.2713 | Train Acc: 1.07%
+Test Loss:  4.9730 | Test Acc:  2.85%
+🎉 New Best Accuracy! 0.00% → 2.85%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc2.85.pth
+------------------------------------------------------------
+Epoch 002 | Time: 25.5s | LR: 0.000200
+Train Loss: 5.1312 | Train Acc: 2.53%
+Test Loss:  4.6891 | Test Acc:  6.06%
+🎉 New Best Accuracy! 2.85% → 6.06%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc6.06.pth
+------------------------------------------------------------
+Epoch 003 | Time: 24.6s | LR: 0.000300
+Train Loss: 5.0224 | Train Acc: 3.90%
+Test Loss:  4.5088 | Test Acc:  7.89%
+🎉 New Best Accuracy! 6.06% → 7.89%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc7.89.pth
+------------------------------------------------------------
+Epoch 004 | Time: 24.9s | LR: 0.000400
+Train Loss: 4.9212 | Train Acc: 5.30%
+Test Loss:  4.2173 | Test Acc:  11.30%
+🎉 New Best Accuracy! 7.89% → 11.30%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc11.30.pth
+------------------------------------------------------------
+Epoch 005 | Time: 25.2s | LR: 0.000500
+Train Loss: 4.8192 | Train Acc: 6.71%
+Test Loss:  4.0082 | Test Acc:  14.41%
+🎉 New Best Accuracy! 11.30% → 14.41%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc14.41.pth
+------------------------------------------------------------
+Epoch 006 | Time: 25.8s | LR: 0.000600
+Train Loss: 4.7332 | Train Acc: 8.18%
+Test Loss:  3.8662 | Test Acc:  16.91%
+🎉 New Best Accuracy! 14.41% → 16.91%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc16.91.pth
+------------------------------------------------------------
+Epoch 007 | Time: 25.9s | LR: 0.000700
+Train Loss: 4.6799 | Train Acc: 9.16%
+Test Loss:  3.7741 | Test Acc:  18.65%
+🎉 New Best Accuracy! 16.91% → 18.65%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc18.65.pth
+------------------------------------------------------------
+Epoch 008 | Time: 25.2s | LR: 0.000800
+Train Loss: 4.6311 | Train Acc: 10.00%
+Test Loss:  3.7256 | Test Acc:  19.01%
+🎉 New Best Accuracy! 18.65% → 19.01%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc19.01.pth
+------------------------------------------------------------
+Epoch 009 | Time: 26.1s | LR: 0.000900
+Train Loss: 4.5883 | Train Acc: 10.64%
+Test Loss:  3.7095 | Test Acc:  19.22%
+🎉 New Best Accuracy! 19.01% → 19.22%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc19.22.pth
+------------------------------------------------------------
+Epoch 010 | Time: 25.0s | LR: 0.001000
+Train Loss: 4.5536 | Train Acc: 11.41%
+Test Loss:  3.5408 | Test Acc:  22.26%
+🎉 New Best Accuracy! 19.22% → 22.26%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc22.26.pth
+------------------------------------------------------------
+Epoch 011 | Time: 25.6s | LR: 0.001000
+Train Loss: 4.5198 | Train Acc: 12.14%
+Test Loss:  3.4105 | Test Acc:  24.37%
+🎉 New Best Accuracy! 22.26% → 24.37%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc24.37.pth
+------------------------------------------------------------
+Epoch 012 | Time: 25.9s | LR: 0.001000
+Train Loss: 4.4873 | Train Acc: 12.95%
+Test Loss:  3.3787 | Test Acc:  24.95%
+🎉 New Best Accuracy! 24.37% → 24.95%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc24.95.pth
+------------------------------------------------------------
+Epoch 013 | Time: 25.7s | LR: 0.001000
+Train Loss: 4.4496 | Train Acc: 13.68%
+Test Loss:  3.3126 | Test Acc:  27.06%
+🎉 New Best Accuracy! 24.95% → 27.06%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc27.06.pth
+------------------------------------------------------------
+Epoch 014 | Time: 25.5s | LR: 0.001000
+Train Loss: 4.4076 | Train Acc: 14.25%
+Test Loss:  3.2816 | Test Acc:  27.42%
+🎉 New Best Accuracy! 27.06% → 27.42%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc27.42.pth
+------------------------------------------------------------
+Epoch 015 | Time: 25.0s | LR: 0.000999
+Train Loss: 4.3972 | Train Acc: 14.73%
+Test Loss:  3.1937 | Test Acc:  29.26%
+🎉 New Best Accuracy! 27.42% → 29.26%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc29.26.pth
+------------------------------------------------------------
+Epoch 016 | Time: 25.7s | LR: 0.000999
+Train Loss: 4.3737 | Train Acc: 15.17%
+Test Loss:  3.2042 | Test Acc:  28.56%
+------------------------------------------------------------
+Epoch 017 | Time: 25.9s | LR: 0.000999
+Train Loss: 4.3674 | Train Acc: 15.44%
+Test Loss:  3.1395 | Test Acc:  29.40%
+🎉 New Best Accuracy! 29.26% → 29.40%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc29.40.pth
+------------------------------------------------------------
+Epoch 018 | Time: 26.0s | LR: 0.000998
+Train Loss: 4.3314 | Train Acc: 16.04%
+Test Loss:  3.1167 | Test Acc:  29.91%
+🎉 New Best Accuracy! 29.40% → 29.91%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc29.91.pth
+------------------------------------------------------------
+Epoch 019 | Time: 25.4s | LR: 0.000998
+Train Loss: 4.3102 | Train Acc: 16.41%
+Test Loss:  3.0449 | Test Acc:  31.29%
+🎉 New Best Accuracy! 29.91% → 31.29%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc31.29.pth
+------------------------------------------------------------
+Epoch 020 | Time: 25.8s | LR: 0.000997
+Train Loss: 4.3097 | Train Acc: 16.55%
+Test Loss:  3.0013 | Test Acc:  32.97%
+🎉 New Best Accuracy! 31.29% → 32.97%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc32.97.pth
+------------------------------------------------------------
+Epoch 021 | Time: 29.9s | LR: 0.000996
+Train Loss: 4.2816 | Train Acc: 17.17%
+Test Loss:  3.0501 | Test Acc:  31.36%
+------------------------------------------------------------
+Epoch 022 | Time: 40.1s | LR: 0.000996
+Train Loss: 4.2813 | Train Acc: 17.34%
+Test Loss:  2.9615 | Test Acc:  33.72%
+🎉 New Best Accuracy! 32.97% → 33.72%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc33.72.pth
+------------------------------------------------------------
+Epoch 023 | Time: 49.3s | LR: 0.000995
+Train Loss: 4.2616 | Train Acc: 17.62%
+Test Loss:  2.9017 | Test Acc:  34.62%
+🎉 New Best Accuracy! 33.72% → 34.62%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc34.62.pth
+------------------------------------------------------------
+Epoch 024 | Time: 57.3s | LR: 0.000994
+Train Loss: 4.2634 | Train Acc: 17.71%
+Test Loss:  2.9556 | Test Acc:  33.44%
+------------------------------------------------------------
+Epoch 025 | Time: 57.0s | LR: 0.000993
+Train Loss: 4.2275 | Train Acc: 18.48%
+Test Loss:  2.8791 | Test Acc:  34.96%
+🎉 New Best Accuracy! 34.62% → 34.96%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc34.96.pth
+------------------------------------------------------------
+Epoch 026 | Time: 57.9s | LR: 0.000993
+Train Loss: 4.2115 | Train Acc: 18.67%
+Test Loss:  2.8055 | Test Acc:  36.14%
+🎉 New Best Accuracy! 34.96% → 36.14%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc36.14.pth
+------------------------------------------------------------
+Epoch 027 | Time: 56.9s | LR: 0.000992
+Train Loss: 4.1892 | Train Acc: 19.08%
+Test Loss:  2.8588 | Test Acc:  35.02%
+------------------------------------------------------------
+Epoch 028 | Time: 62.5s | LR: 0.000991
+Train Loss: 4.1886 | Train Acc: 19.20%
+Test Loss:  2.8309 | Test Acc:  36.37%
+🎉 New Best Accuracy! 36.14% → 36.37%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc36.37.pth
+------------------------------------------------------------
+Epoch 029 | Time: 65.7s | LR: 0.000989
+Train Loss: 4.1832 | Train Acc: 19.38%
+Test Loss:  2.8136 | Test Acc:  36.39%
+🎉 New Best Accuracy! 36.37% → 36.39%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc36.39.pth
+------------------------------------------------------------
+Epoch 030 | Time: 66.2s | LR: 0.000988
+Train Loss: 4.1516 | Train Acc: 20.02%
+Test Loss:  2.7044 | Test Acc:  38.43%
+🎉 New Best Accuracy! 36.39% → 38.43%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc38.43.pth
+------------------------------------------------------------
+Epoch 031 | Time: 66.2s | LR: 0.000987
+Train Loss: 4.1541 | Train Acc: 19.96%
+Test Loss:  2.8338 | Test Acc:  36.28%
+------------------------------------------------------------
+Epoch 032 | Time: 66.4s | LR: 0.000986
+Train Loss: 4.1451 | Train Acc: 20.37%
+Test Loss:  2.7278 | Test Acc:  37.93%
+------------------------------------------------------------
+Epoch 033 | Time: 66.2s | LR: 0.000985
+Train Loss: 4.1327 | Train Acc: 20.43%
+Test Loss:  2.7582 | Test Acc:  37.31%
+------------------------------------------------------------
+Epoch 034 | Time: 66.8s | LR: 0.000983
+Train Loss: 4.1065 | Train Acc: 21.11%
+Test Loss:  2.6856 | Test Acc:  38.17%
+------------------------------------------------------------
+Epoch 035 | Time: 66.1s | LR: 0.000982
+Train Loss: 4.1475 | Train Acc: 20.41%
+Test Loss:  2.6542 | Test Acc:  39.37%
+🎉 New Best Accuracy! 38.43% → 39.37%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc39.37.pth
+------------------------------------------------------------
+Epoch 036 | Time: 66.7s | LR: 0.000980
+Train Loss: 4.1259 | Train Acc: 20.87%
+Test Loss:  2.6295 | Test Acc:  39.63%
+🎉 New Best Accuracy! 39.37% → 39.63%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc39.63.pth
+------------------------------------------------------------
+Epoch 037 | Time: 65.8s | LR: 0.000979
+Train Loss: 4.1233 | Train Acc: 20.82%
+Test Loss:  2.6850 | Test Acc:  39.00%
+------------------------------------------------------------
+Epoch 038 | Time: 66.3s | LR: 0.000977
+Train Loss: 4.1088 | Train Acc: 21.01%
+Test Loss:  2.7118 | Test Acc:  38.85%
+------------------------------------------------------------
+Epoch 039 | Time: 65.7s | LR: 0.000976
+Train Loss: 4.1017 | Train Acc: 21.23%
+Test Loss:  2.6756 | Test Acc:  39.52%
+------------------------------------------------------------
+Epoch 040 | Time: 66.3s | LR: 0.000974
+Train Loss: 4.0816 | Train Acc: 21.68%
+Test Loss:  2.6207 | Test Acc:  40.39%
+🎉 New Best Accuracy! 39.63% → 40.39%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc40.39.pth
+------------------------------------------------------------
+Epoch 041 | Time: 65.9s | LR: 0.000972
+Train Loss: 4.0718 | Train Acc: 21.83%
+Test Loss:  2.5982 | Test Acc:  40.75%
+🎉 New Best Accuracy! 40.39% → 40.75%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc40.75.pth
+------------------------------------------------------------
+Epoch 042 | Time: 66.6s | LR: 0.000970
+Train Loss: 4.0588 | Train Acc: 22.11%
+Test Loss:  2.5981 | Test Acc:  40.46%
+------------------------------------------------------------
+Epoch 043 | Time: 65.9s | LR: 0.000968
+Train Loss: 4.0536 | Train Acc: 22.25%
+Test Loss:  2.6179 | Test Acc:  40.38%
+------------------------------------------------------------
+Epoch 044 | Time: 66.6s | LR: 0.000966
+Train Loss: 4.0415 | Train Acc: 22.47%
+Test Loss:  2.5372 | Test Acc:  42.26%
+🎉 New Best Accuracy! 40.75% → 42.26%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc42.26.pth
+------------------------------------------------------------
+Epoch 045 | Time: 66.1s | LR: 0.000964
+Train Loss: 4.0503 | Train Acc: 22.45%
+Test Loss:  2.6176 | Test Acc:  41.16%
+------------------------------------------------------------
+Epoch 046 | Time: 66.1s | LR: 0.000962
+Train Loss: 4.0496 | Train Acc: 22.29%
+Test Loss:  2.5261 | Test Acc:  42.59%
+🎉 New Best Accuracy! 42.26% → 42.59%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc42.59.pth
+------------------------------------------------------------
+Epoch 047 | Time: 65.7s | LR: 0.000960
+Train Loss: 4.0114 | Train Acc: 23.15%
+Test Loss:  2.5867 | Test Acc:  41.75%
+------------------------------------------------------------
+Epoch 048 | Time: 66.9s | LR: 0.000958
+Train Loss: 4.0404 | Train Acc: 22.61%
+Test Loss:  2.5443 | Test Acc:  41.95%
+------------------------------------------------------------
+Epoch 049 | Time: 66.5s | LR: 0.000956
+Train Loss: 4.0239 | Train Acc: 23.07%
+Test Loss:  2.5321 | Test Acc:  42.62%
+🎉 New Best Accuracy! 42.59% → 42.62%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc42.62.pth
+------------------------------------------------------------
+Epoch 050 | Time: 66.1s | LR: 0.000954
+Train Loss: 4.0313 | Train Acc: 22.79%
+Test Loss:  2.4877 | Test Acc:  43.04%
+🎉 New Best Accuracy! 42.62% → 43.04%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc43.04.pth
+------------------------------------------------------------
+Epoch 051 | Time: 65.6s | LR: 0.000951
+Train Loss: 4.0250 | Train Acc: 23.04%
+Test Loss:  2.5057 | Test Acc:  43.34%
+🎉 New Best Accuracy! 43.04% → 43.34%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc43.34.pth
+------------------------------------------------------------
+Epoch 052 | Time: 65.7s | LR: 0.000949
+Train Loss: 4.0094 | Train Acc: 23.51%
+Test Loss:  2.5476 | Test Acc:  41.59%
+------------------------------------------------------------
+Epoch 053 | Time: 66.5s | LR: 0.000947
+Train Loss: 4.0276 | Train Acc: 23.05%
+Test Loss:  2.4767 | Test Acc:  43.75%
+🎉 New Best Accuracy! 43.34% → 43.75%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc43.75.pth
+------------------------------------------------------------
+Epoch 054 | Time: 66.2s | LR: 0.000944
+Train Loss: 4.0267 | Train Acc: 23.26%
+Test Loss:  2.4834 | Test Acc:  43.79%
+🎉 New Best Accuracy! 43.75% → 43.79%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc43.79.pth
+------------------------------------------------------------
+Epoch 055 | Time: 66.1s | LR: 0.000942
+Train Loss: 3.9960 | Train Acc: 23.53%
+Test Loss:  2.4110 | Test Acc:  44.12%
+🎉 New Best Accuracy! 43.79% → 44.12%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc44.12.pth
+------------------------------------------------------------
+Epoch 056 | Time: 65.9s | LR: 0.000939
+Train Loss: 4.0002 | Train Acc: 23.62%
+Test Loss:  2.5221 | Test Acc:  42.76%
+------------------------------------------------------------
+Epoch 057 | Time: 67.0s | LR: 0.000937
+Train Loss: 3.9998 | Train Acc: 23.80%
+Test Loss:  2.5233 | Test Acc:  41.59%
+------------------------------------------------------------
+Epoch 058 | Time: 66.2s | LR: 0.000934
+Train Loss: 3.9628 | Train Acc: 24.24%
+Test Loss:  2.4466 | Test Acc:  44.05%
+------------------------------------------------------------
+Epoch 059 | Time: 66.2s | LR: 0.000931
+Train Loss: 4.0040 | Train Acc: 23.49%
+Test Loss:  2.4048 | Test Acc:  45.32%
+🎉 New Best Accuracy! 44.12% → 45.32%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc45.32.pth
+------------------------------------------------------------
+Epoch 060 | Time: 65.6s | LR: 0.000928
+Train Loss: 3.9745 | Train Acc: 24.40%
+Test Loss:  2.4550 | Test Acc:  44.77%
+------------------------------------------------------------
+Epoch 061 | Time: 66.2s | LR: 0.000926
+Train Loss: 3.9637 | Train Acc: 24.45%
+Test Loss:  2.4429 | Test Acc:  44.39%
+------------------------------------------------------------
+Epoch 062 | Time: 66.2s | LR: 0.000923
+Train Loss: 3.9772 | Train Acc: 24.26%
+Test Loss:  2.4807 | Test Acc:  43.42%
+------------------------------------------------------------
+Epoch 063 | Time: 66.3s | LR: 0.000920
+Train Loss: 3.9773 | Train Acc: 24.20%
+Test Loss:  2.4315 | Test Acc:  44.69%
+------------------------------------------------------------
+Epoch 064 | Time: 66.3s | LR: 0.000917
+Train Loss: 3.9616 | Train Acc: 24.62%
+Test Loss:  2.4290 | Test Acc:  44.69%
+------------------------------------------------------------
+Epoch 065 | Time: 65.5s | LR: 0.000914
+Train Loss: 3.9754 | Train Acc: 24.23%
+Test Loss:  2.4472 | Test Acc:  44.00%
+------------------------------------------------------------
+Epoch 066 | Time: 66.3s | LR: 0.000911
+Train Loss: 3.9669 | Train Acc: 24.50%
+Test Loss:  2.4731 | Test Acc:  43.82%
+------------------------------------------------------------
+Epoch 067 | Time: 66.1s | LR: 0.000908
+Train Loss: 3.9301 | Train Acc: 25.28%
+Test Loss:  2.3659 | Test Acc:  46.17%
+🎉 New Best Accuracy! 45.32% → 46.17%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc46.17.pth
+------------------------------------------------------------
+Epoch 068 | Time: 46.6s | LR: 0.000905
+Train Loss: 3.9156 | Train Acc: 25.53%
+Test Loss:  2.3793 | Test Acc:  45.47%
+------------------------------------------------------------
+Epoch 069 | Time: 25.7s | LR: 0.000901
+Train Loss: 3.9489 | Train Acc: 24.85%
+Test Loss:  2.3521 | Test Acc:  47.00%
+🎉 New Best Accuracy! 46.17% → 47.00%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc47.00.pth
+------------------------------------------------------------
+Epoch 070 | Time: 26.1s | LR: 0.000898
+Train Loss: 3.9524 | Train Acc: 24.91%
+Test Loss:  2.4715 | Test Acc:  44.11%
+------------------------------------------------------------
+Epoch 071 | Time: 25.2s | LR: 0.000895
+Train Loss: 3.9494 | Train Acc: 24.77%
+Test Loss:  2.4578 | Test Acc:  44.77%
+------------------------------------------------------------
+Epoch 072 | Time: 25.7s | LR: 0.000891
+Train Loss: 3.9542 | Train Acc: 24.83%
+Test Loss:  2.4130 | Test Acc:  44.60%
+------------------------------------------------------------
+Epoch 073 | Time: 25.7s | LR: 0.000888
+Train Loss: 3.9409 | Train Acc: 25.06%
+Test Loss:  2.3719 | Test Acc:  46.65%
+------------------------------------------------------------
+Epoch 074 | Time: 25.8s | LR: 0.000885
+Train Loss: 3.9315 | Train Acc: 25.31%
+Test Loss:  2.3970 | Test Acc:  45.36%
+------------------------------------------------------------
+Epoch 075 | Time: 25.5s | LR: 0.000881
+Train Loss: 3.9314 | Train Acc: 25.38%
+Test Loss:  2.3797 | Test Acc:  46.34%
+------------------------------------------------------------
+Epoch 076 | Time: 25.2s | LR: 0.000878
+Train Loss: 3.9048 | Train Acc: 25.77%
+Test Loss:  2.4055 | Test Acc:  45.18%
+------------------------------------------------------------
+Epoch 077 | Time: 25.7s | LR: 0.000874
+Train Loss: 3.9341 | Train Acc: 25.21%
+Test Loss:  2.3677 | Test Acc:  46.14%
+------------------------------------------------------------
+Epoch 078 | Time: 26.4s | LR: 0.000870
+Train Loss: 3.9254 | Train Acc: 25.44%
+Test Loss:  2.3656 | Test Acc:  46.43%
+------------------------------------------------------------
+Epoch 079 | Time: 26.4s | LR: 0.000867
+Train Loss: 3.9360 | Train Acc: 25.34%
+Test Loss:  2.5077 | Test Acc:  45.54%
+------------------------------------------------------------
+Epoch 080 | Time: 25.1s | LR: 0.000863
+Train Loss: 3.8992 | Train Acc: 25.96%
+Test Loss:  2.3937 | Test Acc:  45.88%
+------------------------------------------------------------
+Epoch 081 | Time: 26.0s | LR: 0.000859
+Train Loss: 3.9288 | Train Acc: 25.34%
+Test Loss:  2.3823 | Test Acc:  46.01%
+------------------------------------------------------------
+Epoch 082 | Time: 26.6s | LR: 0.000855
+Train Loss: 3.9031 | Train Acc: 26.08%
+Test Loss:  2.4154 | Test Acc:  45.33%
+------------------------------------------------------------
+Epoch 083 | Time: 26.1s | LR: 0.000852
+Train Loss: 3.9188 | Train Acc: 25.64%
+Test Loss:  2.4161 | Test Acc:  45.23%
+------------------------------------------------------------
+Epoch 084 | Time: 26.4s | LR: 0.000848
+Train Loss: 3.9153 | Train Acc: 25.81%
+Test Loss:  2.3997 | Test Acc:  45.47%
+------------------------------------------------------------
+Epoch 085 | Time: 26.2s | LR: 0.000844
+Train Loss: 3.9086 | Train Acc: 25.95%
+Test Loss:  2.3530 | Test Acc:  46.55%
+------------------------------------------------------------
+Epoch 086 | Time: 25.6s | LR: 0.000840
+Train Loss: 3.9009 | Train Acc: 26.13%
+Test Loss:  2.4180 | Test Acc:  45.41%
+------------------------------------------------------------
+Epoch 087 | Time: 26.3s | LR: 0.000836
+Train Loss: 3.8850 | Train Acc: 26.34%
+Test Loss:  2.3598 | Test Acc:  46.75%
+------------------------------------------------------------
+Epoch 088 | Time: 25.7s | LR: 0.000832
+Train Loss: 3.8676 | Train Acc: 26.74%
+Test Loss:  2.3827 | Test Acc:  46.53%
+------------------------------------------------------------
+Epoch 089 | Time: 25.7s | LR: 0.000828
+Train Loss: 3.8937 | Train Acc: 26.20%
+Test Loss:  2.3093 | Test Acc:  47.80%
+🎉 New Best Accuracy! 47.00% → 47.80%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc47.80.pth
+------------------------------------------------------------
+Epoch 090 | Time: 26.1s | LR: 0.000824
+Train Loss: 3.8735 | Train Acc: 26.66%
+Test Loss:  2.3082 | Test Acc:  47.65%
+------------------------------------------------------------
+Epoch 091 | Time: 25.9s | LR: 0.000820
+Train Loss: 3.9010 | Train Acc: 25.96%
+Test Loss:  2.4047 | Test Acc:  46.95%
+------------------------------------------------------------
+Epoch 092 | Time: 25.4s | LR: 0.000815
+Train Loss: 3.8915 | Train Acc: 26.34%
+Test Loss:  2.3394 | Test Acc:  47.47%
+------------------------------------------------------------
+Epoch 093 | Time: 26.0s | LR: 0.000811
+Train Loss: 3.8784 | Train Acc: 26.38%
+Test Loss:  2.3293 | Test Acc:  47.94%
+🎉 New Best Accuracy! 47.80% → 47.94%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc47.94.pth
+------------------------------------------------------------
+Epoch 094 | Time: 26.1s | LR: 0.000807
+Train Loss: 3.8650 | Train Acc: 26.85%
+Test Loss:  2.3217 | Test Acc:  47.86%
+------------------------------------------------------------
+Epoch 095 | Time: 25.9s | LR: 0.000803
+Train Loss: 3.8716 | Train Acc: 26.59%
+Test Loss:  2.3490 | Test Acc:  47.95%
+🎉 New Best Accuracy! 47.94% → 47.95%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc47.95.pth
+------------------------------------------------------------
+Epoch 096 | Time: 26.1s | LR: 0.000798
+Train Loss: 3.8429 | Train Acc: 27.23%
+Test Loss:  2.3328 | Test Acc:  47.25%
+------------------------------------------------------------
+Epoch 097 | Time: 25.6s | LR: 0.000794
+Train Loss: 3.8757 | Train Acc: 26.64%
+Test Loss:  2.4386 | Test Acc:  46.36%
+------------------------------------------------------------
+Epoch 098 | Time: 25.9s | LR: 0.000789
+Train Loss: 3.8634 | Train Acc: 26.72%
+Test Loss:  2.3502 | Test Acc:  48.31%
+🎉 New Best Accuracy! 47.95% → 48.31%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc48.31.pth
+------------------------------------------------------------
+Epoch 099 | Time: 25.9s | LR: 0.000785
+Train Loss: 3.8496 | Train Acc: 27.26%
+Test Loss:  2.3631 | Test Acc:  47.49%
+------------------------------------------------------------
+Epoch 100 | Time: 26.0s | LR: 0.000781
+Train Loss: 3.8274 | Train Acc: 27.67%
+Test Loss:  2.2725 | Test Acc:  48.84%
+🎉 New Best Accuracy! 48.31% → 48.84%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc48.84.pth
+------------------------------------------------------------
+Epoch 101 | Time: 25.5s | LR: 0.000776
+Train Loss: 3.8762 | Train Acc: 26.87%
+Test Loss:  2.3369 | Test Acc:  48.50%
+------------------------------------------------------------
+Epoch 102 | Time: 25.9s | LR: 0.000772
+Train Loss: 3.8320 | Train Acc: 27.59%
+Test Loss:  2.3988 | Test Acc:  46.26%
+------------------------------------------------------------
+Epoch 103 | Time: 25.8s | LR: 0.000767
+Train Loss: 3.8482 | Train Acc: 27.34%
+Test Loss:  2.2962 | Test Acc:  48.69%
+------------------------------------------------------------
+Epoch 104 | Time: 26.2s | LR: 0.000762
+Train Loss: 3.8789 | Train Acc: 26.66%
+Test Loss:  2.3270 | Test Acc:  48.12%
+------------------------------------------------------------
+Epoch 105 | Time: 25.8s | LR: 0.000758
+Train Loss: 3.8324 | Train Acc: 27.46%
+Test Loss:  2.3299 | Test Acc:  47.92%
+------------------------------------------------------------
+Epoch 106 | Time: 25.6s | LR: 0.000753
+Train Loss: 3.8427 | Train Acc: 27.51%
+Test Loss:  2.2761 | Test Acc:  49.22%
+🎉 New Best Accuracy! 48.84% → 49.22%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc49.22.pth
+------------------------------------------------------------
+Epoch 107 | Time: 25.6s | LR: 0.000748
+Train Loss: 3.8055 | Train Acc: 28.06%
+Test Loss:  2.2859 | Test Acc:  48.94%
+------------------------------------------------------------
+Epoch 108 | Time: 26.1s | LR: 0.000744
+Train Loss: 3.8258 | Train Acc: 27.80%
+Test Loss:  2.2285 | Test Acc:  49.50%
+🎉 New Best Accuracy! 49.22% → 49.50%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc49.50.pth
+------------------------------------------------------------
+Epoch 109 | Time: 26.8s | LR: 0.000739
+Train Loss: 3.8334 | Train Acc: 27.62%
+Test Loss:  2.3260 | Test Acc:  48.22%
+------------------------------------------------------------
+Epoch 110 | Time: 25.9s | LR: 0.000734
+Train Loss: 3.8278 | Train Acc: 27.71%
+Test Loss:  2.2921 | Test Acc:  49.25%
+------------------------------------------------------------
+Epoch 111 | Time: 26.0s | LR: 0.000729
+Train Loss: 3.8117 | Train Acc: 28.08%
+Test Loss:  2.2033 | Test Acc:  50.18%
+🎉 New Best Accuracy! 49.50% → 50.18%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc50.18.pth
+------------------------------------------------------------
+Epoch 112 | Time: 26.2s | LR: 0.000725
+Train Loss: 3.8179 | Train Acc: 27.99%
+Test Loss:  2.2954 | Test Acc:  49.10%
+------------------------------------------------------------
+Epoch 113 | Time: 26.0s | LR: 0.000720
+Train Loss: 3.8298 | Train Acc: 27.77%
+Test Loss:  2.2427 | Test Acc:  49.26%
+------------------------------------------------------------
+Epoch 114 | Time: 25.4s | LR: 0.000715
+Train Loss: 3.7988 | Train Acc: 28.49%
+Test Loss:  2.2345 | Test Acc:  48.95%
+------------------------------------------------------------
+Epoch 115 | Time: 24.9s | LR: 0.000710
+Train Loss: 3.8069 | Train Acc: 28.19%
+Test Loss:  2.2535 | Test Acc:  49.70%
+------------------------------------------------------------
+Epoch 116 | Time: 25.4s | LR: 0.000705
+Train Loss: 3.7860 | Train Acc: 28.85%
+Test Loss:  2.2428 | Test Acc:  49.71%
+------------------------------------------------------------
+Epoch 117 | Time: 25.7s | LR: 0.000700
+Train Loss: 3.8062 | Train Acc: 28.27%
+Test Loss:  2.2252 | Test Acc:  50.10%
+------------------------------------------------------------
+Epoch 118 | Time: 25.0s | LR: 0.000695
+Train Loss: 3.7788 | Train Acc: 28.61%
+Test Loss:  2.2700 | Test Acc:  48.71%
+------------------------------------------------------------
+Epoch 119 | Time: 25.4s | LR: 0.000690
+Train Loss: 3.8074 | Train Acc: 28.31%
+Test Loss:  2.2587 | Test Acc:  49.06%
+------------------------------------------------------------
+Epoch 120 | Time: 26.2s | LR: 0.000685
+Train Loss: 3.8268 | Train Acc: 28.09%
+Test Loss:  2.2769 | Test Acc:  48.63%
+------------------------------------------------------------
+Epoch 121 | Time: 26.4s | LR: 0.000680
+Train Loss: 3.7770 | Train Acc: 28.94%
+Test Loss:  2.1931 | Test Acc:  50.83%
+🎉 New Best Accuracy! 50.18% → 50.83%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc50.83.pth
+------------------------------------------------------------
+Epoch 122 | Time: 25.2s | LR: 0.000675
+Train Loss: 3.7851 | Train Acc: 28.92%
+Test Loss:  2.2332 | Test Acc:  50.64%
+------------------------------------------------------------
+Epoch 123 | Time: 26.5s | LR: 0.000670
+Train Loss: 3.7978 | Train Acc: 28.49%
+Test Loss:  2.1671 | Test Acc:  50.85%
+🎉 New Best Accuracy! 50.83% → 50.85%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc50.85.pth
+------------------------------------------------------------
+Epoch 124 | Time: 25.5s | LR: 0.000665
+Train Loss: 3.7539 | Train Acc: 29.52%
+Test Loss:  2.2639 | Test Acc:  49.50%
+------------------------------------------------------------
+Epoch 125 | Time: 26.2s | LR: 0.000660
+Train Loss: 3.7678 | Train Acc: 29.26%
+Test Loss:  2.2330 | Test Acc:  50.29%
+------------------------------------------------------------
+Epoch 126 | Time: 26.7s | LR: 0.000655
+Train Loss: 3.7965 | Train Acc: 28.60%
+Test Loss:  2.2824 | Test Acc:  49.76%
+------------------------------------------------------------
+Epoch 127 | Time: 26.5s | LR: 0.000649
+Train Loss: 3.7859 | Train Acc: 28.89%
+Test Loss:  2.2573 | Test Acc:  49.74%
+------------------------------------------------------------
+Epoch 128 | Time: 25.6s | LR: 0.000644
+Train Loss: 3.7825 | Train Acc: 28.90%
+Test Loss:  2.2232 | Test Acc:  49.59%
+------------------------------------------------------------
+Epoch 129 | Time: 25.5s | LR: 0.000639
+Train Loss: 3.7575 | Train Acc: 29.25%
+Test Loss:  2.1838 | Test Acc:  50.53%
+------------------------------------------------------------
+Epoch 130 | Time: 26.0s | LR: 0.000634
+Train Loss: 3.7797 | Train Acc: 29.02%
+Test Loss:  2.2498 | Test Acc:  50.81%
+------------------------------------------------------------
+Epoch 131 | Time: 25.9s | LR: 0.000629
+Train Loss: 3.7729 | Train Acc: 29.16%
+Test Loss:  2.1796 | Test Acc:  51.70%
+🎉 New Best Accuracy! 50.85% → 51.70%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc51.70.pth
+------------------------------------------------------------
+Epoch 132 | Time: 25.9s | LR: 0.000623
+Train Loss: 3.7658 | Train Acc: 29.26%
+Test Loss:  2.1953 | Test Acc:  51.23%
+------------------------------------------------------------
+Epoch 133 | Time: 25.1s | LR: 0.000618
+Train Loss: 3.7502 | Train Acc: 29.79%
+Test Loss:  2.1440 | Test Acc:  51.49%
+------------------------------------------------------------
+Epoch 134 | Time: 25.8s | LR: 0.000613
+Train Loss: 3.7749 | Train Acc: 29.11%
+Test Loss:  2.1522 | Test Acc:  51.43%
+------------------------------------------------------------
+Epoch 135 | Time: 26.3s | LR: 0.000607
+Train Loss: 3.7544 | Train Acc: 29.72%
+Test Loss:  2.2069 | Test Acc:  51.02%
+------------------------------------------------------------
+Epoch 136 | Time: 25.8s | LR: 0.000602
+Train Loss: 3.7472 | Train Acc: 29.65%
+Test Loss:  2.2155 | Test Acc:  50.01%
+------------------------------------------------------------
+Epoch 137 | Time: 25.9s | LR: 0.000597
+Train Loss: 3.7382 | Train Acc: 29.79%
+Test Loss:  2.2552 | Test Acc:  50.15%
+------------------------------------------------------------
+Epoch 138 | Time: 25.8s | LR: 0.000592
+Train Loss: 3.7561 | Train Acc: 29.66%
+Test Loss:  2.1668 | Test Acc:  51.26%
+------------------------------------------------------------
+Epoch 139 | Time: 25.2s | LR: 0.000586
+Train Loss: 3.7140 | Train Acc: 30.43%
+Test Loss:  2.2288 | Test Acc:  50.40%
+------------------------------------------------------------
+Epoch 140 | Time: 25.7s | LR: 0.000581
+Train Loss: 3.7283 | Train Acc: 30.26%
+Test Loss:  2.1456 | Test Acc:  52.67%
+🎉 New Best Accuracy! 51.70% → 52.67%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc52.67.pth
+------------------------------------------------------------
+Epoch 141 | Time: 25.1s | LR: 0.000576
+Train Loss: 3.7445 | Train Acc: 30.07%
+Test Loss:  2.2263 | Test Acc:  51.08%
+------------------------------------------------------------
+Epoch 142 | Time: 25.7s | LR: 0.000570
+Train Loss: 3.6885 | Train Acc: 30.87%
+Test Loss:  2.1633 | Test Acc:  51.49%
+------------------------------------------------------------
+Epoch 143 | Time: 25.6s | LR: 0.000565
+Train Loss: 3.7279 | Train Acc: 30.38%
+Test Loss:  2.1437 | Test Acc:  51.67%
+------------------------------------------------------------
+Epoch 144 | Time: 25.8s | LR: 0.000559
+Train Loss: 3.7417 | Train Acc: 29.83%
+Test Loss:  2.1504 | Test Acc:  50.69%
+------------------------------------------------------------
+Epoch 145 | Time: 24.9s | LR: 0.000554
+Train Loss: 3.7343 | Train Acc: 30.22%
+Test Loss:  2.1971 | Test Acc:  51.46%
+------------------------------------------------------------
+Epoch 146 | Time: 25.2s | LR: 0.000549
+Train Loss: 3.7512 | Train Acc: 29.83%
+Test Loss:  2.1897 | Test Acc:  51.60%
+------------------------------------------------------------
+Epoch 147 | Time: 25.5s | LR: 0.000543
+Train Loss: 3.7015 | Train Acc: 30.85%
+Test Loss:  2.1441 | Test Acc:  52.13%
+------------------------------------------------------------
+Epoch 148 | Time: 26.1s | LR: 0.000538
+Train Loss: 3.6821 | Train Acc: 31.25%
+Test Loss:  2.1525 | Test Acc:  51.95%
+------------------------------------------------------------
+Epoch 149 | Time: 26.2s | LR: 0.000532
+Train Loss: 3.6971 | Train Acc: 31.07%
+Test Loss:  2.1339 | Test Acc:  51.94%
+------------------------------------------------------------
+Epoch 150 | Time: 25.6s | LR: 0.000527
+Train Loss: 3.6772 | Train Acc: 31.55%
+Test Loss:  2.1690 | Test Acc:  51.74%
+------------------------------------------------------------
+Epoch 151 | Time: 25.8s | LR: 0.000522
+Train Loss: 3.6644 | Train Acc: 31.61%
+Test Loss:  2.1379 | Test Acc:  52.15%
+------------------------------------------------------------
+Epoch 152 | Time: 25.8s | LR: 0.000516
+Train Loss: 3.6527 | Train Acc: 32.00%
+Test Loss:  2.1132 | Test Acc:  52.94%
+🎉 New Best Accuracy! 52.67% → 52.94%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc52.94.pth
+------------------------------------------------------------
+Epoch 153 | Time: 25.9s | LR: 0.000511
+Train Loss: 3.7154 | Train Acc: 30.73%
+Test Loss:  2.1762 | Test Acc:  51.35%
+------------------------------------------------------------
+Epoch 154 | Time: 26.2s | LR: 0.000505
+Train Loss: 3.6664 | Train Acc: 31.69%
+Test Loss:  2.1315 | Test Acc:  51.97%
+------------------------------------------------------------
+Epoch 155 | Time: 26.4s | LR: 0.000500
+Train Loss: 3.6773 | Train Acc: 31.59%
+Test Loss:  2.1335 | Test Acc:  51.88%
+------------------------------------------------------------
+Epoch 156 | Time: 26.0s | LR: 0.000495
+Train Loss: 3.6713 | Train Acc: 31.53%
+Test Loss:  2.1098 | Test Acc:  52.48%
+------------------------------------------------------------
+Epoch 157 | Time: 25.7s | LR: 0.000489
+Train Loss: 3.6772 | Train Acc: 31.34%
+Test Loss:  2.1472 | Test Acc:  52.20%
+------------------------------------------------------------
+Epoch 158 | Time: 26.4s | LR: 0.000484
+Train Loss: 3.6769 | Train Acc: 31.55%
+Test Loss:  2.1082 | Test Acc:  52.85%
+------------------------------------------------------------
+Epoch 159 | Time: 26.0s | LR: 0.000478
+Train Loss: 3.6966 | Train Acc: 31.24%
+Test Loss:  2.1352 | Test Acc:  53.49%
+🎉 New Best Accuracy! 52.94% → 53.49%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc53.49.pth
+------------------------------------------------------------
+Epoch 160 | Time: 26.3s | LR: 0.000473
+Train Loss: 3.6511 | Train Acc: 32.00%
+Test Loss:  2.2095 | Test Acc:  51.63%
+------------------------------------------------------------
+Epoch 161 | Time: 26.4s | LR: 0.000468
+Train Loss: 3.6662 | Train Acc: 31.71%
+Test Loss:  2.1071 | Test Acc:  53.44%
+------------------------------------------------------------
+Epoch 162 | Time: 26.7s | LR: 0.000462
+Train Loss: 3.7116 | Train Acc: 30.91%
+Test Loss:  2.0926 | Test Acc:  53.52%
+🎉 New Best Accuracy! 53.49% → 53.52%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc53.52.pth
+------------------------------------------------------------
+Epoch 163 | Time: 26.4s | LR: 0.000457
+Train Loss: 3.6701 | Train Acc: 31.78%
+Test Loss:  2.1087 | Test Acc:  53.13%
+------------------------------------------------------------
+Epoch 164 | Time: 26.2s | LR: 0.000451
+Train Loss: 3.6516 | Train Acc: 32.16%
+Test Loss:  2.0577 | Test Acc:  53.90%
+🎉 New Best Accuracy! 53.52% → 53.90%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc53.90.pth
+------------------------------------------------------------
+Epoch 165 | Time: 25.5s | LR: 0.000446
+Train Loss: 3.6432 | Train Acc: 32.01%
+Test Loss:  2.0697 | Test Acc:  54.05%
+🎉 New Best Accuracy! 53.90% → 54.05%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc54.05.pth
+------------------------------------------------------------
+Epoch 166 | Time: 25.8s | LR: 0.000441
+Train Loss: 3.6407 | Train Acc: 32.44%
+Test Loss:  2.0838 | Test Acc:  53.46%
+------------------------------------------------------------
+Epoch 167 | Time: 25.5s | LR: 0.000435
+Train Loss: 3.7120 | Train Acc: 30.96%
+Test Loss:  2.1065 | Test Acc:  53.42%
+------------------------------------------------------------
+Epoch 168 | Time: 25.4s | LR: 0.000430
+Train Loss: 3.6413 | Train Acc: 32.52%
+Test Loss:  2.1171 | Test Acc:  53.00%
+------------------------------------------------------------
+Epoch 169 | Time: 26.2s | LR: 0.000424
+Train Loss: 3.6837 | Train Acc: 31.58%
+Test Loss:  2.0885 | Test Acc:  54.08%
+🎉 New Best Accuracy! 54.05% → 54.08%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc54.08.pth
+------------------------------------------------------------
+Epoch 170 | Time: 25.8s | LR: 0.000419
+Train Loss: 3.6686 | Train Acc: 31.60%
+Test Loss:  2.1110 | Test Acc:  53.80%
+------------------------------------------------------------
+Epoch 171 | Time: 25.7s | LR: 0.000414
+Train Loss: 3.5878 | Train Acc: 33.55%
+Test Loss:  2.0563 | Test Acc:  54.39%
+🎉 New Best Accuracy! 54.08% → 54.39%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc54.39.pth
+------------------------------------------------------------
+Epoch 172 | Time: 26.0s | LR: 0.000408
+Train Loss: 3.6147 | Train Acc: 32.88%
+Test Loss:  2.0340 | Test Acc:  54.69%
+🎉 New Best Accuracy! 54.39% → 54.69%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc54.69.pth
+------------------------------------------------------------
+Epoch 173 | Time: 26.0s | LR: 0.000403
+Train Loss: 3.6505 | Train Acc: 32.47%
+Test Loss:  2.0780 | Test Acc:  54.10%
+------------------------------------------------------------
+Epoch 174 | Time: 25.2s | LR: 0.000398
+Train Loss: 3.5870 | Train Acc: 33.59%
+Test Loss:  2.0650 | Test Acc:  54.42%
+------------------------------------------------------------
+Epoch 175 | Time: 26.0s | LR: 0.000393
+Train Loss: 3.5864 | Train Acc: 33.74%
+Test Loss:  2.0545 | Test Acc:  54.35%
+------------------------------------------------------------
+Epoch 176 | Time: 25.4s | LR: 0.000387
+Train Loss: 3.6198 | Train Acc: 33.01%
+Test Loss:  2.0227 | Test Acc:  54.57%
+------------------------------------------------------------
+Epoch 177 | Time: 26.2s | LR: 0.000382
+Train Loss: 3.6373 | Train Acc: 32.62%
+Test Loss:  2.0256 | Test Acc:  54.37%
+------------------------------------------------------------
+Epoch 178 | Time: 26.0s | LR: 0.000377
+Train Loss: 3.6032 | Train Acc: 33.36%
+Test Loss:  2.0182 | Test Acc:  54.79%
+🎉 New Best Accuracy! 54.69% → 54.79%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc54.79.pth
+------------------------------------------------------------
+Epoch 179 | Time: 26.1s | LR: 0.000371
+Train Loss: 3.6037 | Train Acc: 33.41%
+Test Loss:  2.0324 | Test Acc:  54.98%
+🎉 New Best Accuracy! 54.79% → 54.98%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc54.98.pth
+------------------------------------------------------------
+Epoch 180 | Time: 25.1s | LR: 0.000366
+Train Loss: 3.6051 | Train Acc: 33.27%
+Test Loss:  2.0632 | Test Acc:  54.73%
+------------------------------------------------------------
+Epoch 181 | Time: 25.5s | LR: 0.000361
+Train Loss: 3.5981 | Train Acc: 33.62%
+Test Loss:  1.9985 | Test Acc:  54.56%
+------------------------------------------------------------
+Epoch 182 | Time: 25.4s | LR: 0.000356
+Train Loss: 3.5584 | Train Acc: 34.27%
+Test Loss:  2.0057 | Test Acc:  55.32%
+🎉 New Best Accuracy! 54.98% → 55.32%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc55.32.pth
+------------------------------------------------------------
+Epoch 183 | Time: 25.9s | LR: 0.000351
+Train Loss: 3.6050 | Train Acc: 33.51%
+Test Loss:  2.0169 | Test Acc:  54.33%
+------------------------------------------------------------
+Epoch 184 | Time: 25.2s | LR: 0.000345
+Train Loss: 3.5202 | Train Acc: 35.26%
+Test Loss:  2.0358 | Test Acc:  54.61%
+------------------------------------------------------------
+Epoch 185 | Time: 25.8s | LR: 0.000340
+Train Loss: 3.6072 | Train Acc: 33.48%
+Test Loss:  2.0320 | Test Acc:  55.26%
+------------------------------------------------------------
+Epoch 186 | Time: 25.6s | LR: 0.000335
+Train Loss: 3.5401 | Train Acc: 34.87%
+Test Loss:  2.0089 | Test Acc:  54.96%
+------------------------------------------------------------
+Epoch 187 | Time: 25.5s | LR: 0.000330
+Train Loss: 3.5698 | Train Acc: 34.35%
+Test Loss:  2.0302 | Test Acc:  54.89%
+------------------------------------------------------------
+Epoch 188 | Time: 25.9s | LR: 0.000325
+Train Loss: 3.5498 | Train Acc: 34.81%
+Test Loss:  2.0294 | Test Acc:  55.04%
+------------------------------------------------------------
+Epoch 189 | Time: 25.1s | LR: 0.000320
+Train Loss: 3.5719 | Train Acc: 34.44%
+Test Loss:  2.0066 | Test Acc:  55.30%
+------------------------------------------------------------
+Epoch 190 | Time: 25.9s | LR: 0.000315
+Train Loss: 3.5884 | Train Acc: 34.02%
+Test Loss:  1.9946 | Test Acc:  55.37%
+🎉 New Best Accuracy! 55.32% → 55.37%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc55.37.pth
+------------------------------------------------------------
+Epoch 191 | Time: 26.6s | LR: 0.000310
+Train Loss: 3.5587 | Train Acc: 34.64%
+Test Loss:  1.9991 | Test Acc:  55.78%
+🎉 New Best Accuracy! 55.37% → 55.78%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc55.78.pth
+------------------------------------------------------------
+Epoch 192 | Time: 25.7s | LR: 0.000305
+Train Loss: 3.5411 | Train Acc: 35.05%
+Test Loss:  1.9881 | Test Acc:  55.85%
+🎉 New Best Accuracy! 55.78% → 55.85%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc55.85.pth
+------------------------------------------------------------
+Epoch 193 | Time: 25.9s | LR: 0.000300
+Train Loss: 3.5288 | Train Acc: 35.36%
+Test Loss:  1.9921 | Test Acc:  55.56%
+------------------------------------------------------------
+Epoch 194 | Time: 25.9s | LR: 0.000295
+Train Loss: 3.5634 | Train Acc: 34.40%
+Test Loss:  1.9782 | Test Acc:  55.49%
+------------------------------------------------------------
+Epoch 195 | Time: 25.8s | LR: 0.000290
+Train Loss: 3.5097 | Train Acc: 35.72%
+Test Loss:  1.9954 | Test Acc:  55.81%
+------------------------------------------------------------
+Epoch 196 | Time: 25.6s | LR: 0.000285
+Train Loss: 3.5237 | Train Acc: 35.39%
+Test Loss:  1.9571 | Test Acc:  56.63%
+🎉 New Best Accuracy! 55.85% → 56.63%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc56.63.pth
+------------------------------------------------------------
+Epoch 197 | Time: 26.0s | LR: 0.000280
+Train Loss: 3.5182 | Train Acc: 35.53%
+Test Loss:  1.9436 | Test Acc:  55.94%
+------------------------------------------------------------
+Epoch 198 | Time: 25.9s | LR: 0.000275
+Train Loss: 3.5335 | Train Acc: 34.91%
+Test Loss:  1.9907 | Test Acc:  55.98%
+------------------------------------------------------------
+Epoch 199 | Time: 26.0s | LR: 0.000271
+Train Loss: 3.5302 | Train Acc: 35.13%
+Test Loss:  1.9476 | Test Acc:  56.42%
+------------------------------------------------------------
+Epoch 200 | Time: 25.3s | LR: 0.000266
+Train Loss: 3.5259 | Train Acc: 35.36%
+Test Loss:  1.9856 | Test Acc:  56.01%
+------------------------------------------------------------
+Epoch 201 | Time: 25.1s | LR: 0.000261
+Train Loss: 3.4941 | Train Acc: 36.37%
+Test Loss:  1.8996 | Test Acc:  56.84%
+🎉 New Best Accuracy! 56.63% → 56.84%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc56.84.pth
+------------------------------------------------------------
+Epoch 202 | Time: 26.1s | LR: 0.000256
+Train Loss: 3.4955 | Train Acc: 36.10%
+Test Loss:  1.9401 | Test Acc:  56.68%
+------------------------------------------------------------
+Epoch 203 | Time: 25.9s | LR: 0.000252
+Train Loss: 3.5044 | Train Acc: 36.05%
+Test Loss:  1.9771 | Test Acc:  55.92%
+------------------------------------------------------------
+Epoch 204 | Time: 25.8s | LR: 0.000247
+Train Loss: 3.5026 | Train Acc: 36.09%
+Test Loss:  1.9223 | Test Acc:  56.80%
+------------------------------------------------------------
+Epoch 205 | Time: 25.3s | LR: 0.000242
+Train Loss: 3.5408 | Train Acc: 35.17%
+Test Loss:  1.9881 | Test Acc:  55.77%
+------------------------------------------------------------
+Epoch 206 | Time: 25.5s | LR: 0.000238
+Train Loss: 3.5140 | Train Acc: 35.93%
+Test Loss:  1.9880 | Test Acc:  55.67%
+------------------------------------------------------------
+Epoch 207 | Time: 25.6s | LR: 0.000233
+Train Loss: 3.4495 | Train Acc: 37.15%
+Test Loss:  1.9789 | Test Acc:  56.62%
+------------------------------------------------------------
+Epoch 208 | Time: 25.2s | LR: 0.000228
+Train Loss: 3.5030 | Train Acc: 36.07%
+Test Loss:  1.9733 | Test Acc:  56.56%
+------------------------------------------------------------
+Epoch 209 | Time: 25.3s | LR: 0.000224
+Train Loss: 3.5137 | Train Acc: 35.95%
+Test Loss:  1.9437 | Test Acc:  56.60%
+------------------------------------------------------------
+Epoch 210 | Time: 25.2s | LR: 0.000219
+Train Loss: 3.4930 | Train Acc: 36.31%
+Test Loss:  1.9586 | Test Acc:  56.66%
+------------------------------------------------------------
+Epoch 211 | Time: 26.0s | LR: 0.000215
+Train Loss: 3.4713 | Train Acc: 36.96%
+Test Loss:  1.9352 | Test Acc:  56.66%
+------------------------------------------------------------
+Epoch 212 | Time: 26.3s | LR: 0.000211
+Train Loss: 3.4792 | Train Acc: 36.67%
+Test Loss:  1.9157 | Test Acc:  56.93%
+🎉 New Best Accuracy! 56.84% → 56.93%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc56.93.pth
+------------------------------------------------------------
+Epoch 213 | Time: 25.7s | LR: 0.000206
+Train Loss: 3.4540 | Train Acc: 37.16%
+Test Loss:  1.8934 | Test Acc:  57.03%
+🎉 New Best Accuracy! 56.93% → 57.03%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc57.03.pth
+------------------------------------------------------------
+Epoch 214 | Time: 26.4s | LR: 0.000202
+Train Loss: 3.4561 | Train Acc: 37.20%
+Test Loss:  1.8985 | Test Acc:  57.01%
+------------------------------------------------------------
+Epoch 215 | Time: 25.8s | LR: 0.000197
+Train Loss: 3.4715 | Train Acc: 36.80%
+Test Loss:  1.9523 | Test Acc:  56.69%
+------------------------------------------------------------
+Epoch 216 | Time: 26.1s | LR: 0.000193
+Train Loss: 3.4509 | Train Acc: 37.49%
+Test Loss:  1.9439 | Test Acc:  57.07%
+🎉 New Best Accuracy! 57.03% → 57.07%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc57.07.pth
+------------------------------------------------------------
+Epoch 217 | Time: 25.9s | LR: 0.000189
+Train Loss: 3.4500 | Train Acc: 37.54%
+Test Loss:  1.9445 | Test Acc:  56.36%
+------------------------------------------------------------
+Epoch 218 | Time: 25.9s | LR: 0.000185
+Train Loss: 3.4658 | Train Acc: 37.03%
+Test Loss:  1.9101 | Test Acc:  57.04%
+------------------------------------------------------------
+Epoch 219 | Time: 26.0s | LR: 0.000180
+Train Loss: 3.4337 | Train Acc: 37.89%
+Test Loss:  1.9159 | Test Acc:  57.20%
+🎉 New Best Accuracy! 57.07% → 57.20%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc57.20.pth
+------------------------------------------------------------
+Epoch 220 | Time: 25.7s | LR: 0.000176
+Train Loss: 3.4192 | Train Acc: 38.25%
+Test Loss:  1.8961 | Test Acc:  57.17%
+------------------------------------------------------------
+Epoch 221 | Time: 25.8s | LR: 0.000172
+Train Loss: 3.4706 | Train Acc: 36.96%
+Test Loss:  1.9160 | Test Acc:  57.94%
+🎉 New Best Accuracy! 57.20% → 57.94%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc57.94.pth
+------------------------------------------------------------
+Epoch 222 | Time: 25.4s | LR: 0.000168
+Train Loss: 3.4086 | Train Acc: 38.41%
+Test Loss:  1.9417 | Test Acc:  57.22%
+------------------------------------------------------------
+Epoch 223 | Time: 26.5s | LR: 0.000164
+Train Loss: 3.4022 | Train Acc: 38.66%
+Test Loss:  1.9125 | Test Acc:  57.99%
+🎉 New Best Accuracy! 57.94% → 57.99%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc57.99.pth
+------------------------------------------------------------
+Epoch 224 | Time: 25.5s | LR: 0.000160
+Train Loss: 3.4233 | Train Acc: 38.13%
+Test Loss:  1.8706 | Test Acc:  58.08%
+🎉 New Best Accuracy! 57.99% → 58.08%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc58.08.pth
+------------------------------------------------------------
+Epoch 225 | Time: 25.9s | LR: 0.000156
+Train Loss: 3.4108 | Train Acc: 38.50%
+Test Loss:  1.8315 | Test Acc:  58.48%
+🎉 New Best Accuracy! 58.08% → 58.48%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc58.48.pth
+------------------------------------------------------------
+Epoch 226 | Time: 25.9s | LR: 0.000152
+Train Loss: 3.3957 | Train Acc: 38.89%
+Test Loss:  1.9379 | Test Acc:  57.83%
+------------------------------------------------------------
+Epoch 227 | Time: 25.3s | LR: 0.000148
+Train Loss: 3.3997 | Train Acc: 38.98%
+Test Loss:  1.8859 | Test Acc:  57.92%
+------------------------------------------------------------
+Epoch 228 | Time: 25.6s | LR: 0.000145
+Train Loss: 3.3865 | Train Acc: 39.13%
+Test Loss:  1.9092 | Test Acc:  57.85%
+------------------------------------------------------------
+Epoch 229 | Time: 25.4s | LR: 0.000141
+Train Loss: 3.3729 | Train Acc: 39.60%
+Test Loss:  1.8466 | Test Acc:  58.99%
+🎉 New Best Accuracy! 58.48% → 58.99%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc58.99.pth
+------------------------------------------------------------
+Epoch 230 | Time: 25.4s | LR: 0.000137
+Train Loss: 3.4149 | Train Acc: 38.56%
+Test Loss:  1.9031 | Test Acc:  57.78%
+------------------------------------------------------------
+Epoch 231 | Time: 25.9s | LR: 0.000133
+Train Loss: 3.4185 | Train Acc: 38.60%
+Test Loss:  1.8601 | Test Acc:  58.26%
+------------------------------------------------------------
+Epoch 232 | Time: 26.3s | LR: 0.000130
+Train Loss: 3.3555 | Train Acc: 39.88%
+Test Loss:  1.9226 | Test Acc:  57.65%
+------------------------------------------------------------
+Epoch 233 | Time: 25.9s | LR: 0.000126
+Train Loss: 3.3982 | Train Acc: 39.04%
+Test Loss:  1.9227 | Test Acc:  57.82%
+------------------------------------------------------------
+Epoch 234 | Time: 26.1s | LR: 0.000122
+Train Loss: 3.3793 | Train Acc: 39.54%
+Test Loss:  1.8698 | Test Acc:  58.13%
+------------------------------------------------------------
+Epoch 235 | Time: 25.3s | LR: 0.000119
+Train Loss: 3.3861 | Train Acc: 39.30%
+Test Loss:  1.8731 | Test Acc:  58.27%
+------------------------------------------------------------
+Epoch 236 | Time: 24.9s | LR: 0.000115
+Train Loss: 3.3964 | Train Acc: 39.08%
+Test Loss:  1.9362 | Test Acc:  57.53%
+------------------------------------------------------------
+Epoch 237 | Time: 25.3s | LR: 0.000112
+Train Loss: 3.3726 | Train Acc: 39.67%
+Test Loss:  1.8596 | Test Acc:  58.87%
+------------------------------------------------------------
+Epoch 238 | Time: 25.5s | LR: 0.000109
+Train Loss: 3.3538 | Train Acc: 40.15%
+Test Loss:  1.8629 | Test Acc:  57.98%
+------------------------------------------------------------
+Epoch 239 | Time: 25.4s | LR: 0.000105
+Train Loss: 3.3735 | Train Acc: 39.85%
+Test Loss:  1.8521 | Test Acc:  58.74%
+------------------------------------------------------------
+Epoch 240 | Time: 25.3s | LR: 0.000102
+Train Loss: 3.3523 | Train Acc: 40.22%
+Test Loss:  1.8268 | Test Acc:  58.81%
+------------------------------------------------------------
+Epoch 241 | Time: 26.0s | LR: 0.000099
+Train Loss: 3.3687 | Train Acc: 39.76%
+Test Loss:  1.9242 | Test Acc:  58.07%
+------------------------------------------------------------
+Epoch 242 | Time: 25.8s | LR: 0.000095
+Train Loss: 3.4025 | Train Acc: 39.22%
+Test Loss:  1.8509 | Test Acc:  58.51%
+------------------------------------------------------------
+Epoch 243 | Time: 25.2s | LR: 0.000092
+Train Loss: 3.3577 | Train Acc: 40.12%
+Test Loss:  1.8505 | Test Acc:  58.67%
+------------------------------------------------------------
+Epoch 244 | Time: 26.0s | LR: 0.000089
+Train Loss: 3.3644 | Train Acc: 39.95%
+Test Loss:  1.8698 | Test Acc:  58.77%
+------------------------------------------------------------
+Epoch 245 | Time: 25.8s | LR: 0.000086
+Train Loss: 3.3511 | Train Acc: 40.13%
+Test Loss:  1.8503 | Test Acc:  59.34%
+🎉 New Best Accuracy! 58.99% → 59.34%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc59.34.pth
+------------------------------------------------------------
+Epoch 246 | Time: 25.6s | LR: 0.000083
+Train Loss: 3.3373 | Train Acc: 40.80%
+Test Loss:  1.8555 | Test Acc:  59.49%
+🎉 New Best Accuracy! 59.34% → 59.49%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc59.49.pth
+------------------------------------------------------------
+Epoch 247 | Time: 25.3s | LR: 0.000080
+Train Loss: 3.3277 | Train Acc: 41.06%
+Test Loss:  1.8582 | Test Acc:  59.11%
+------------------------------------------------------------
+Epoch 248 | Time: 25.3s | LR: 0.000077
+Train Loss: 3.3135 | Train Acc: 41.26%
+Test Loss:  1.8202 | Test Acc:  59.11%
+------------------------------------------------------------
+Epoch 249 | Time: 25.2s | LR: 0.000074
+Train Loss: 3.3114 | Train Acc: 41.41%
+Test Loss:  1.8319 | Test Acc:  59.16%
+------------------------------------------------------------
+Epoch 250 | Time: 25.7s | LR: 0.000072
+Train Loss: 3.3124 | Train Acc: 41.32%
+Test Loss:  1.8333 | Test Acc:  59.27%
+------------------------------------------------------------
+Epoch 251 | Time: 26.3s | LR: 0.000069
+Train Loss: 3.2840 | Train Acc: 42.04%
+Test Loss:  1.8607 | Test Acc:  59.04%
+------------------------------------------------------------
+Epoch 252 | Time: 26.3s | LR: 0.000066
+Train Loss: 3.3362 | Train Acc: 40.91%
+Test Loss:  1.8692 | Test Acc:  58.70%
+------------------------------------------------------------
+Epoch 253 | Time: 25.9s | LR: 0.000063
+Train Loss: 3.2944 | Train Acc: 41.72%
+Test Loss:  1.8448 | Test Acc:  58.96%
+------------------------------------------------------------
+Epoch 254 | Time: 26.0s | LR: 0.000061
+Train Loss: 3.2583 | Train Acc: 42.63%
+Test Loss:  1.8451 | Test Acc:  59.17%
+------------------------------------------------------------
+Epoch 255 | Time: 26.1s | LR: 0.000058
+Train Loss: 3.3021 | Train Acc: 41.68%
+Test Loss:  1.8354 | Test Acc:  59.45%
+------------------------------------------------------------
+Epoch 256 | Time: 25.9s | LR: 0.000056
+Train Loss: 3.3037 | Train Acc: 41.89%
+Test Loss:  1.8465 | Test Acc:  58.89%
+------------------------------------------------------------
+Epoch 257 | Time: 26.3s | LR: 0.000053
+Train Loss: 3.3184 | Train Acc: 41.21%
+Test Loss:  1.8434 | Test Acc:  59.34%
+------------------------------------------------------------
+Epoch 258 | Time: 26.2s | LR: 0.000051
+Train Loss: 3.2610 | Train Acc: 42.62%
+Test Loss:  1.8274 | Test Acc:  59.23%
+------------------------------------------------------------
+Epoch 259 | Time: 25.8s | LR: 0.000049
+Train Loss: 3.2741 | Train Acc: 42.21%
+Test Loss:  1.8112 | Test Acc:  59.83%
+🎉 New Best Accuracy! 59.49% → 59.83%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc59.83.pth
+------------------------------------------------------------
+Epoch 260 | Time: 25.8s | LR: 0.000046
+Train Loss: 3.3090 | Train Acc: 41.49%
+Test Loss:  1.8140 | Test Acc:  59.53%
+------------------------------------------------------------
+Epoch 261 | Time: 26.4s | LR: 0.000044
+Train Loss: 3.2752 | Train Acc: 42.32%
+Test Loss:  1.8534 | Test Acc:  59.30%
+------------------------------------------------------------
+Epoch 262 | Time: 26.6s | LR: 0.000042
+Train Loss: 3.2481 | Train Acc: 43.04%
+Test Loss:  1.8266 | Test Acc:  59.48%
+------------------------------------------------------------
+Epoch 263 | Time: 26.2s | LR: 0.000040
+Train Loss: 3.2683 | Train Acc: 42.60%
+Test Loss:  1.8338 | Test Acc:  59.40%
+------------------------------------------------------------
+Epoch 264 | Time: 25.9s | LR: 0.000038
+Train Loss: 3.2813 | Train Acc: 42.35%
+Test Loss:  1.8052 | Test Acc:  59.85%
+🎉 New Best Accuracy! 59.83% → 59.85%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc59.85.pth
+------------------------------------------------------------
+Epoch 265 | Time: 25.9s | LR: 0.000036
+Train Loss: 3.2914 | Train Acc: 42.04%
+Test Loss:  1.8465 | Test Acc:  59.56%
+------------------------------------------------------------
+Epoch 266 | Time: 25.8s | LR: 0.000034
+Train Loss: 3.2985 | Train Acc: 41.95%
+Test Loss:  1.8331 | Test Acc:  59.70%
+------------------------------------------------------------
+Epoch 267 | Time: 26.1s | LR: 0.000032
+Train Loss: 3.2515 | Train Acc: 42.95%
+Test Loss:  1.8580 | Test Acc:  59.52%
+------------------------------------------------------------
+Epoch 268 | Time: 25.6s | LR: 0.000030
+Train Loss: 3.2846 | Train Acc: 42.20%
+Test Loss:  1.8148 | Test Acc:  60.01%
+🎉 New Best Accuracy! 59.85% → 60.01%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc60.01.pth
+------------------------------------------------------------
+Epoch 269 | Time: 26.1s | LR: 0.000028
+Train Loss: 3.2534 | Train Acc: 43.06%
+Test Loss:  1.8236 | Test Acc:  60.03%
+🎉 New Best Accuracy! 60.01% → 60.03%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc60.03.pth
+------------------------------------------------------------
+Epoch 270 | Time: 25.9s | LR: 0.000026
+Train Loss: 3.2588 | Train Acc: 43.14%
+Test Loss:  1.8434 | Test Acc:  59.83%
+------------------------------------------------------------
+Epoch 271 | Time: 25.7s | LR: 0.000024
+Train Loss: 3.2314 | Train Acc: 43.61%
+Test Loss:  1.8034 | Test Acc:  59.77%
+------------------------------------------------------------
+Epoch 272 | Time: 25.8s | LR: 0.000023
+Train Loss: 3.2396 | Train Acc: 43.30%
+Test Loss:  1.8383 | Test Acc:  59.75%
+------------------------------------------------------------
+Epoch 273 | Time: 25.3s | LR: 0.000021
+Train Loss: 3.2716 | Train Acc: 42.50%
+Test Loss:  1.8198 | Test Acc:  59.95%
+------------------------------------------------------------
+Epoch 274 | Time: 25.7s | LR: 0.000020
+Train Loss: 3.2705 | Train Acc: 42.66%
+Test Loss:  1.8275 | Test Acc:  59.82%
+------------------------------------------------------------
+Epoch 275 | Time: 25.0s | LR: 0.000018
+Train Loss: 3.2465 | Train Acc: 43.16%
+Test Loss:  1.8370 | Test Acc:  59.81%
+------------------------------------------------------------
+Epoch 276 | Time: 25.3s | LR: 0.000017
+Train Loss: 3.2848 | Train Acc: 42.24%
+Test Loss:  1.8062 | Test Acc:  60.32%
+🎉 New Best Accuracy! 60.03% → 60.32%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc60.32.pth
+------------------------------------------------------------
+Epoch 277 | Time: 25.0s | LR: 0.000015
+Train Loss: 3.2213 | Train Acc: 43.86%
+Test Loss:  1.7807 | Test Acc:  60.17%
+------------------------------------------------------------
+Epoch 278 | Time: 24.9s | LR: 0.000014
+Train Loss: 3.2103 | Train Acc: 44.24%
+Test Loss:  1.7974 | Test Acc:  60.05%
+------------------------------------------------------------
+Epoch 279 | Time: 26.2s | LR: 0.000013
+Train Loss: 3.2881 | Train Acc: 42.46%
+Test Loss:  1.7828 | Test Acc:  60.19%
+------------------------------------------------------------
+Epoch 280 | Time: 25.2s | LR: 0.000012
+Train Loss: 3.2454 | Train Acc: 43.22%
+Test Loss:  1.8315 | Test Acc:  59.98%
+------------------------------------------------------------
+Epoch 281 | Time: 25.8s | LR: 0.000011
+Train Loss: 3.2081 | Train Acc: 44.28%
+Test Loss:  1.8294 | Test Acc:  60.02%
+------------------------------------------------------------
+Epoch 282 | Time: 26.3s | LR: 0.000009
+Train Loss: 3.2352 | Train Acc: 43.58%
+Test Loss:  1.7852 | Test Acc:  60.19%
+------------------------------------------------------------
+Epoch 283 | Time: 26.1s | LR: 0.000008
+Train Loss: 3.2418 | Train Acc: 43.43%
+Test Loss:  1.8069 | Test Acc:  60.07%
+------------------------------------------------------------
+Epoch 284 | Time: 25.8s | LR: 0.000007
+Train Loss: 3.2601 | Train Acc: 43.07%
+Test Loss:  1.8284 | Test Acc:  59.97%
+------------------------------------------------------------
+Epoch 285 | Time: 25.2s | LR: 0.000007
+Train Loss: 3.2050 | Train Acc: 44.28%
+Test Loss:  1.7621 | Test Acc:  60.22%
+------------------------------------------------------------
+Epoch 286 | Time: 25.6s | LR: 0.000006
+Train Loss: 3.2188 | Train Acc: 43.92%
+Test Loss:  1.8390 | Test Acc:  59.75%
+------------------------------------------------------------
+Epoch 287 | Time: 25.6s | LR: 0.000005
+Train Loss: 3.2720 | Train Acc: 42.90%
+Test Loss:  1.7806 | Test Acc:  60.09%
+------------------------------------------------------------
+Epoch 288 | Time: 25.3s | LR: 0.000004
+Train Loss: 3.2758 | Train Acc: 42.61%
+Test Loss:  1.8479 | Test Acc:  59.82%
+------------------------------------------------------------
+Epoch 289 | Time: 26.0s | LR: 0.000004
+Train Loss: 3.2605 | Train Acc: 43.25%
+Test Loss:  1.8113 | Test Acc:  60.08%
+------------------------------------------------------------
+Epoch 290 | Time: 26.1s | LR: 0.000003
+Train Loss: 3.2342 | Train Acc: 43.56%
+Test Loss:  1.7948 | Test Acc:  60.13%
+------------------------------------------------------------
+Epoch 291 | Time: 25.8s | LR: 0.000002
+Train Loss: 3.2731 | Train Acc: 42.78%
+Test Loss:  1.7968 | Test Acc:  60.19%
+------------------------------------------------------------
+Epoch 292 | Time: 25.1s | LR: 0.000002
+Train Loss: 3.2377 | Train Acc: 43.51%
+Test Loss:  1.8039 | Test Acc:  60.10%
+------------------------------------------------------------
+Epoch 293 | Time: 25.6s | LR: 0.000001
+Train Loss: 3.2118 | Train Acc: 44.02%
+Test Loss:  1.7973 | Test Acc:  60.39%
+🎉 New Best Accuracy! 60.32% → 60.39%
+💾 Checkpoint saved: checkpoints_scratch/efficient_vmamba_tiny_imagenet_best_acc60.39.pth
+------------------------------------------------------------
+Epoch 294 | Time: 25.8s | LR: 0.000001
+Train Loss: 3.2211 | Train Acc: 44.02%
+Test Loss:  1.8035 | Test Acc:  60.02%
+------------------------------------------------------------
+Epoch 295 | Time: 25.7s | LR: 0.000001
+Train Loss: 3.2962 | Train Acc: 42.28%
+Test Loss:  1.7892 | Test Acc:  60.37%
+------------------------------------------------------------
+Epoch 296 | Time: 25.8s | LR: 0.000000
+Train Loss: 3.2339 | Train Acc: 43.70%
+Test Loss:  1.7795 | Test Acc:  60.14%
+------------------------------------------------------------
+Epoch 297 | Time: 25.7s | LR: 0.000000
+Train Loss: 3.2480 | Train Acc: 43.49%
+Test Loss:  1.8135 | Test Acc:  59.92%
+------------------------------------------------------------
+Epoch 298 | Time: 25.6s | LR: 0.000000
+Train Loss: 3.2299 | Train Acc: 43.80%
+Test Loss:  1.7998 | Test Acc:  60.34%
+------------------------------------------------------------
+Epoch 299 | Time: 25.0s | LR: 0.000000
+Train Loss: 3.2450 | Train Acc: 43.53%
+Test Loss:  1.7626 | Test Acc:  60.24%
+------------------------------------------------------------
+Epoch 300 | Time: 25.9s | LR: 0.000000
+Train Loss: 3.2536 | Train Acc: 43.27%
+Test Loss:  1.7862 | Test Acc:  60.21%
+------------------------------------------------------------
+
+============================================================
+🏆 TRAINING COMPLETED!
+✅ Best Test Accuracy: 60.39%
+============================================================

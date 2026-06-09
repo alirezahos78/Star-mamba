@@ -1,0 +1,508 @@
+
+============================================================
+🚀 STAR-MAMBA TINY IMAGENET (Ablation: Only Global)
+   Config: {'img_size': 64, 'num_classes': 200, 'patch_size': 4, 'batch_size': 64, 'epochs': 300, 'dim': 112, 'depth': 6, 'lr_max': 0.001, 'wd': 0.05, 'mixup_alpha': 1.0, 'label_smoothing': 0.1, 'warmup_epochs': 5, 'workers': 8}
+============================================================
+
+✅ Tiny ImageNet directory structure seems prepared.
+📊 Model Parameters: 1.21M
+
+Ep 001 | Train Acc=1.50% | Test Acc=4.22% | Loss=5.227 | LR=0.000200
+   🎉 New Best! (0.00% -> 4.22%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc4.22_ep1.pth
+Ep 002 | Train Acc=3.83% | Test Acc=8.47% | Loss=5.008 | LR=0.000400
+   🎉 New Best! (4.22% -> 8.47%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc8.47_ep2.pth
+Ep 003 | Train Acc=6.15% | Test Acc=12.25% | Loss=4.844 | LR=0.000600
+   🎉 New Best! (8.47% -> 12.25%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc12.25_ep3.pth
+Ep 004 | Train Acc=8.03% | Test Acc=15.03% | Loss=4.734 | LR=0.000800
+   🎉 New Best! (12.25% -> 15.03%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc15.03_ep4.pth
+Ep 005 | Train Acc=9.46% | Test Acc=18.95% | Loss=4.657 | LR=0.001000
+   🎉 New Best! (15.03% -> 18.95%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc18.95_ep5.pth
+Ep 006 | Train Acc=11.26% | Test Acc=22.23% | Loss=4.565 | LR=0.001000
+   🎉 New Best! (18.95% -> 22.23%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc22.23_ep6.pth
+Ep 007 | Train Acc=12.28% | Test Acc=24.75% | Loss=4.522 | LR=0.001000
+   🎉 New Best! (22.23% -> 24.75%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc24.75_ep7.pth
+Ep 008 | Train Acc=13.63% | Test Acc=26.41% | Loss=4.446 | LR=0.001000
+   🎉 New Best! (24.75% -> 26.41%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc26.41_ep8.pth
+Ep 009 | Train Acc=14.65% | Test Acc=29.02% | Loss=4.397 | LR=0.001000
+   🎉 New Best! (26.41% -> 29.02%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc29.02_ep9.pth
+Ep 010 | Train Acc=15.13% | Test Acc=28.34% | Loss=4.385 | LR=0.000999
+Ep 011 | Train Acc=16.02% | Test Acc=30.42% | Loss=4.345 | LR=0.000999
+   🎉 New Best! (29.02% -> 30.42%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc30.42_ep11.pth
+Ep 012 | Train Acc=16.51% | Test Acc=31.44% | Loss=4.323 | LR=0.000999
+   🎉 New Best! (30.42% -> 31.44%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc31.44_ep12.pth
+Ep 013 | Train Acc=17.27% | Test Acc=31.43% | Loss=4.288 | LR=0.000998
+Ep 014 | Train Acc=17.59% | Test Acc=33.20% | Loss=4.273 | LR=0.000998
+   🎉 New Best! (31.44% -> 33.20%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc33.20_ep14.pth
+Ep 015 | Train Acc=18.25% | Test Acc=34.30% | Loss=4.245 | LR=0.000997
+   🎉 New Best! (33.20% -> 34.30%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc34.30_ep15.pth
+Ep 016 | Train Acc=18.28% | Test Acc=34.69% | Loss=4.250 | LR=0.000997
+   🎉 New Best! (34.30% -> 34.69%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc34.69_ep16.pth
+Ep 017 | Train Acc=18.92% | Test Acc=34.73% | Loss=4.205 | LR=0.000996
+   🎉 New Best! (34.69% -> 34.73%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc34.73_ep17.pth
+Ep 018 | Train Acc=18.98% | Test Acc=34.69% | Loss=4.214 | LR=0.000995
+Ep 019 | Train Acc=19.53% | Test Acc=35.55% | Loss=4.190 | LR=0.000994
+   🎉 New Best! (34.73% -> 35.55%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc35.55_ep19.pth
+Ep 020 | Train Acc=19.37% | Test Acc=36.08% | Loss=4.193 | LR=0.000994
+   🎉 New Best! (35.55% -> 36.08%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc36.08_ep20.pth
+Ep 021 | Train Acc=19.67% | Test Acc=36.06% | Loss=4.184 | LR=0.000993
+Ep 022 | Train Acc=20.00% | Test Acc=36.99% | Loss=4.169 | LR=0.000992
+   🎉 New Best! (36.08% -> 36.99%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc36.99_ep22.pth
+Ep 023 | Train Acc=20.07% | Test Acc=37.09% | Loss=4.162 | LR=0.000991
+   🎉 New Best! (36.99% -> 37.09%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc37.09_ep23.pth
+Ep 024 | Train Acc=20.46% | Test Acc=37.64% | Loss=4.147 | LR=0.000990
+   🎉 New Best! (37.09% -> 37.64%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc37.64_ep24.pth
+Ep 025 | Train Acc=20.88% | Test Acc=36.61% | Loss=4.136 | LR=0.000989
+Ep 026 | Train Acc=20.99% | Test Acc=37.66% | Loss=4.125 | LR=0.000988
+   🎉 New Best! (37.64% -> 37.66%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc37.66_ep26.pth
+Ep 027 | Train Acc=20.89% | Test Acc=37.38% | Loss=4.135 | LR=0.000986
+Ep 028 | Train Acc=21.30% | Test Acc=38.54% | Loss=4.112 | LR=0.000985
+   🎉 New Best! (37.66% -> 38.54%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc38.54_ep28.pth
+Ep 029 | Train Acc=21.55% | Test Acc=38.13% | Loss=4.105 | LR=0.000984
+Ep 030 | Train Acc=21.55% | Test Acc=40.20% | Loss=4.104 | LR=0.000982
+   🎉 New Best! (38.54% -> 40.20%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc40.20_ep30.pth
+Ep 031 | Train Acc=21.69% | Test Acc=39.64% | Loss=4.097 | LR=0.000981
+Ep 032 | Train Acc=21.80% | Test Acc=39.71% | Loss=4.086 | LR=0.000979
+Ep 033 | Train Acc=21.72% | Test Acc=39.76% | Loss=4.092 | LR=0.000978
+Ep 034 | Train Acc=22.00% | Test Acc=39.95% | Loss=4.081 | LR=0.000976
+Ep 035 | Train Acc=22.38% | Test Acc=40.57% | Loss=4.073 | LR=0.000975
+   🎉 New Best! (40.20% -> 40.57%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc40.57_ep35.pth
+Ep 036 | Train Acc=22.35% | Test Acc=41.32% | Loss=4.073 | LR=0.000973
+   🎉 New Best! (40.57% -> 41.32%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc41.32_ep36.pth
+Ep 037 | Train Acc=22.48% | Test Acc=40.06% | Loss=4.065 | LR=0.000971
+Ep 038 | Train Acc=23.00% | Test Acc=40.65% | Loss=4.035 | LR=0.000969
+Ep 039 | Train Acc=22.67% | Test Acc=40.62% | Loss=4.061 | LR=0.000968
+Ep 040 | Train Acc=23.23% | Test Acc=40.75% | Loss=4.033 | LR=0.000966
+Ep 041 | Train Acc=23.62% | Test Acc=41.31% | Loss=4.018 | LR=0.000964
+Ep 042 | Train Acc=23.36% | Test Acc=41.17% | Loss=4.021 | LR=0.000962
+Ep 043 | Train Acc=22.84% | Test Acc=41.41% | Loss=4.046 | LR=0.000960
+   🎉 New Best! (41.32% -> 41.41%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc41.41_ep43.pth
+Ep 044 | Train Acc=23.49% | Test Acc=41.61% | Loss=4.018 | LR=0.000957
+   🎉 New Best! (41.41% -> 41.61%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc41.61_ep44.pth
+Ep 045 | Train Acc=23.61% | Test Acc=41.75% | Loss=4.016 | LR=0.000955
+   🎉 New Best! (41.61% -> 41.75%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc41.75_ep45.pth
+Ep 046 | Train Acc=23.57% | Test Acc=41.26% | Loss=4.016 | LR=0.000953
+Ep 047 | Train Acc=23.54% | Test Acc=42.24% | Loss=4.012 | LR=0.000951
+   🎉 New Best! (41.75% -> 42.24%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc42.24_ep47.pth
+Ep 048 | Train Acc=23.39% | Test Acc=42.34% | Loss=4.016 | LR=0.000948
+   🎉 New Best! (42.24% -> 42.34%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc42.34_ep48.pth
+Ep 049 | Train Acc=23.86% | Test Acc=42.53% | Loss=3.997 | LR=0.000946
+   🎉 New Best! (42.34% -> 42.53%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc42.53_ep49.pth
+Ep 050 | Train Acc=23.79% | Test Acc=42.68% | Loss=4.012 | LR=0.000944
+   🎉 New Best! (42.53% -> 42.68%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc42.68_ep50.pth
+Ep 051 | Train Acc=23.66% | Test Acc=42.15% | Loss=4.009 | LR=0.000941
+Ep 052 | Train Acc=23.63% | Test Acc=43.20% | Loss=4.013 | LR=0.000939
+   🎉 New Best! (42.68% -> 43.20%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc43.20_ep52.pth
+Ep 053 | Train Acc=24.25% | Test Acc=42.60% | Loss=3.990 | LR=0.000936
+Ep 054 | Train Acc=24.07% | Test Acc=42.75% | Loss=3.992 | LR=0.000933
+Ep 055 | Train Acc=24.45% | Test Acc=42.90% | Loss=3.979 | LR=0.000931
+Ep 056 | Train Acc=24.68% | Test Acc=42.80% | Loss=3.969 | LR=0.000928
+Ep 057 | Train Acc=24.36% | Test Acc=43.35% | Loss=3.981 | LR=0.000925
+   🎉 New Best! (43.20% -> 43.35%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc43.35_ep57.pth
+Ep 058 | Train Acc=24.49% | Test Acc=42.82% | Loss=3.971 | LR=0.000922
+Ep 059 | Train Acc=24.57% | Test Acc=44.04% | Loss=3.973 | LR=0.000920
+   🎉 New Best! (43.35% -> 44.04%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc44.04_ep59.pth
+Ep 060 | Train Acc=25.09% | Test Acc=43.86% | Loss=3.947 | LR=0.000917
+Ep 061 | Train Acc=24.99% | Test Acc=43.56% | Loss=3.958 | LR=0.000914
+Ep 062 | Train Acc=25.02% | Test Acc=42.95% | Loss=3.956 | LR=0.000911
+Ep 063 | Train Acc=24.36% | Test Acc=43.74% | Loss=3.979 | LR=0.000908
+Ep 064 | Train Acc=24.83% | Test Acc=43.94% | Loss=3.958 | LR=0.000905
+Ep 065 | Train Acc=24.80% | Test Acc=43.32% | Loss=3.963 | LR=0.000901
+Ep 066 | Train Acc=24.83% | Test Acc=44.68% | Loss=3.958 | LR=0.000898
+   🎉 New Best! (44.04% -> 44.68%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc44.68_ep66.pth
+Ep 067 | Train Acc=25.01% | Test Acc=44.22% | Loss=3.955 | LR=0.000895
+Ep 068 | Train Acc=24.97% | Test Acc=44.99% | Loss=3.958 | LR=0.000892
+   🎉 New Best! (44.68% -> 44.99%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc44.99_ep68.pth
+Ep 069 | Train Acc=25.05% | Test Acc=44.83% | Loss=3.950 | LR=0.000888
+Ep 070 | Train Acc=24.87% | Test Acc=44.86% | Loss=3.961 | LR=0.000885
+Ep 071 | Train Acc=25.87% | Test Acc=45.28% | Loss=3.918 | LR=0.000881
+   🎉 New Best! (44.99% -> 45.28%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc45.28_ep71.pth
+Ep 072 | Train Acc=25.08% | Test Acc=45.28% | Loss=3.950 | LR=0.000878
+Ep 073 | Train Acc=25.18% | Test Acc=45.42% | Loss=3.954 | LR=0.000875
+   🎉 New Best! (45.28% -> 45.42%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc45.42_ep73.pth
+Ep 074 | Train Acc=25.56% | Test Acc=45.46% | Loss=3.928 | LR=0.000871
+   🎉 New Best! (45.42% -> 45.46%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc45.46_ep74.pth
+Ep 075 | Train Acc=25.58% | Test Acc=44.66% | Loss=3.929 | LR=0.000867
+Ep 076 | Train Acc=25.61% | Test Acc=45.49% | Loss=3.931 | LR=0.000864
+   🎉 New Best! (45.46% -> 45.49%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc45.49_ep76.pth
+Ep 077 | Train Acc=25.72% | Test Acc=45.77% | Loss=3.921 | LR=0.000860
+   🎉 New Best! (45.49% -> 45.77%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc45.77_ep77.pth
+Ep 078 | Train Acc=25.69% | Test Acc=45.65% | Loss=3.927 | LR=0.000856
+Ep 079 | Train Acc=25.37% | Test Acc=45.18% | Loss=3.935 | LR=0.000853
+Ep 080 | Train Acc=25.95% | Test Acc=45.67% | Loss=3.910 | LR=0.000849
+Ep 081 | Train Acc=25.77% | Test Acc=45.52% | Loss=3.920 | LR=0.000845
+Ep 082 | Train Acc=25.96% | Test Acc=45.88% | Loss=3.916 | LR=0.000841
+   🎉 New Best! (45.77% -> 45.88%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc45.88_ep82.pth
+Ep 083 | Train Acc=25.68% | Test Acc=45.99% | Loss=3.930 | LR=0.000837
+   🎉 New Best! (45.88% -> 45.99%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc45.99_ep83.pth
+Ep 084 | Train Acc=25.78% | Test Acc=45.68% | Loss=3.917 | LR=0.000833
+Ep 085 | Train Acc=26.38% | Test Acc=44.29% | Loss=3.894 | LR=0.000829
+Ep 086 | Train Acc=26.23% | Test Acc=45.06% | Loss=3.903 | LR=0.000825
+Ep 087 | Train Acc=26.16% | Test Acc=45.66% | Loss=3.908 | LR=0.000821
+Ep 088 | Train Acc=25.99% | Test Acc=45.69% | Loss=3.917 | LR=0.000817
+Ep 089 | Train Acc=26.30% | Test Acc=46.40% | Loss=3.900 | LR=0.000813
+   🎉 New Best! (45.99% -> 46.40%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc46.40_ep89.pth
+Ep 090 | Train Acc=26.77% | Test Acc=46.90% | Loss=3.879 | LR=0.000809
+   🎉 New Best! (46.40% -> 46.90%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc46.90_ep90.pth
+Ep 091 | Train Acc=26.71% | Test Acc=46.27% | Loss=3.881 | LR=0.000805
+Ep 092 | Train Acc=26.45% | Test Acc=46.64% | Loss=3.895 | LR=0.000800
+Ep 093 | Train Acc=26.15% | Test Acc=46.76% | Loss=3.903 | LR=0.000796
+Ep 094 | Train Acc=26.78% | Test Acc=46.60% | Loss=3.885 | LR=0.000792
+Ep 095 | Train Acc=26.94% | Test Acc=46.42% | Loss=3.870 | LR=0.000787
+Ep 096 | Train Acc=26.65% | Test Acc=46.33% | Loss=3.886 | LR=0.000783
+Ep 097 | Train Acc=26.60% | Test Acc=47.39% | Loss=3.889 | LR=0.000779
+   🎉 New Best! (46.90% -> 47.39%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc47.39_ep97.pth
+Ep 098 | Train Acc=26.82% | Test Acc=46.46% | Loss=3.878 | LR=0.000774
+Ep 099 | Train Acc=26.95% | Test Acc=46.72% | Loss=3.871 | LR=0.000770
+Ep 100 | Train Acc=27.04% | Test Acc=46.65% | Loss=3.871 | LR=0.000765
+Ep 101 | Train Acc=27.47% | Test Acc=47.13% | Loss=3.853 | LR=0.000761
+Ep 102 | Train Acc=27.11% | Test Acc=47.13% | Loss=3.869 | LR=0.000756
+Ep 103 | Train Acc=27.61% | Test Acc=46.46% | Loss=3.848 | LR=0.000752
+Ep 104 | Train Acc=27.15% | Test Acc=47.13% | Loss=3.861 | LR=0.000747
+Ep 105 | Train Acc=27.44% | Test Acc=47.85% | Loss=3.854 | LR=0.000742
+   🎉 New Best! (47.39% -> 47.85%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc47.85_ep105.pth
+Ep 106 | Train Acc=27.26% | Test Acc=47.37% | Loss=3.859 | LR=0.000738
+Ep 107 | Train Acc=27.48% | Test Acc=48.20% | Loss=3.847 | LR=0.000733
+   🎉 New Best! (47.85% -> 48.20%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc48.20_ep107.pth
+Ep 108 | Train Acc=27.28% | Test Acc=46.82% | Loss=3.863 | LR=0.000728
+Ep 109 | Train Acc=27.53% | Test Acc=48.07% | Loss=3.848 | LR=0.000723
+Ep 110 | Train Acc=27.72% | Test Acc=47.72% | Loss=3.842 | LR=0.000719
+Ep 111 | Train Acc=27.50% | Test Acc=47.19% | Loss=3.850 | LR=0.000714
+Ep 112 | Train Acc=27.03% | Test Acc=46.55% | Loss=3.872 | LR=0.000709
+Ep 113 | Train Acc=27.27% | Test Acc=47.74% | Loss=3.860 | LR=0.000704
+Ep 114 | Train Acc=27.32% | Test Acc=48.35% | Loss=3.854 | LR=0.000699
+   🎉 New Best! (48.20% -> 48.35%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc48.35_ep114.pth
+Ep 115 | Train Acc=27.59% | Test Acc=48.02% | Loss=3.846 | LR=0.000694
+Ep 116 | Train Acc=27.87% | Test Acc=47.10% | Loss=3.832 | LR=0.000689
+Ep 117 | Train Acc=27.68% | Test Acc=47.35% | Loss=3.845 | LR=0.000685
+Ep 118 | Train Acc=27.72% | Test Acc=48.36% | Loss=3.835 | LR=0.000680
+   🎉 New Best! (48.35% -> 48.36%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc48.36_ep118.pth
+Ep 119 | Train Acc=27.59% | Test Acc=48.30% | Loss=3.851 | LR=0.000675
+Ep 120 | Train Acc=27.97% | Test Acc=48.54% | Loss=3.835 | LR=0.000670
+   🎉 New Best! (48.36% -> 48.54%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc48.54_ep120.pth
+Ep 121 | Train Acc=27.75% | Test Acc=47.67% | Loss=3.840 | LR=0.000665
+Ep 122 | Train Acc=28.12% | Test Acc=48.34% | Loss=3.829 | LR=0.000660
+Ep 123 | Train Acc=28.04% | Test Acc=48.87% | Loss=3.829 | LR=0.000655
+   🎉 New Best! (48.54% -> 48.87%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc48.87_ep123.pth
+Ep 124 | Train Acc=28.11% | Test Acc=48.15% | Loss=3.830 | LR=0.000649
+Ep 125 | Train Acc=28.22% | Test Acc=48.47% | Loss=3.820 | LR=0.000644
+Ep 126 | Train Acc=28.05% | Test Acc=49.10% | Loss=3.831 | LR=0.000639
+   🎉 New Best! (48.87% -> 49.10%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc49.10_ep126.pth
+Ep 127 | Train Acc=28.07% | Test Acc=48.59% | Loss=3.830 | LR=0.000634
+Ep 128 | Train Acc=27.98% | Test Acc=48.55% | Loss=3.833 | LR=0.000629
+Ep 129 | Train Acc=28.23% | Test Acc=48.84% | Loss=3.827 | LR=0.000624
+Ep 130 | Train Acc=27.94% | Test Acc=47.79% | Loss=3.836 | LR=0.000619
+Ep 131 | Train Acc=28.55% | Test Acc=48.35% | Loss=3.807 | LR=0.000613
+Ep 132 | Train Acc=28.23% | Test Acc=49.44% | Loss=3.818 | LR=0.000608
+   🎉 New Best! (49.10% -> 49.44%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc49.44_ep132.pth
+Ep 133 | Train Acc=28.36% | Test Acc=49.44% | Loss=3.814 | LR=0.000603
+Ep 134 | Train Acc=28.75% | Test Acc=49.73% | Loss=3.790 | LR=0.000598
+   🎉 New Best! (49.44% -> 49.73%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc49.73_ep134.pth
+Ep 135 | Train Acc=28.49% | Test Acc=48.59% | Loss=3.813 | LR=0.000593
+Ep 136 | Train Acc=29.41% | Test Acc=48.76% | Loss=3.768 | LR=0.000587
+Ep 137 | Train Acc=28.87% | Test Acc=48.87% | Loss=3.799 | LR=0.000582
+Ep 138 | Train Acc=28.78% | Test Acc=49.27% | Loss=3.794 | LR=0.000577
+Ep 139 | Train Acc=28.87% | Test Acc=49.72% | Loss=3.797 | LR=0.000572
+Ep 140 | Train Acc=29.26% | Test Acc=49.03% | Loss=3.778 | LR=0.000566
+Ep 141 | Train Acc=29.14% | Test Acc=49.50% | Loss=3.789 | LR=0.000561
+Ep 142 | Train Acc=29.46% | Test Acc=49.86% | Loss=3.774 | LR=0.000556
+   🎉 New Best! (49.73% -> 49.86%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc49.86_ep142.pth
+Ep 143 | Train Acc=28.91% | Test Acc=49.31% | Loss=3.798 | LR=0.000550
+Ep 144 | Train Acc=28.50% | Test Acc=50.08% | Loss=3.806 | LR=0.000545
+   🎉 New Best! (49.86% -> 50.08%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc50.08_ep144.pth
+Ep 145 | Train Acc=28.83% | Test Acc=49.69% | Loss=3.794 | LR=0.000540
+Ep 146 | Train Acc=29.20% | Test Acc=49.94% | Loss=3.778 | LR=0.000535
+Ep 147 | Train Acc=29.45% | Test Acc=49.53% | Loss=3.772 | LR=0.000529
+Ep 148 | Train Acc=29.42% | Test Acc=49.37% | Loss=3.770 | LR=0.000524
+Ep 149 | Train Acc=29.62% | Test Acc=49.85% | Loss=3.770 | LR=0.000519
+Ep 150 | Train Acc=29.44% | Test Acc=49.85% | Loss=3.771 | LR=0.000513
+Ep 151 | Train Acc=29.28% | Test Acc=50.15% | Loss=3.779 | LR=0.000508
+   🎉 New Best! (50.08% -> 50.15%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc50.15_ep151.pth
+Ep 152 | Train Acc=29.92% | Test Acc=50.23% | Loss=3.750 | LR=0.000503
+   🎉 New Best! (50.15% -> 50.23%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc50.23_ep152.pth
+Ep 153 | Train Acc=29.70% | Test Acc=50.20% | Loss=3.760 | LR=0.000497
+Ep 154 | Train Acc=30.05% | Test Acc=49.81% | Loss=3.741 | LR=0.000492
+Ep 155 | Train Acc=29.52% | Test Acc=50.41% | Loss=3.764 | LR=0.000487
+   🎉 New Best! (50.23% -> 50.41%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc50.41_ep155.pth
+Ep 156 | Train Acc=30.18% | Test Acc=50.48% | Loss=3.739 | LR=0.000481
+   🎉 New Best! (50.41% -> 50.48%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc50.48_ep156.pth
+Ep 157 | Train Acc=29.99% | Test Acc=50.42% | Loss=3.748 | LR=0.000476
+Ep 158 | Train Acc=29.96% | Test Acc=49.89% | Loss=3.748 | LR=0.000471
+Ep 159 | Train Acc=29.79% | Test Acc=50.54% | Loss=3.755 | LR=0.000465
+   🎉 New Best! (50.48% -> 50.54%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc50.54_ep159.pth
+Ep 160 | Train Acc=30.20% | Test Acc=51.11% | Loss=3.741 | LR=0.000460
+   🎉 New Best! (50.54% -> 51.11%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc51.11_ep160.pth
+Ep 161 | Train Acc=30.56% | Test Acc=50.72% | Loss=3.729 | LR=0.000455
+Ep 162 | Train Acc=29.76% | Test Acc=50.58% | Loss=3.753 | LR=0.000450
+Ep 163 | Train Acc=30.37% | Test Acc=51.53% | Loss=3.730 | LR=0.000444
+   🎉 New Best! (51.11% -> 51.53%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc51.53_ep163.pth
+Ep 164 | Train Acc=30.56% | Test Acc=50.60% | Loss=3.723 | LR=0.000439
+Ep 165 | Train Acc=30.15% | Test Acc=51.11% | Loss=3.744 | LR=0.000434
+Ep 166 | Train Acc=30.43% | Test Acc=50.66% | Loss=3.731 | LR=0.000428
+Ep 167 | Train Acc=30.08% | Test Acc=51.33% | Loss=3.748 | LR=0.000423
+Ep 168 | Train Acc=30.61% | Test Acc=50.88% | Loss=3.724 | LR=0.000418
+Ep 169 | Train Acc=30.47% | Test Acc=50.91% | Loss=3.731 | LR=0.000413
+Ep 170 | Train Acc=31.21% | Test Acc=51.17% | Loss=3.697 | LR=0.000407
+Ep 171 | Train Acc=30.54% | Test Acc=51.54% | Loss=3.730 | LR=0.000402
+   🎉 New Best! (51.53% -> 51.54%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc51.54_ep171.pth
+Ep 172 | Train Acc=30.84% | Test Acc=51.59% | Loss=3.719 | LR=0.000397
+   🎉 New Best! (51.54% -> 51.59%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc51.59_ep172.pth
+Ep 173 | Train Acc=30.98% | Test Acc=51.82% | Loss=3.707 | LR=0.000392
+   🎉 New Best! (51.59% -> 51.82%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc51.82_ep173.pth
+Ep 174 | Train Acc=30.66% | Test Acc=52.26% | Loss=3.725 | LR=0.000387
+   🎉 New Best! (51.82% -> 52.26%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc52.26_ep174.pth
+Ep 175 | Train Acc=30.96% | Test Acc=51.85% | Loss=3.707 | LR=0.000381
+Ep 176 | Train Acc=31.26% | Test Acc=51.95% | Loss=3.697 | LR=0.000376
+Ep 177 | Train Acc=30.97% | Test Acc=51.21% | Loss=3.707 | LR=0.000371
+Ep 178 | Train Acc=31.20% | Test Acc=51.98% | Loss=3.697 | LR=0.000366
+Ep 179 | Train Acc=31.22% | Test Acc=51.41% | Loss=3.695 | LR=0.000361
+Ep 180 | Train Acc=31.48% | Test Acc=51.73% | Loss=3.681 | LR=0.000356
+Ep 181 | Train Acc=31.72% | Test Acc=51.55% | Loss=3.677 | LR=0.000351
+Ep 182 | Train Acc=31.71% | Test Acc=52.02% | Loss=3.681 | LR=0.000345
+Ep 183 | Train Acc=31.44% | Test Acc=52.28% | Loss=3.685 | LR=0.000340
+   🎉 New Best! (52.26% -> 52.28%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc52.28_ep183.pth
+Ep 184 | Train Acc=32.18% | Test Acc=51.82% | Loss=3.669 | LR=0.000335
+Ep 185 | Train Acc=32.07% | Test Acc=51.48% | Loss=3.659 | LR=0.000330
+Ep 186 | Train Acc=31.62% | Test Acc=51.78% | Loss=3.686 | LR=0.000325
+Ep 187 | Train Acc=31.86% | Test Acc=52.50% | Loss=3.669 | LR=0.000320
+   🎉 New Best! (52.28% -> 52.50%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc52.50_ep187.pth
+Ep 188 | Train Acc=31.84% | Test Acc=52.34% | Loss=3.681 | LR=0.000315
+Ep 189 | Train Acc=32.09% | Test Acc=52.59% | Loss=3.659 | LR=0.000311
+   🎉 New Best! (52.50% -> 52.59%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc52.59_ep189.pth
+Ep 190 | Train Acc=31.93% | Test Acc=53.10% | Loss=3.662 | LR=0.000306
+   🎉 New Best! (52.59% -> 53.10%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc53.10_ep190.pth
+Ep 191 | Train Acc=32.25% | Test Acc=52.80% | Loss=3.655 | LR=0.000301
+Ep 192 | Train Acc=32.04% | Test Acc=52.83% | Loss=3.665 | LR=0.000296
+Ep 193 | Train Acc=32.33% | Test Acc=52.84% | Loss=3.654 | LR=0.000291
+Ep 194 | Train Acc=31.90% | Test Acc=52.21% | Loss=3.668 | LR=0.000286
+Ep 195 | Train Acc=32.76% | Test Acc=52.41% | Loss=3.634 | LR=0.000281
+Ep 196 | Train Acc=32.40% | Test Acc=53.39% | Loss=3.657 | LR=0.000277
+   🎉 New Best! (53.10% -> 53.39%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc53.39_ep196.pth
+Ep 197 | Train Acc=32.65% | Test Acc=53.25% | Loss=3.646 | LR=0.000272
+Ep 198 | Train Acc=32.49% | Test Acc=52.89% | Loss=3.648 | LR=0.000267
+Ep 199 | Train Acc=32.40% | Test Acc=52.12% | Loss=3.654 | LR=0.000262
+Ep 200 | Train Acc=33.28% | Test Acc=53.14% | Loss=3.608 | LR=0.000258
+Ep 201 | Train Acc=33.41% | Test Acc=53.55% | Loss=3.614 | LR=0.000253
+   🎉 New Best! (53.39% -> 53.55%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc53.55_ep201.pth
+Ep 202 | Train Acc=32.89% | Test Acc=52.43% | Loss=3.629 | LR=0.000248
+Ep 203 | Train Acc=32.81% | Test Acc=53.32% | Loss=3.632 | LR=0.000244
+Ep 204 | Train Acc=33.19% | Test Acc=53.19% | Loss=3.620 | LR=0.000239
+Ep 205 | Train Acc=33.17% | Test Acc=53.96% | Loss=3.613 | LR=0.000235
+   🎉 New Best! (53.55% -> 53.96%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc53.96_ep205.pth
+Ep 206 | Train Acc=33.29% | Test Acc=53.09% | Loss=3.618 | LR=0.000230
+Ep 207 | Train Acc=33.56% | Test Acc=53.41% | Loss=3.600 | LR=0.000226
+Ep 208 | Train Acc=33.43% | Test Acc=53.44% | Loss=3.603 | LR=0.000221
+Ep 209 | Train Acc=34.39% | Test Acc=53.60% | Loss=3.565 | LR=0.000217
+Ep 210 | Train Acc=33.40% | Test Acc=53.82% | Loss=3.619 | LR=0.000213
+Ep 211 | Train Acc=33.79% | Test Acc=53.54% | Loss=3.592 | LR=0.000208
+Ep 212 | Train Acc=33.88% | Test Acc=53.50% | Loss=3.592 | LR=0.000204
+Ep 213 | Train Acc=33.71% | Test Acc=53.65% | Loss=3.595 | LR=0.000200
+Ep 214 | Train Acc=33.80% | Test Acc=53.33% | Loss=3.594 | LR=0.000195
+Ep 215 | Train Acc=33.96% | Test Acc=53.68% | Loss=3.585 | LR=0.000191
+Ep 216 | Train Acc=34.06% | Test Acc=54.32% | Loss=3.584 | LR=0.000187
+   🎉 New Best! (53.96% -> 54.32%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc54.32_ep216.pth
+Ep 217 | Train Acc=33.93% | Test Acc=54.10% | Loss=3.587 | LR=0.000183
+Ep 218 | Train Acc=34.75% | Test Acc=53.70% | Loss=3.553 | LR=0.000179
+Ep 219 | Train Acc=33.61% | Test Acc=54.38% | Loss=3.607 | LR=0.000175
+   🎉 New Best! (54.32% -> 54.38%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc54.38_ep219.pth
+Ep 220 | Train Acc=34.15% | Test Acc=54.41% | Loss=3.586 | LR=0.000171
+   🎉 New Best! (54.38% -> 54.41%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc54.41_ep220.pth
+Ep 221 | Train Acc=34.07% | Test Acc=54.87% | Loss=3.584 | LR=0.000167
+   🎉 New Best! (54.41% -> 54.87%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc54.87_ep221.pth
+Ep 222 | Train Acc=34.81% | Test Acc=54.63% | Loss=3.557 | LR=0.000163
+Ep 223 | Train Acc=34.75% | Test Acc=54.91% | Loss=3.553 | LR=0.000159
+   🎉 New Best! (54.87% -> 54.91%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc54.91_ep223.pth
+Ep 224 | Train Acc=35.02% | Test Acc=54.38% | Loss=3.546 | LR=0.000155
+Ep 225 | Train Acc=34.60% | Test Acc=54.36% | Loss=3.560 | LR=0.000151
+Ep 226 | Train Acc=34.63% | Test Acc=54.95% | Loss=3.563 | LR=0.000147
+   🎉 New Best! (54.91% -> 54.95%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc54.95_ep226.pth
+Ep 227 | Train Acc=35.14% | Test Acc=54.82% | Loss=3.548 | LR=0.000144
+Ep 228 | Train Acc=34.98% | Test Acc=55.16% | Loss=3.546 | LR=0.000140
+   🎉 New Best! (54.95% -> 55.16%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc55.16_ep228.pth
+Ep 229 | Train Acc=35.07% | Test Acc=54.45% | Loss=3.553 | LR=0.000136
+Ep 230 | Train Acc=35.10% | Test Acc=55.06% | Loss=3.545 | LR=0.000133
+Ep 231 | Train Acc=35.35% | Test Acc=55.34% | Loss=3.537 | LR=0.000129
+   🎉 New Best! (55.16% -> 55.34%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc55.34_ep231.pth
+Ep 232 | Train Acc=35.14% | Test Acc=55.17% | Loss=3.543 | LR=0.000125
+Ep 233 | Train Acc=35.39% | Test Acc=55.33% | Loss=3.532 | LR=0.000122
+Ep 234 | Train Acc=35.18% | Test Acc=54.92% | Loss=3.546 | LR=0.000119
+Ep 235 | Train Acc=35.28% | Test Acc=55.06% | Loss=3.539 | LR=0.000115
+Ep 236 | Train Acc=35.66% | Test Acc=55.13% | Loss=3.526 | LR=0.000112
+Ep 237 | Train Acc=35.30% | Test Acc=55.16% | Loss=3.536 | LR=0.000108
+Ep 238 | Train Acc=35.69% | Test Acc=54.71% | Loss=3.517 | LR=0.000105
+Ep 239 | Train Acc=36.10% | Test Acc=54.85% | Loss=3.505 | LR=0.000102
+Ep 240 | Train Acc=36.44% | Test Acc=55.49% | Loss=3.493 | LR=0.000099
+   🎉 New Best! (55.34% -> 55.49%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc55.49_ep240.pth
+Ep 241 | Train Acc=36.38% | Test Acc=55.39% | Loss=3.492 | LR=0.000095
+Ep 242 | Train Acc=36.29% | Test Acc=55.63% | Loss=3.493 | LR=0.000092
+   🎉 New Best! (55.49% -> 55.63%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc55.63_ep242.pth
+Ep 243 | Train Acc=35.82% | Test Acc=55.54% | Loss=3.511 | LR=0.000089
+Ep 244 | Train Acc=35.85% | Test Acc=55.61% | Loss=3.513 | LR=0.000086
+Ep 245 | Train Acc=36.15% | Test Acc=55.63% | Loss=3.503 | LR=0.000083
+Ep 246 | Train Acc=36.21% | Test Acc=55.86% | Loss=3.503 | LR=0.000080
+   🎉 New Best! (55.63% -> 55.86%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc55.86_ep246.pth
+Ep 247 | Train Acc=36.68% | Test Acc=55.38% | Loss=3.480 | LR=0.000078
+Ep 248 | Train Acc=36.39% | Test Acc=55.42% | Loss=3.496 | LR=0.000075
+Ep 249 | Train Acc=36.17% | Test Acc=55.73% | Loss=3.504 | LR=0.000072
+Ep 250 | Train Acc=36.62% | Test Acc=56.05% | Loss=3.485 | LR=0.000069
+   🎉 New Best! (55.86% -> 56.05%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc56.05_ep250.pth
+Ep 251 | Train Acc=36.69% | Test Acc=55.97% | Loss=3.483 | LR=0.000067
+Ep 252 | Train Acc=36.95% | Test Acc=55.59% | Loss=3.475 | LR=0.000064
+Ep 253 | Train Acc=36.66% | Test Acc=56.07% | Loss=3.479 | LR=0.000061
+   🎉 New Best! (56.05% -> 56.07%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc56.07_ep253.pth
+Ep 254 | Train Acc=36.81% | Test Acc=56.07% | Loss=3.476 | LR=0.000059
+Ep 255 | Train Acc=36.69% | Test Acc=55.99% | Loss=3.477 | LR=0.000056
+Ep 256 | Train Acc=36.69% | Test Acc=55.91% | Loss=3.482 | LR=0.000054
+Ep 257 | Train Acc=37.28% | Test Acc=56.00% | Loss=3.457 | LR=0.000052
+Ep 258 | Train Acc=36.79% | Test Acc=56.24% | Loss=3.473 | LR=0.000049
+   🎉 New Best! (56.07% -> 56.24%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc56.24_ep258.pth
+Ep 259 | Train Acc=36.88% | Test Acc=56.41% | Loss=3.477 | LR=0.000047
+   🎉 New Best! (56.24% -> 56.41%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc56.41_ep259.pth
+Ep 260 | Train Acc=37.55% | Test Acc=56.11% | Loss=3.447 | LR=0.000045
+Ep 261 | Train Acc=37.43% | Test Acc=55.97% | Loss=3.457 | LR=0.000043
+Ep 262 | Train Acc=38.36% | Test Acc=56.46% | Loss=3.419 | LR=0.000040
+   🎉 New Best! (56.41% -> 56.46%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc56.46_ep262.pth
+Ep 263 | Train Acc=37.25% | Test Acc=56.79% | Loss=3.464 | LR=0.000038
+   🎉 New Best! (56.46% -> 56.79%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc56.79_ep263.pth
+Ep 264 | Train Acc=37.97% | Test Acc=56.53% | Loss=3.429 | LR=0.000036
+Ep 265 | Train Acc=37.12% | Test Acc=56.55% | Loss=3.475 | LR=0.000034
+Ep 266 | Train Acc=37.36% | Test Acc=56.98% | Loss=3.456 | LR=0.000032
+   🎉 New Best! (56.79% -> 56.98%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc56.98_ep266.pth
+Ep 267 | Train Acc=37.54% | Test Acc=56.92% | Loss=3.450 | LR=0.000031
+Ep 268 | Train Acc=37.41% | Test Acc=56.88% | Loss=3.458 | LR=0.000029
+Ep 269 | Train Acc=37.68% | Test Acc=56.88% | Loss=3.444 | LR=0.000027
+Ep 270 | Train Acc=37.88% | Test Acc=56.86% | Loss=3.444 | LR=0.000025
+Ep 271 | Train Acc=38.10% | Test Acc=56.86% | Loss=3.434 | LR=0.000024
+Ep 272 | Train Acc=38.10% | Test Acc=56.73% | Loss=3.432 | LR=0.000022
+Ep 273 | Train Acc=38.09% | Test Acc=56.98% | Loss=3.433 | LR=0.000021
+Ep 274 | Train Acc=38.33% | Test Acc=56.73% | Loss=3.426 | LR=0.000019
+Ep 275 | Train Acc=37.56% | Test Acc=56.82% | Loss=3.449 | LR=0.000018
+Ep 276 | Train Acc=37.75% | Test Acc=56.71% | Loss=3.441 | LR=0.000016
+Ep 277 | Train Acc=38.21% | Test Acc=56.68% | Loss=3.423 | LR=0.000015
+Ep 278 | Train Acc=38.36% | Test Acc=57.03% | Loss=3.420 | LR=0.000014
+   🎉 New Best! (56.98% -> 57.03%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc57.03_ep278.pth
+Ep 279 | Train Acc=38.01% | Test Acc=56.85% | Loss=3.434 | LR=0.000012
+Ep 280 | Train Acc=38.18% | Test Acc=56.85% | Loss=3.424 | LR=0.000011
+Ep 281 | Train Acc=38.78% | Test Acc=56.85% | Loss=3.398 | LR=0.000010
+Ep 282 | Train Acc=38.65% | Test Acc=56.93% | Loss=3.406 | LR=0.000009
+Ep 283 | Train Acc=38.96% | Test Acc=56.90% | Loss=3.395 | LR=0.000008
+Ep 284 | Train Acc=38.21% | Test Acc=56.79% | Loss=3.422 | LR=0.000007
+Ep 285 | Train Acc=39.20% | Test Acc=56.90% | Loss=3.386 | LR=0.000006
+Ep 286 | Train Acc=38.84% | Test Acc=57.03% | Loss=3.402 | LR=0.000006
+Ep 287 | Train Acc=38.85% | Test Acc=56.82% | Loss=3.407 | LR=0.000005
+Ep 288 | Train Acc=38.44% | Test Acc=57.02% | Loss=3.419 | LR=0.000004
+Ep 289 | Train Acc=38.49% | Test Acc=56.87% | Loss=3.416 | LR=0.000003
+Ep 290 | Train Acc=39.00% | Test Acc=57.04% | Loss=3.392 | LR=0.000003
+   🎉 New Best! (57.03% -> 57.04%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc57.04_ep290.pth
+Ep 291 | Train Acc=38.52% | Test Acc=56.95% | Loss=3.419 | LR=0.000002
+Ep 292 | Train Acc=38.46% | Test Acc=56.82% | Loss=3.414 | LR=0.000002
+Ep 293 | Train Acc=38.16% | Test Acc=57.09% | Loss=3.426 | LR=0.000001
+   🎉 New Best! (57.04% -> 57.09%) Saving checkpoint...
+💾 Checkpoint saved: checkpoints/best_starmamba_tiny_imagenet_ablation_only_global_acc57.09_ep293.pth
+Ep 294 | Train Acc=38.71% | Test Acc=57.08% | Loss=3.406 | LR=0.000001
+Ep 295 | Train Acc=38.38% | Test Acc=56.93% | Loss=3.417 | LR=0.000001
+Ep 296 | Train Acc=38.41% | Test Acc=57.04% | Loss=3.423 | LR=0.000000
+Ep 297 | Train Acc=38.55% | Test Acc=56.98% | Loss=3.413 | LR=0.000000
+Ep 298 | Train Acc=38.18% | Test Acc=56.95% | Loss=3.427 | LR=0.000000
+Ep 299 | Train Acc=39.28% | Test Acc=56.94% | Loss=3.383 | LR=0.000000
+Ep 300 | Train Acc=39.04% | Test Acc=56.94% | Loss=3.392 | LR=0.000000
+
+============================================================
+🏆 TRAINING FINISHED.
+✅ FINAL REPORTED TEST ACCURACY (Best Model): 57.09%
+============================================================
