@@ -202,6 +202,3 @@ See [BASELINES.md](BASELINES.md) for EfficientVMamba and Vim baseline metadata, 
 - Repeated augmentation uses repeated samples per batch; with `batch_size=128` and `repeats=5`, the actual yielded batch has `25 * 5 = 125` samples.
 - Preserved logs are historical run artifacts. New runs should use new `--log-file` names unless you intentionally want to overwrite an old log.
 
-## License
-
-No license file has been added yet. Add a license before publishing if you want others to have explicit permission to use, modify, or redistribute this code.
