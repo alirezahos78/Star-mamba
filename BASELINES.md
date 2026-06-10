@@ -45,10 +45,10 @@ Vim scripts:
 
 The current Star-Mamba logs are:
 
-- `logs/log_cifar10_final_v3.txt`
-- `logs/log_cifar100_final_v3.txt`
-- `logs/log_fashionmnist_final.txt`
-- `logs/log_tiny_imagenet_strict.txt`
+- `logs/log_cifar10.txt`
+- `logs/log_cifar100.txt`
+- `logs/log_fashionmnist.txt`
+- `logs/log_tiny_imagenet.txt`
 - `logs/log_tiny_imagenet_ablation_no_global.txt`
 - `logs/log_tiny_imagenet_ablation_no_ew.txt`
 - `logs/log_tiny_imagenet_ablation_no_ns.txt`
@@ -64,9 +64,9 @@ The following values are extracted from the local logs above.
 | --- | ---: | ---: | ---: | ---: |
 | EfficientVMamba, scratch | 93.43% | 74.89% | 94.85% | 60.39% |
 | Vim, scratch | 95.57% | 71.26% | 96.07% | 54.56% |
-| Star-Mamba | 96.81% | 80.93% | 96.15% | 67.76% validation |
+| Star-Mamba | 96.81% | 80.93% | 96.15% | 67.76%  |
 
-The Star-Mamba Tiny ImageNet value comes from `logs/log_tiny_imagenet_strict.txt`, which reports best validation accuracy `67.76%`.
+The Star-Mamba Tiny ImageNet value comes from `logs/log_tiny_imagenet.txt`, which reports best accuracy `67.76%`.
 
 ## Tiny ImageNet Ablations
 
@@ -74,7 +74,7 @@ The ablation values below are extracted from the current Star-Mamba ablation log
 
 | Variant | Log file | Tiny ImageNet accuracy |
 | --- | --- | ---: |
-| full local/global, strict validation | `logs/log_tiny_imagenet_strict.txt` | 67.76% validation |
+| full local/global, strict validation | `logs/log_tiny_imagenet_strict.txt` | 67.76% |
 | no global path | `logs/log_tiny_imagenet_ablation_no_global.txt` | 65.76% |
 | no east/west local scans | `logs/log_tiny_imagenet_ablation_no_ew.txt` | 64.02% |
 | no north/south local scans | `logs/log_tiny_imagenet_ablation_no_ns.txt` | 61.38% |
