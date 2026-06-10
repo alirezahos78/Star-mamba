@@ -9,7 +9,7 @@ Reported accuracies below are extracted from the preserved files in `logs/`.
 | CIFAR-10 | `logs/log_cifar10.txt` | 96.81% test | 285 |
 | CIFAR-100 | `logs/log_cifar100.txt` | 80.93% test | 290 |
 | Fashion-MNIST | `logs/log_fashionmnist.txt` | 96.15% test | 269 |
-| Tiny ImageNet, strict validation | `logs/log_tiny_imagenet.txt` | 67.76% validation | 297 |
+| Tiny ImageNet, strict validation | `logs/log_tiny_imagenet.txt` | 67.76% test | 297 |
 
 
 
